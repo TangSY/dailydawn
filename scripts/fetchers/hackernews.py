@@ -1,20 +1,26 @@
 from __future__ import annotations
 
+import time
+
 import httpx
 
 from .base import BaseFetcher, Signal
+
+# 取最近 48 小时内的 story（跨过 UTC 00:00 workflow 触发时，确保有足够 24h 候选）
+# 否则 Algolia API 会按票数返回 HN 历史上所有高票帖（Apollo 关闭/GPT-4 发布等老新闻），
+# LLM 会误把它们当成"今日信号"
+_WINDOW_HOURS = 48
 
 
 class HackerNewsFetcher(BaseFetcher):
     source_name = "hackernews"
 
     async def fetch(self, client: httpx.AsyncClient) -> list[Signal]:
-        # Algolia API: 最近 24 小时内 top stories
-        # points>20 取代原 >50（当天热度低时条目太少），hitsPerPage 60 扩大候选池
+        cutoff = int(time.time()) - _WINDOW_HOURS * 3600
         url = "https://hn.algolia.com/api/v1/search"
         params = {
             "tags": "story",
-            "numericFilters": "points>20",
+            "numericFilters": f"points>20,created_at_i>{cutoff}",
             "hitsPerPage": 60,
         }
         resp = await client.get(url, params=params, timeout=self.timeout)

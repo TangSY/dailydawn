@@ -52,8 +52,8 @@ class GoogleTrendsFetcher(BaseFetcher):
                 delta = await self._relative_growth_7d(client, kw)
             except Exception:
                 continue
-            if delta is None or delta < 50:
-                # 只保留 7d 上涨 >= 50% 的关键词（弱信号过滤）
+            if delta is None or delta < 20:
+                # 只保留 7d 上涨 >= 20% 的关键词（弱信号过滤，原 50% 过严）
                 continue
             signals.append(
                 Signal(
