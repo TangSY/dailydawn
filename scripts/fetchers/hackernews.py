@@ -10,11 +10,12 @@ class HackerNewsFetcher(BaseFetcher):
 
     async def fetch(self, client: httpx.AsyncClient) -> list[Signal]:
         # Algolia API: 最近 24 小时内 top stories
+        # points>20 取代原 >50（当天热度低时条目太少），hitsPerPage 60 扩大候选池
         url = "https://hn.algolia.com/api/v1/search"
         params = {
             "tags": "story",
-            "numericFilters": "points>50",
-            "hitsPerPage": 40,
+            "numericFilters": "points>20",
+            "hitsPerPage": 60,
         }
         resp = await client.get(url, params=params, timeout=self.timeout)
         resp.raise_for_status()
