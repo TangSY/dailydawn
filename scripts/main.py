@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import asyncio
-import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,8 +12,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scripts.aggregator import aggregate
 from scripts.fetchers import ALL_FETCHERS
-from scripts.llm_analyzer import analyze
-from scripts.renderer import render_markdown, save_report
+from scripts.pipeline.orchestrator import run_pipeline
+from scripts.renderer import save_report
 
 load_dotenv()
 
@@ -31,11 +30,11 @@ async def fetch_all() -> list:
     return signals
 
 
-def main() -> None:
+async def amain() -> None:
     date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"=== DailyDawn · {date} ===")
 
-    signals = asyncio.run(fetch_all())
+    signals = await fetch_all()
     if not signals:
         print("✗ No signals fetched, aborting.")
         sys.exit(1)
@@ -43,17 +42,19 @@ def main() -> None:
     ranked = aggregate(signals)
     print(f"✓ Aggregated to {len(ranked)} unique signals")
 
-    for lang in ("zh", "en"):
-        print(f"→ Analyzing [{lang}]...")
-        try:
-            report = analyze(ranked, lang, date)
-        except Exception as e:
-            print(f"✗ [{lang}] analysis failed: {e}")
-            continue
+    print("→ Running multi-agent pipeline (classifier → digest → experts × 4 → editor)...")
+    reports = await run_pipeline(date=date, signals=ranked)
 
-        markdown = render_markdown(report, lang, date)
+    for lang, markdown in reports.items():
+        if not markdown:
+            print(f"✗ [{lang}] empty output, skipping save")
+            continue
         path = save_report(markdown, lang, date)
         print(f"✓ [{lang}] saved to {path.relative_to(Path(__file__).parent.parent)}")
+
+
+def main() -> None:
+    asyncio.run(amain())
 
 
 if __name__ == "__main__":
