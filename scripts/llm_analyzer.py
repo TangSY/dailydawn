@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from pathlib import Path
 
 from openai import OpenAI
@@ -12,16 +13,28 @@ from .fetchers.base import Signal
 PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
 
 
-def _get_client() -> OpenAI:
-    provider = os.getenv("LLM_PROVIDER", "deepseek").lower()
-    if provider == "deepseek":
-        return OpenAI(
-            api_key=os.environ["DEEPSEEK_API_KEY"],
-            base_url="https://api.deepseek.com/v1",
+def _require_env(name: str) -> str:
+    """读取必需的环境变量，缺失直接报错（不允许默认值）。"""
+    value = os.environ.get(name)
+    if not value:
+        raise RuntimeError(
+            f"Missing required env var: {name}. "
+            f"Set it in .env (local) or GitHub Secrets (CI)."
         )
-    if provider == "openai":
-        return OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-    raise ValueError(f"Unsupported LLM_PROVIDER: {provider}")
+    return value
+
+
+def _get_client() -> OpenAI:
+    """构造 OpenAI 兼容 client。
+
+    支持任何遵循 OpenAI Chat Completions 协议的服务：
+    OpenAI 官方 / DeepSeek / Doubao / OneAPI 中转网关等。
+    通过 LLM_API_KEY + LLM_BASE_URL 两个环境变量配置，无默认值。
+    """
+    return OpenAI(
+        api_key=_require_env("LLM_API_KEY"),
+        base_url=_require_env("LLM_BASE_URL"),
+    )
 
 
 def _load_prompt(lang: str) -> str:
@@ -29,10 +42,20 @@ def _load_prompt(lang: str) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def _extract_json(text: str) -> str:
+    """从 LLM 返回文本提取 JSON：兼容 markdown code fence 包裹。
+
+    有些模型/网关即使请求 response_format=json_object 仍会包 ```json ... ```。
+    """
+    text = text.strip()
+    match = re.search(r"```(?:json)?\s*(\{[\s\S]*\})\s*```", text)
+    return match.group(1) if match else text
+
+
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, max=20))
 def analyze(signals: list[Signal], lang: str, date: str) -> dict:
     client = _get_client()
-    model = os.getenv("LLM_MODEL", "deepseek-chat")
+    model = _require_env("LLM_MODEL")
 
     prompt_template = _load_prompt(lang)
     sources_json = json.dumps(
@@ -57,17 +80,34 @@ def analyze(signals: list[Signal], lang: str, date: str) -> dict:
         "{{date}}", date
     )
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": "你是一个独立开发者趋势观察员，输出严格 JSON。"
-             if lang == "zh"
-             else "You are a tech trend analyst for indie builders. Output strict JSON."},
-            {"role": "user", "content": prompt},
-        ],
-        response_format={"type": "json_object"},
-        temperature=0.4,
+    system_msg = (
+        "你是一个独立开发者趋势观察员，输出严格 JSON。"
+        if lang == "zh"
+        else "You are a tech trend analyst for indie builders. Output strict JSON."
     )
+    messages = [
+        {"role": "system", "content": system_msg},
+        {"role": "user", "content": prompt},
+    ]
+
+    # 优先用 response_format 强制 JSON；不支持的模型降级为纯文本对话
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            response_format={"type": "json_object"},
+            temperature=0.4,
+        )
+    except Exception as err:
+        reason = str(err).lower()
+        if "response_format" in reason or "json_object" in reason:
+            response = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=0.4,
+            )
+        else:
+            raise
 
     content = response.choices[0].message.content
-    return json.loads(content)
+    return json.loads(_extract_json(content))

@@ -89,11 +89,11 @@ class Signal:
 - 取 Top 60 交给 LLM（平衡 token 消耗和覆盖面）
 
 ### LLM 分析（`llm_analyzer.py`）
-- 默认 provider：`deepseek`（cheap）
-- 可切换：`OPENAI` / `ANTHROPIC`（改 `.env` 里 `LLM_PROVIDER`）
-- 强制 JSON 输出：`response_format={"type": "json_object"}`
+- OpenAI 兼容协议统一入口：通过 `LLM_API_KEY` + `LLM_BASE_URL` + `LLM_MODEL` 三个环境变量配置（均无默认值）
+- 支持 OpenAI / DeepSeek / Doubao / OneAPI 等任何遵循 Chat Completions 的网关
+- 强制 JSON 输出：优先 `response_format={"type":"json_object"}`，不支持的模型自动降级 + `_extract_json` 兼容 markdown code fence 包裹
 - 用 `tenacity` 做指数退避重试（3 次）
-- 中英文分别跑两次，总成本 ~$0.05/天
+- 中英文分别跑两次，实际成本取决于所选 provider
 
 ### 渲染（`renderer.py`）
 把 LLM 的 JSON 渲染成带章节的 Markdown：
@@ -198,14 +198,12 @@ GitHub 没有 trending 的官方 API。`github_trending.py` 解析的是页面 D
 
 | 变量 | 必需？ | 说明 |
 |---|---|---|
-| `DEEPSEEK_API_KEY` | ✅ | 默认 LLM |
-| `LLM_PROVIDER` | ⚪ | `deepseek` / `openai` / `anthropic`，默认 deepseek |
-| `LLM_MODEL` | ⚪ | 默认 `deepseek-chat` |
-| `OPENAI_API_KEY` | ⚪ | 切换 OpenAI 时用 |
-| `ANTHROPIC_API_KEY` | ⚪ | 切换 Anthropic 时用 |
+| `LLM_API_KEY` | ✅ | OpenAI 兼容协议的 API key |
+| `LLM_BASE_URL` | ✅ | 服务商 endpoint（OpenAI/DeepSeek/Doubao/OneAPI 等），无默认值 |
+| `LLM_MODEL` | ✅ | 模型名（如 `doubao-1.8` / `deepseek-chat` / `gpt-4o-mini`），无默认值 |
 | `PRODUCT_HUNT_TOKEN` | ⚪ | 缺失则 PH fetcher 跳过 |
 | `REDDIT_CLIENT_ID/SECRET` | ⚪ | 目前 reddit.py 用公开 JSON 不需要，未来切 PRAW 时才要 |
-| `GITHUB_TOKEN` | ⚪ | 提升 github.com scraping 限流（可选） |
+| `WEB_WEBHOOK_URL` / `WEB_WEBHOOK_SECRET` | ⚪ | 生成完通知 Web 层发邮件（缺失则 workflow 的 Notify step 跳过） |
 
 ---
 

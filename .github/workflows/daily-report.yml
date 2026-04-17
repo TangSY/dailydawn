@@ -27,12 +27,11 @@ jobs:
 
       - name: Generate daily report
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
-          GITHUB_TOKEN: ${{ secrets.GH_READ_TOKEN }}
+          # LLM（三者必需，无默认值；BASE_URL 放 secrets 避免暴露自建网关地址）
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          # 数据源（可选）
           PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
