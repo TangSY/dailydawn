@@ -39,3 +39,11 @@ Output a structured daily report strictly following this JSON schema (**JSON onl
 4. `sources_cited`: cite at least 10 original items
 5. All in English, conversational but sharp. Avoid AI-style filler ("comprehensive", "empowering", "in conclusion")
 6. No hype, no hedging
+
+**Low-signal day fallback (when sources_json has fewer than 30 items):**
+
+- `top_trends` can drop to 2-3, cross-source not required (but must be the highest-scoring items overall)
+- `build_ideas`: 2-3 is fine
+- `questions`: 15 is fine
+- `sources_cited`: cite whatever is available
+- **Depth over volume**: write sharper, more specific `evidence` and `why_matters` instead of padding the list
