@@ -209,6 +209,34 @@ GitHub 没有 trending 的官方 API。`github_trending.py` 解析的是页面 D
 
 ---
 
+## 🔄 Git Push 规则（重要）
+
+**本仓库的 `origin` 远程配置为同时推送到两个地址：**
+
+1. `https://github.com/TangSY/dailydawn`（GitHub 开源镜像）
+2. `https://onedev.hxkj.vip/dailydawn`（内网 OneDev 主仓库）
+
+**当用户说「push 代码」、「推送」、「提交到远程」时，执行一次 `git push` 应同时推送到这两个地址。** 这通过 `git remote set-url --add --push` 配置实现（单 fetch URL + 多 pushurl）。
+
+**验证配置：**
+```bash
+git remote -v
+# 应看到两条 push 行：
+# origin  https://github.com/TangSY/dailydawn.git (push)
+# origin  https://onedev.hxkj.vip/dailydawn.git (push)
+```
+
+**首次配置命令（已在项目初始化时执行，此处备查）：**
+```bash
+git remote add origin https://github.com/TangSY/dailydawn.git
+git remote set-url --add --push origin https://github.com/TangSY/dailydawn.git
+git remote set-url --add --push origin https://onedev.hxkj.vip/dailydawn.git
+```
+
+**如果发现只有一个 push 目标，立刻提醒用户补齐配置。**
+
+---
+
 ## 🔗 关联文档
 
 - 主上下文：`../dailydawn-web/CLAUDE.md`
