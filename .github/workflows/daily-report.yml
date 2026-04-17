@@ -1,0 +1,64 @@
+name: Daily Report
+
+on:
+  schedule:
+    - cron: '0 0 * * *'        # 每日 UTC 00:00（北京时间 08:00）
+  workflow_dispatch:
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate daily report
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-chat' }}
+          GITHUB_TOKEN: ${{ secrets.GH_READ_TOKEN }}
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: dailydawn/0.1
+        run: python scripts/main.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add zh/ en/
+          if git diff --staged --quiet; then
+            echo "No new report generated (likely no change)."
+          else
+            git commit -m "chore: daily report $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Notify web layer
+        if: success()
+        continue-on-error: true
+        run: |
+          if [ -n "${{ secrets.WEB_WEBHOOK_URL }}" ]; then
+            curl -X POST "${{ secrets.WEB_WEBHOOK_URL }}" \
+              -H "X-Webhook-Secret: ${{ secrets.WEB_WEBHOOK_SECRET }}" \
+              -H "Content-Type: application/json" \
+              -d "{\"date\":\"$(date -u +%Y-%m-%d)\"}" \
+              --max-time 30
+          fi
