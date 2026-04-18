@@ -224,7 +224,8 @@ def _assemble_markdown(
         "",
         "---",
         "",
-        f"_{t['footer']} · {timestamp}_",
+        # 包成 <time datetime> 标签：Web 层 BaseLayout 的 JS 会扫描并渲染为浏览器本地时间
+        f'_{t["footer"]} · <time datetime="{timestamp}">{timestamp}</time>_',
     ])
 
     return "\n".join(parts)
