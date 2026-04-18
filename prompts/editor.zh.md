@@ -45,7 +45,7 @@
   "build_idea": "一个完整的构建点子 markdown 段落。格式示例：'**【某某工具名】**：一句话说明具体做什么。→ 技术栈：xxx｜目标用户：yyy｜为什么今天做：zzz（结合今日某个具体数据/事件）。' 选一个最能周末完成的点子，不要多个。",
   "top_signals": {
     "high_confidence": "一行 bullet：一个多源多证据的主导信号，带具体数字（如『Opus 4.7 发布讨论帖 1120 评论中 17 位用户报告成本倍增』）",
-    "external_find": "一行 bullet：Google Trends 或非主流源的意外信号，必须带具体搜索词和 % 涨幅（如『"agent memory" 搜索量 7 日上涨 +120%，早于任何产品发布』）",
+    "external_find": "一行 bullet：一个来自**非主流源**（HuggingFace / V2EX / 掘金 / Google Trends / 或非 HN 榜首的小众条目）的意外信号，必须带具体数字佐证。如果 Google Trends 有关键词涨幅数据则优先用；没有则从 digests 里挑一个票数/热度高但来自非主流源的冷门信号。",
     "double_validation": "一行 bullet：跨源主题，必须点名 2 个以上源（如『Codex 迁移浪潮同时出现在 HN #47792525（766 票）和 Product Hunt 第 4 名的 Windsurf 2.0 定价更新』）"
   }
 }

@@ -45,7 +45,7 @@ Expert sections are **auto-appended by the system**; you don't need to handle th
   "build_idea": "One complete build-idea markdown paragraph. Format: '**【Tool name】**: one-line description. → Stack: xxx | Target user: yyy | Why today: zzz (tie to a specific item/data point from today).' Pick the single most-executable weekend idea, not multiple.",
   "top_signals": {
     "high_confidence": "One bullet: a dominant multi-source signal with specific numbers (e.g. 'Opus 4.7 launch thread with 1,120 comments, 17 users reporting 2x cost spike')",
-    "external_find": "One bullet: a Google Trends or non-mainstream signal; MUST cite exact query + % growth (e.g. '\"agent memory\" searches +120% in 7 days, preceding any product launch')",
+    "external_find": "One bullet: an unexpected signal from a **non-mainstream source** (HuggingFace / V2EX / Juejin / Google Trends / or an outside-top-tier item). Must include concrete numbers. If Google Trends keyword growth data exists, prefer it; otherwise pick a non-HN-top signal from digests with high engagement.",
     "double_validation": "One bullet: cross-source theme naming 2+ sources (e.g. 'Codex migration wave visible in HN #47792525 (766 votes) AND Product Hunt #4 Windsurf 2.0 pricing update')"
   }
 }

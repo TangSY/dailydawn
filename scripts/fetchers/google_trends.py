@@ -10,7 +10,9 @@ from .base import BaseFetcher, Signal
 RSS_GEOS = ["US", "GB", "IN"]
 
 # 过滤弱热搜：approx_traffic 低于此值的不入库
-_MIN_TRAFFIC = 10_000
+# Google 2024 年改版后 /trending/rss 返回的是实时热搜（小时级），traffic 值比旧版 daily 小
+# 阈值放宽到 100，让 classifier 阶段按相关性筛，不在 fetcher 做硬截断
+_MIN_TRAFFIC = 100
 
 
 def _parse_traffic(approx: str) -> int:
