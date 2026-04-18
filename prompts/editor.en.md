@@ -45,7 +45,7 @@ Expert sections are **auto-embedded by the system**; don't handle them.
 
 ```json
 {
-  "opener": "600-800 word POV opener markdown (no section heading # or ##). Requirements: (1) open with a concrete story or contrast (e.g., 'Four days ago X shipped, today Y followed'); (2) 3+ temporal markers; (3) cite 3+ concrete items with hard numbers; (4) first-person sharp stance; (5) mid-section MUST include a 'who pays for this' business framing sentence; (6) end with 'why today' urgency",
+  "opener": "600-800 word POV opener markdown (no section heading # or ##). **MUST split into 3-4 paragraphs** separated by blank lines (\\n\\n) — never one solid block. **At least 2 paragraphs start with a bold sub-question** (format `**Who pays for this?**` or `**Why today?**`) so readers can scan the rhythm. Other rules: (1) open with a concrete story or contrast (e.g., 'Four days ago X shipped, today Y followed'); (2) 3+ temporal markers; (3) cite 3+ concrete items with hard numbers; (4) first-person sharp stance; (5) mid-paragraph (usually the `**Who pays for this?**` one) delivers the business judgment; (6) end with 'why today' urgency",
   "top_signals": {
     "high_confidence": "One bullet (no leading dash), dominant multi-source signal with hard numbers",
     "external_find": "One bullet. If Google Trends has keywords with >20% growth, USE THAT FIRST (format like '\"agent memory\" +120% in 7 days'). If no Trends data, pick from HuggingFace/V2EX non-mainstream sources",
