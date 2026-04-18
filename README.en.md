@@ -29,17 +29,17 @@ Each issue is around 5,000 Chinese characters / 5,500 English words and contains
 
 ---
 
-## See today's issue
+## Read now
 
-- 📖 [Today (EN)](./en/) · [今日（中文）](./zh/)
-- 📦 [Full archive (EN)](./en/2026/) · [完整归档（中文）](./zh/2026/)
+- 📖 Today: [English](./en/) · [中文](./zh/)
+- 📦 Full archive: [English](./en/2026/) · [中文](./zh/2026/)
 - 🌐 Web: <https://dailydawn.dev>
-- 📬 Email subscription: <https://dailydawn.dev> (bilingual; 1-click language switch)
+- 📬 Email subscription: <https://dailydawn.dev> (bilingual, 1-click language switch)
 - 📡 RSS / JSON Feed: <https://dailydawn.dev/en.json> · <https://dailydawn.dev/zh.json>
 
 ---
 
-## What an issue looks like
+## What every issue looks like
 
 ```
 # DailyDawn · 2026-04-18
@@ -52,11 +52,11 @@ Each issue is around 5,000 Chinese characters / 5,500 English words and contains
 ## 🗣 Editor's take (600+ word POV opener)
 ## 🎯 Today's 2-hour build (one concrete actionable idea)
 
-## Launch discoveries (4 today-specific sub-questions)
-## Tech stack (4)
-## Competitive intel (4)
-## Demand radar (4)
-## Trend verdict (4, with keyword growth)
+## Launch discoveries  (4 today-specific sub-questions)
+## Tech stack          (4)
+## Competitive intel   (4)
+## Demand radar        (4)
+## Trend verdict       (4, with keyword growth)
 
 ## 🔥 Action triggers
 ### Weekend extension build
@@ -64,7 +64,7 @@ Each issue is around 5,000 Chinese characters / 5,500 English words and contains
 ### Biggest risk / trap this week
 ```
 
-20 H3 sub-sections + 3-tier build + counterpoints. **Questions change every day** (dynamically generated from today's signals).
+5 sections × 4 today-specific sub-questions = **20 deep angles**, all dynamically generated from today's actual signals (so the questions change daily). Every sub-section comes with a **Key call** and a **Counterpoint**.
 
 ---
 
@@ -72,7 +72,7 @@ Each issue is around 5,000 Chinese characters / 5,500 English words and contains
 
 | Source | Method | Notes |
 |---|---|---|
-| Hacker News | Algolia API | Stories from last 24h with points>20 (avoids historical long tail) |
+| Hacker News | Algolia API | Stories from last 24h with points>20 |
 | GitHub Trending | HTML scrape | Top 25 trending repos today |
 | Product Hunt | GraphQL API | Top 20 by votes today |
 | Reddit | Public JSON | 12 subreddits incl. r/indiehackers, r/SideProject |
@@ -80,55 +80,55 @@ Each issue is around 5,000 Chinese characters / 5,500 English words and contains
 | V2EX | Public API | Chinese tech community heat |
 | Google Trends | pytrends | 20 indie-builder keywords' 7-day growth |
 
-Any source failure auto-skips without blocking the main flow (`safe_fetch` wrapper).
+Any source failure auto-skips without blocking the pipeline.
 
 ---
 
 ## How it works
 
 ```
-GitHub Actions cron (UTC 00:00)
+GitHub Actions cron · daily at UTC 00:00
     │
-    ├─ fetchers/*  Concurrently pull 150+ signals (~30s)
-    ├─ aggregator  Cross-source dedup + score boost + Top60 + preserve all Trends
+    ├─ fetchers/*       Concurrently pull 150+ raw signals (~30s)
+    ├─ aggregator       Cross-source dedup · Top 60 + all Trends preserved
     │
-    ├─ pipeline/classifier         → 5 buckets (tech/launch/competition/demand/trend)
-    ├─ pipeline/question_generator → 20 today-specific H3 questions (zh + en separate)
-    ├─ pipeline/source_digest      → Per-source cluster summary
+    ├─ classifier               Sort signals into 5 buckets
+    ├─ question_generator       Generate 20 today-specific questions (zh + en)
+    ├─ source_digest            Per-source cluster summary
     │
-    ├─ pipeline/experts × 5 × 2 lang  → 5 × 4 sub-section deep analysis
-    ├─ pipeline/editor × 2 lang       → POV opener + Top 3 + 3-tier build synthesis
-    │
-    ├─ renderer  → zh/YYYY/YYYY-MM-DD.md + en/YYYY/YYYY-MM-DD.md
-    ├─ git commit + push
-    └─ webhook  → Notify Web layer for batch email send
+    ├─ experts × 5 × 2 lang     5 experts × 4 sub-section deep analysis
+    └─ editor × 2 lang          POV opener + Top 3 + 3-tier build synthesis
+        │
+        ├─ renderer  → zh/YYYY/YYYY-MM-DD.md + en/...
+        ├─ git push
+        └─ webhook   → Web layer batch-sends email
 ```
 
-About 18 LLM calls per day (OpenAI-compatible protocol — works with DeepSeek / OpenAI / Doubao / any compliant gateway).
+About 18 LLM calls per day, against any OpenAI-compatible gateway (DeepSeek / OpenAI / Doubao all work).
 
 ---
 
 ## Tech stack
 
-- **Python 3.12** + `httpx` + `asyncio` fully async
+- **Python 3.12** · `httpx` · `asyncio` (fully async)
 - **OpenAI SDK** against any OpenAI-compatible LLM gateway
 - **GitHub Actions** for scheduling + commit + webhook
 - **pytrends** for Google Trends keyword growth
-- **tenacity** for exponential backoff + LLM failure fallback
-- About 1500 lines of Python total. No database.
+- **tenacity** for exponential backoff + graceful degradation
+- ~1500 lines of Python, no database
 
-The Web layer (subscriptions / email distribution) is in a separate private repo — Cloudflare Workers + D1 + Queues + Resend.
+The Web layer (subscriptions, email distribution) lives in a separate private repo — Cloudflare Workers + D1 + Queues + Resend.
 
 ---
 
-## Run it yourself
+## Run locally
 
 ```bash
 git clone https://github.com/TangSY/dailydawn
 cd dailydawn
 pip install -r requirements.txt
 cp .env.example .env  # Fill in LLM_API_KEY / LLM_BASE_URL / LLM_MODEL
-python scripts/main.py  # One-shot run, produces zh/2026/today.md + en/2026/today.md
+python scripts/main.py  # One run produces zh/2026/today.md + en/2026/today.md
 ```
 
 ---
