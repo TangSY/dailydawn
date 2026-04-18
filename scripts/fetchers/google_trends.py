@@ -46,7 +46,8 @@ class GoogleTrendsFetcher(BaseFetcher):
         signals: list[Signal] = []
 
         for geo in RSS_GEOS:
-            url = f"https://trends.google.com/trends/trendingsearches/daily/rss?geo={geo}"
+            # 2024 年 Google 迁移路径：/trends/trendingsearches/daily/rss → /trending/rss
+            url = f"https://trends.google.com/trending/rss?geo={geo}"
             try:
                 resp = await client.get(
                     url,
