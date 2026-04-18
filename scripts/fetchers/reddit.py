@@ -6,7 +6,7 @@ import httpx
 
 from .base import BaseFetcher, Signal
 
-# 覆盖独立开发者关心的多个方向：技术 / 创业 / AI / 云原生 / 前端 / 开源
+# 覆盖独立开发者关心的多个方向：技术 / 创业 / AI / 云原生 / 前端 / 开源 / 营收里程碑
 SUBREDDITS = [
     "programming",
     "startups",
@@ -18,6 +18,8 @@ SUBREDDITS = [
     "devops",
     "rust",
     "selfhosted",
+    "indiehackers",  # 营收里程碑 + MRR 披露贴（BP 的发现机会节核心数据源）
+    "SideProject",   # 独立开发者出货 + Show HN 风格内容
 ]
 
 # 随机 UA 缓解匿名限流（非根治，Reddit 新政策下 CF runner 出口 IP 仍可能偶发 403）

@@ -6,7 +6,7 @@ from .reddit import RedditFetcher
 from .huggingface import HuggingFaceFetcher
 from .v2ex import V2EXFetcher
 from .juejin import JuejinFetcher
-from .google_trends import GoogleTrendsFetcher
+from .pytrends_growth import PyTrendsGrowthFetcher
 
 ALL_FETCHERS = [
     HackerNewsFetcher,
@@ -16,5 +16,5 @@ ALL_FETCHERS = [
     HuggingFaceFetcher,
     V2EXFetcher,
     JuejinFetcher,
-    GoogleTrendsFetcher,
+    PyTrendsGrowthFetcher,
 ]
