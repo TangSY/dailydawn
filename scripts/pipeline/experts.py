@@ -145,7 +145,7 @@ def _run_one_expert(
         print(f"[expert:{lang}:{bucket_key}] failed: {err}")
         markdown = ""
 
-    # 运行时校验：检查产出是否包含 4 个 H3 小节（ 风格）
+    # 运行时校验：检查产出是否包含 4 个 H3 小节
     h3_count = markdown.count("### ")
     if markdown and h3_count < 4:
         print(

@@ -50,7 +50,7 @@ SECTION_TITLES = {
     },
 }
 
-# 按顺序渲染的 expert bucket（对应  章节顺序）
+# 按顺序渲染的 expert bucket
 _EXPERT_ORDER = ("launch", "tech", "competition", "demand", "trend")
 
 
@@ -136,7 +136,7 @@ def _assemble_markdown(
     experts_output: list[dict],
 ) -> str:
     """
-    Python 端模板拼接最终 markdown。结构模仿 ：
+    Python 端模板拼接最终 markdown。结构：
 
         # DailyDawn · YYYY-MM-DD
         > Top 3 信号（引用块视觉突出）
@@ -179,7 +179,7 @@ def _assemble_markdown(
     parts: list[str] = [
         f"# DailyDawn · {date}",
         "",
-        # Top 3 前置到开篇（BP 风格的引用块视觉突出）
+        # Top 3 前置到开篇（引用块视觉突出）
         f"> **{t['top3']}**",
         ">",
         f"> 1. **{t['high_confidence']}**：{high_conf}",

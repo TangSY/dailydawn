@@ -18,7 +18,7 @@ SUBREDDITS = [
     "devops",
     "rust",
     "selfhosted",
-    "indiehackers",  # 营收里程碑 + MRR 披露贴（BP 的发现机会节核心数据源）
+    "indiehackers",  # 营收里程碑 + MRR 披露贴
     "SideProject",   # 独立开发者出货 + Show HN 风格内容
 ]
 

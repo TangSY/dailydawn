@@ -22,7 +22,7 @@
 ```
 dailydawn/
 ├── CLAUDE.md                      ← 你正在读这个
-├── README.md                      对外展示文档（像  那样给访客看）
+├── README.md                      对外展示文档（公开仓库的访客门面）
 ├── .gitignore
 ├── .env.example
 ├── requirements.txt               Python 依赖
