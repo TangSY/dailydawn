@@ -14,13 +14,18 @@
 
 ---
 
-## Why read it
+## Why read it daily
 
-You probably toggle between HN, Product Hunt, Reddit, HuggingFace, and GitHub Trending every morning, manually stitching together "what actually happened today." LLMs do this faster and more thoroughly than you can.
+You probably bounce between HN, Product Hunt, Reddit, HuggingFace, and GitHub Trending every morning, manually piecing together "what actually happened today." LLMs do this faster and more thoroughly than humans can.
 
-**What DailyDawn does**: every day at UTC 00:00, it pulls 150+ raw signals from 7 sources, deduplicates across them, runs them through a 5-bucket multi-agent classifier, and produces one structured bilingual report. 20 today-specific H3 sub-sections (the questions change daily) + three-tier build advice (2 hours / weekend / this week) + cross-source keyword growth.
+DailyDawn handles it for you: every day at UTC 00:00 it pulls 150+ raw signals from 7 sources, dedupes across them, sorts them into 5 dimensions (**Launch discoveries / Tech stack / Competitive intel / Demand radar / Trend verdict**), spins up one agent per dimension for deep analysis, and has an editor-in-chief synthesize a structured bilingual report.
 
-About 5,000 Chinese characters / 5,500 English words per day, organized around "what should an indie builder do this week" — not news regurgitation.
+Each issue is around 5,000 Chinese characters / 5,500 English words and contains:
+
+- **20 today-specific deep sub-sections** — questions are dynamically generated from today's actual signals; they change every day
+- **Three-tier build advice** — today's 2-hour build / weekend extension / this week's longer bet / weekly risk
+- **Cross-source keyword growth** — Google Trends 7-day rising queries that surface buyer intent
+- Everything organized around "**what should an indie builder do this week**" — not news regurgitation
 
 ---
 
