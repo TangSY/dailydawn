@@ -2,11 +2,11 @@
   <img src="./logo.svg" width="96" alt="DailyDawn logo" />
 </p>
 
-<h1 align="center">DailyDawn · Daily AI signal for indie builders</h1>
+<h1 align="center">DailyDawn · Daily AI brief for indie builders</h1>
 
 <p align="center"><b>🌐 <a href="./README.en.md">English</a> · <a href="./README.md">中文</a></b></p>
 
-> **30 minutes every morning to see what to build, what to avoid, who's threatening whom.**
+> **30 minutes every morning to see what to ship, what to skip, who's eating whose lunch.**
 
 [![Daily Report](https://github.com/TangSY/dailydawn/actions/workflows/daily-report.yml/badge.svg)](https://github.com/TangSY/dailydawn/actions/workflows/daily-report.yml)
 [![Latest EN](https://img.shields.io/badge/Today%20EN-en%2Ftoday.md-orange)](./en/)

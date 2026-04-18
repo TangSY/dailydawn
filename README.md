@@ -2,11 +2,11 @@
   <img src="./logo.svg" width="96" alt="DailyDawn logo" />
 </p>
 
-<h1 align="center">DailyDawn · 给独立开发者的每日 AI 信号</h1>
+<h1 align="center">DailyDawn · 独立开发者的 AI 趋势日报</h1>
 
 <p align="center"><b>🌐 <a href="./README.md">中文</a> · <a href="./README.en.md">English</a></b></p>
 
-> **每天清晨，30 分钟看完这周该构建什么、避开什么、谁正在威胁谁。**
+> **每天清晨 30 分钟，看清今天值得做什么、要避开什么、谁在颠覆谁。**
 
 [![Daily Report](https://github.com/TangSY/dailydawn/actions/workflows/daily-report.yml/badge.svg)](https://github.com/TangSY/dailydawn/actions/workflows/daily-report.yml)
 [![Latest zh](https://img.shields.io/badge/今日中文-zh%2F今日.md-orange)](./zh/)
