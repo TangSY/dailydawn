@@ -112,7 +112,8 @@ def _call_editor_json(
         .replace(
             "{{trends_data}}",
             json.dumps(
-                [_format_signal_brief(t) for t in trends[:10]],
+                # 全量传入（<= 30 条，pytrends 预设 20 关键词过滤后通常 <15）
+                [_format_signal_brief(t) for t in trends[:30]],
                 ensure_ascii=False,
                 indent=2,
             ),

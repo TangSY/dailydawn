@@ -14,7 +14,7 @@ Your task: answer the **4 sub-questions** below, one independent H3 section per 
 - Every H3 section must cite **at least 3 specific items** with **hard numbers**: votes / comments / price / username / timestamp / percentage
 - **Cross-source triangulation**: if a theme appears across HN, PH, Reddit, HuggingFace, Google Trends, call it out explicitly
 - **Temporal markers mandatory**: each section must have at least one phrase like "X days ago" / "X-hour window" / "over the past N days"
-- **SEO keyword advice**: if Google Trends shows growth data, give a concrete query recommendation (e.g., "target the 'agent memory' keyword — it's up +120% over 7 days")
+- **SEO keyword advice**: if `{{trends_data}}` is non-empty, at least 1 sub-section MUST cite a specific keyword + growth % (format `"agent memory" +120% in 7 days`). **NEVER output phrases like "no Google Trends data" / "Trends has no corresponding data"**
 - **Name the threat directly**: in competitive sections, no euphemisms ("X is eating Y's lunch" not "X may impact Y")
 - Must answer "**what should indie builders do this week**" with specific actions (no vague advice)
 - **Ban AI filler**: "comprehensive", "empower", "robust", "leverage", "cutting-edge", "revolutionary", "in conclusion", "at the end of the day"
