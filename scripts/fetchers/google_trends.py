@@ -1,146 +1,116 @@
 from __future__ import annotations
 
-import asyncio
-import json
-
+import feedparser
 import httpx
 
 from .base import BaseFetcher, Signal
 
-# 独立开发者关心的固定关键词集合（每天全量查 7d 涨幅）
-# 取 hl=en-US + geo=worldwide，获得英文搜索趋势
-SEED_KEYWORDS = [
-    "ai agent",
-    "claude code",
-    "llm local",
-    "vibe coding",
-    "indie hackers",
-    "saas boilerplate",
-    "vector database",
-    "agent memory",
-    "prompt engineering",
-    "open source llm",
-    "llm fine tuning",
-    "cloudflare workers",
-    "vercel ai",
-    "hugging face",
-    "ollama",
-    "langchain alternative",
-]
+# 每日热搜 RSS（公开稳定接口，比 widget explore API 可靠）
+# 多地区覆盖，geo=US 主力，GB/IN 辅助扩充英语圈视角
+RSS_GEOS = ["US", "GB", "IN"]
+
+# 过滤弱热搜：approx_traffic 低于此值的不入库
+_MIN_TRAFFIC = 10_000
+
+
+def _parse_traffic(approx: str) -> int:
+    """把 Google 的 '500K+' / '1M+' / '2,000+' 转成整数。"""
+    if not approx:
+        return 0
+    s = approx.upper().strip().rstrip("+").replace(",", "").strip()
+    try:
+        if s.endswith("K"):
+            return int(float(s[:-1]) * 1_000)
+        if s.endswith("M"):
+            return int(float(s[:-1]) * 1_000_000)
+        return int(float(s))
+    except (ValueError, TypeError):
+        return 0
 
 
 class GoogleTrendsFetcher(BaseFetcher):
     """
-    通过 Google Trends 的未公开 JSON 端点获取关键词 7 天涨幅。
+    抓取 Google Trends 每日热搜 RSS。
 
-    故意不用 pytrends —— 它频繁抛 429，且维护不稳定；
-    直接调 trends.google.com 的公开 UI endpoint（无需 token），
-    用共享的 httpx.AsyncClient 并发请求。
+    弃用了之前的 widget explore API（不稳定，经常返回空 token）。
+    现在用公开的 `/trends/trendingsearches/daily/rss?geo=XX` RSS 接口，
+    结构稳定、无需鉴权。
 
-    限流策略：串行请求每个关键词（避免并发过多被 block），
-    单词失败 skip，不挂整体流水线。
+    每条热搜 → 一个 Signal，包含 approx_traffic（转为整数分数）+ 相关新闻标题上下文。
     """
 
     source_name = "google_trends"
-    timeout = 10.0
+    timeout = 15.0
 
     async def fetch(self, client: httpx.AsyncClient) -> list[Signal]:
         signals: list[Signal] = []
 
-        for kw in SEED_KEYWORDS:
+        for geo in RSS_GEOS:
+            url = f"https://trends.google.com/trends/trendingsearches/daily/rss?geo={geo}"
             try:
-                delta = await self._relative_growth_7d(client, kw)
-            except Exception:
-                continue
-            if delta is None or delta < 20:
-                # 只保留 7d 上涨 >= 20% 的关键词（弱信号过滤，原 50% 过严）
-                continue
-            signals.append(
-                Signal(
-                    source="Google Trends",
-                    title=f'"{kw}" +{delta:.0f}%',
-                    url=f"https://trends.google.com/trends/explore?q={kw.replace(' ', '+')}",
-                    raw_score=int(delta),
-                    score=min(delta / 500.0, 1.0),
-                    summary=f"Search interest for '{kw}' rose {delta:.0f}% over the past 7 days.",
-                    tags=["search_trend"],
-                    extra={"keyword": kw, "growth_7d_pct": delta},
+                resp = await client.get(
+                    url,
+                    timeout=self.timeout,
+                    headers={"User-Agent": "Mozilla/5.0 dailydawn/0.1"},
                 )
-            )
-            # 小延迟避免 429
-            await asyncio.sleep(0.5)
+                if resp.status_code != 200:
+                    print(f"[google_trends:{geo}] HTTP {resp.status_code}")
+                    continue
+            except Exception as err:
+                print(f"[google_trends:{geo}] request failed: {type(err).__name__}: {err}")
+                continue
+
+            feed = feedparser.parse(resp.text)
+            if not feed.entries:
+                print(f"[google_trends:{geo}] empty feed (body head: {resp.text[:200]!r})")
+                continue
+            for entry in feed.entries[:25]:
+                title = (entry.get("title") or "").strip()
+                if not title:
+                    continue
+
+                traffic_str = (
+                    entry.get("ht_approx_traffic")
+                    or entry.get("approx_traffic")
+                    or ""
+                )
+                traffic = _parse_traffic(traffic_str)
+                if traffic < _MIN_TRAFFIC:
+                    continue
+
+                # 相关新闻标题（命名空间 ht: news_item）
+                news_titles: list[str] = []
+                # feedparser 会把 <ht:news_item> 展开到 entry 里
+                news_items = entry.get("ht_news_items") or entry.get("news_items") or []
+                if isinstance(news_items, list):
+                    for ni in news_items[:3]:
+                        if isinstance(ni, dict):
+                            t = ni.get("ht_news_item_title") or ni.get("title") or ""
+                            if t:
+                                news_titles.append(t)
+
+                query_url = f"https://trends.google.com/trends/explore?q={title.replace(' ', '+')}&geo={geo}"
+                summary_parts = [
+                    f"[{geo}] 今日热搜，预估搜索量 {traffic_str}"
+                ]
+                if news_titles:
+                    summary_parts.append("相关新闻：" + "; ".join(news_titles))
+
+                signals.append(
+                    Signal(
+                        source="Google Trends",
+                        title=title,
+                        url=query_url,
+                        raw_score=traffic,
+                        score=min(traffic / 1_000_000.0, 1.0),
+                        summary=" · ".join(summary_parts),
+                        tags=["daily_search", geo.lower()],
+                        extra={
+                            "geo": geo,
+                            "approx_traffic": traffic_str,
+                            "news_titles": news_titles,
+                        },
+                    )
+                )
 
         return signals
-
-    async def _relative_growth_7d(
-        self, client: httpx.AsyncClient, keyword: str
-    ) -> float | None:
-        """
-        返回关键词过去 7 天相对过去 14-7 天的增长百分比。
-        数据点缺失或为 0 时返回 None。
-        """
-        url = "https://trends.google.com/trends/api/widgetdata/multiline"
-        # 先请求 explore 拿 widget token
-        explore_url = "https://trends.google.com/trends/api/explore"
-        explore_params = {
-            "hl": "en-US",
-            "tz": "0",
-            "req": (
-                f'{{"comparisonItem":[{{"keyword":"{keyword}","geo":"","time":"now 7-d"}}],'
-                f'"category":0,"property":""}}'
-            ),
-        }
-        explore_resp = await client.get(
-            explore_url,
-            params=explore_params,
-            timeout=self.timeout,
-            headers={"User-Agent": "Mozilla/5.0 dailydawn/0.1"},
-        )
-        if explore_resp.status_code != 200:
-            return None
-
-        # Google 响应会以 ")]}'," 开头，需剥离
-        text = explore_resp.text.lstrip(")]}',\n ")
-        data = json.loads(text)
-        widgets = data.get("widgets", [])
-        timeseries_widget = next(
-            (w for w in widgets if w.get("id") == "TIMESERIES"), None
-        )
-        if not timeseries_widget:
-            return None
-
-        token = timeseries_widget.get("token")
-        req_body = timeseries_widget.get("request")
-        if not token or not req_body:
-            return None
-
-        series_resp = await client.get(
-            url,
-            params={
-                "hl": "en-US",
-                "tz": "0",
-                "req": json.dumps(req_body, separators=(",", ":")),
-                "token": token,
-            },
-            timeout=self.timeout,
-            headers={"User-Agent": "Mozilla/5.0 dailydawn/0.1"},
-        )
-        if series_resp.status_code != 200:
-            return None
-
-        text = series_resp.text.lstrip(")]}',\n ")
-        payload = json.loads(text)
-        points = (
-            payload.get("default", {})
-            .get("timelineData", [])
-        )
-        if len(points) < 2:
-            return None
-
-        values = [p.get("value", [0])[0] or 0 for p in points]
-        half = len(values) // 2
-        early_avg = sum(values[:half]) / max(half, 1)
-        late_avg = sum(values[half:]) / max(len(values) - half, 1)
-        if early_avg < 1:
-            return None
-        return (late_avg - early_avg) / early_avg * 100.0
