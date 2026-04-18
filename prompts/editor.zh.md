@@ -48,7 +48,7 @@
   "opener": "600-800 字 POV 开篇 markdown（不含章节标题 # 或 ##）。要求：① 以具体故事或反差开头（例如「四天前 X 发布，今天 Y 跟进」）；② 至少 3 处时序词；③ 至少引用 3 个今日条目及其硬数字；④ 第一人称锋利判断；⑤ 中段必须有一句『谁来为此付费』式的商业分析；⑥ 结尾抛出『为什么是今天』式的紧迫感",
   "top_signals": {
     "high_confidence": "一行内容（无前缀 dash），多源多证据主导信号，带硬数字",
-    "external_find": "一行内容，Google Trends 涨幅 > 20% 的关键词**必须优先用**（格式如『\"agent memory\" 7 日搜索涨幅 +120%』）；若无 Trends 数据则用 HuggingFace/V2EX/掘金等非主流源",
+    "external_find": "一行内容，Google Trends 涨幅 > 20% 的关键词**必须优先用**（格式如『\"agent memory\" 7 日搜索涨幅 +120%』）；若无 Trends 数据则用 HuggingFace/V2EX 等非主流源",
     "double_validation": "一行内容，跨源主题明确点名 2+ 个源"
   },
   "builds": {

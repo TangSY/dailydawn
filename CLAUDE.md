@@ -48,7 +48,6 @@ dailydawn/
 │       ├── reddit.py              Reddit 公开 JSON（5 个 subreddit）
 │       ├── huggingface.py         HF trending models + datasets
 │       ├── v2ex.py                V2EX 热榜 API
-│       └── juejin.py              掘金热榜（小程序接口）
 │
 ├── zh/                            输出目录（Markdown 按年份分子目录）
 │   └── YYYY/YYYY-MM-DD.md
@@ -183,13 +182,10 @@ reddit = praw.Reddit(
 )
 ```
 
-### 2. 掘金小程序接口可能变更
-`api.juejin.cn/content_api/v1/content/article_rank` 是小程序内部接口，官方不保证稳定。失败时 `safe_fetch` 会跳过，但如果连续一周失败，要换用 HTML scraping 或放弃该源。
-
-### 3. GitHub Trending 只能爬 HTML
+### 2. GitHub Trending 只能爬 HTML
 GitHub 没有 trending 的官方 API。`github_trending.py` 解析的是页面 DOM，结构变化会挂。可选备用：`github-trending-api` 开源项目（GH 上 2k+ 星）。
 
-### 4. 首次跑前确保 .env 至少有 DEEPSEEK_API_KEY
+### 3. 首次跑前确保 .env 至少有 DEEPSEEK_API_KEY
 `main.py` 在 `analyze()` 阶段会报 KeyError 如果没这个 env。Product Hunt/Reddit token 缺失不致命（fetcher 内部会自己跳过）。
 
 ---

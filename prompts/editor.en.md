@@ -48,7 +48,7 @@ Expert sections are **auto-embedded by the system**; don't handle them.
   "opener": "600-800 word POV opener markdown (no section heading # or ##). Requirements: (1) open with a concrete story or contrast (e.g., 'Four days ago X shipped, today Y followed'); (2) 3+ temporal markers; (3) cite 3+ concrete items with hard numbers; (4) first-person sharp stance; (5) mid-section MUST include a 'who pays for this' business framing sentence; (6) end with 'why today' urgency",
   "top_signals": {
     "high_confidence": "One bullet (no leading dash), dominant multi-source signal with hard numbers",
-    "external_find": "One bullet. If Google Trends has keywords with >20% growth, USE THAT FIRST (format like '\"agent memory\" +120% in 7 days'). If no Trends data, pick from HuggingFace/V2EX/Juejin non-mainstream",
+    "external_find": "One bullet. If Google Trends has keywords with >20% growth, USE THAT FIRST (format like '\"agent memory\" +120% in 7 days'). If no Trends data, pick from HuggingFace/V2EX non-mainstream sources",
     "double_validation": "One bullet, cross-source theme naming 2+ sources explicitly"
   },
   "builds": {

@@ -5,7 +5,6 @@ from .product_hunt import ProductHuntFetcher
 from .reddit import RedditFetcher
 from .huggingface import HuggingFaceFetcher
 from .v2ex import V2EXFetcher
-from .juejin import JuejinFetcher
 from .pytrends_growth import PyTrendsGrowthFetcher
 
 ALL_FETCHERS = [
@@ -15,6 +14,5 @@ ALL_FETCHERS = [
     RedditFetcher,
     HuggingFaceFetcher,
     V2EXFetcher,
-    JuejinFetcher,
     PyTrendsGrowthFetcher,
 ]
