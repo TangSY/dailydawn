@@ -117,12 +117,36 @@ _EN_TODAY_DOWNGRADE = {
     "debuted today": "recently debuted",
 }
 
+# **关键判断** 与 **反向视角** 之间的分隔修复：
+# LLM 经常把两者 inline 挤成一段（"...。 **反向视角**：..."）或仅用单换行。
+# GitHub markdown 和 RSS 阅读器不走 Web 层 CSS，源 markdown 必须是空行分隔
+# 的独立段落才会正确换行渲染。
+# 用零宽度前瞻保留 "**反向视角**" 本身，只把前面的空白/换行替换为 \n\n。
+# [^\n]+? 非贪婪且不跨行：LLM 输出的这两段基本是单行结论，跨多行是极端情况，
+# 跨行时正则不命中，原样保留，不破坏结构。
+_SPLIT_VERDICT_COUNTER_ZH = re.compile(
+    r"(\*\*关键判断\*\*[：:][^\n]+?)\s*(?=\*\*反向视角\*\*)"
+)
+_SPLIT_VERDICT_COUNTER_EN = re.compile(
+    r"(\*\*Key call\*\*[:：][^\n]+?)\s*(?=\*\*Counterpoint\*\*)",
+    re.IGNORECASE,
+)
+
 
 def _fix_time_stutter(markdown: str, lang: str) -> str:
     """修时间叠词：过去 N 天前 → N 天前；in the past N days ago → N days ago"""
     if lang == "zh":
         return _TIME_STUTTER_ZH.sub(r"\1 \2前", markdown)
     return _TIME_STUTTER_EN.sub(r"\1 \2 ago", markdown)
+
+
+def _split_verdict_counter(markdown: str, lang: str) -> str:
+    """
+    强制 **关键判断** 与 **反向视角** 之间为 \\n\\n（独立段落）。
+    幂等：已经正确分隔的会原样保留。
+    """
+    pat = _SPLIT_VERDICT_COUNTER_ZH if lang == "zh" else _SPLIT_VERDICT_COUNTER_EN
+    return pat.sub(r"\1\n\n", markdown)
 
 
 def _downgrade_h3_today(h3_line: str, lang: str) -> str:
@@ -363,7 +387,11 @@ def run_editor(
         experts_output=experts_output,
     )
 
-    # Post-LLM 时间描述校验：修叠词病句 + 降级 h3-body 时间矛盾
+    # Post-LLM 正则修复：
+    #   1. 强制关键判断 / 反向视角独立段落（让 GitHub、RSS、邮件渲染都正确换行）
+    #   2. 修时间叠词病句（"过去 N 天前"）
+    #   3. 降级 h3-body 时间矛盾（"今天发布 X" + 正文"N 天前"）
+    markdown = _split_verdict_counter(markdown, lang)
     markdown = _fix_time_stutter(markdown, lang)
     markdown = _validate_time_consistency(markdown, lang)
 

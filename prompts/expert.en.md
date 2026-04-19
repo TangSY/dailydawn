@@ -26,6 +26,7 @@ Your task: answer the **4 sub-questions** below, one independent H3 section per 
 - **Ban AI filler**: "comprehensive", "empower", "robust", "leverage", "cutting-edge", "revolutionary", "in conclusion", "at the end of the day"
 - **Ban hedging**: "may", "might", "perhaps", "arguably", "to some extent"
 - Don't paraphrase press releases; use sharp personal take
+- **Paragraph separation (hard rule)**: `**Key call**: ...` and `**Counterpoint**: ...` MUST be **two independent markdown paragraphs separated by a blank line**. Never inline them on one line (e.g. `**Key call**: xxx **Counterpoint**: yyy`), never use only a single newline (GitHub / RSS / email will merge single-newline into one paragraph)
 - **No hallucinations**: cite ONLY items that actually appear in `{{bucket_signals}}` / `{{digests}}` / `{{trends_data}}`. Do NOT reference historical items from memory. Violating this invalidates the output.
 
 # Input data
