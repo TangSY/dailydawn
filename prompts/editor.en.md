@@ -45,6 +45,7 @@ Expert sections are **auto-embedded by the system**; don't handle them.
 
 ```json
 {
+  "tagline": "One-sentence archive summary, **12-22 words**, used on the homepage 'Recent issues' list. Rules: (1) capture today's single most important shift (who did what / what broke / who's eating whose lunch); (2) do NOT reuse top_signals verbatim; (3) no trailing period; (4) no emoji; (5) no AI filler ('comprehensive', 'leverage', etc). Example: 'Gemma-4 forks overtake Claude 4.7 on HuggingFace as open-source siphons paying users'",
   "opener": "600-800 word POV opener markdown (no section heading # or ##). **MUST split into 3-4 paragraphs** separated by blank lines (\\n\\n) — never one solid block. **At least 2 paragraphs start with a bold sub-question** (format `**Who pays for this?**` or `**Why today?**`) so readers can scan the rhythm. Other rules: (1) open with a concrete story or contrast (e.g., 'Four days ago X shipped, today Y followed'); (2) 3+ temporal markers; (3) cite 3+ concrete items with hard numbers; (4) first-person sharp stance; (5) mid-paragraph (usually the `**Who pays for this?**` one) delivers the business judgment; (6) end with 'why today' urgency",
   "top_signals": {
     "high_confidence": "One bullet (no leading dash), dominant multi-source signal with hard numbers",

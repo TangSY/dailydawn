@@ -55,9 +55,19 @@ jobs:
         continue-on-error: true
         run: |
           if [ -n "${{ secrets.WEB_WEBHOOK_URL }}" ]; then
-            curl -X POST "${{ secrets.WEB_WEBHOOK_URL }}" \
-              -H "X-Webhook-Secret: ${{ secrets.WEB_WEBHOOK_SECRET }}" \
-              -H "Content-Type: application/json" \
-              -d "{\"date\":\"$(date -u +%Y-%m-%d)\"}" \
-              --max-time 30
+            # main.py 会把 {date, summary_zh, summary_en} 写到 /tmp/dailydawn-summary.json
+            # 读不到文件时（老版本 main.py / 写入失败）fallback 用仅 date 的 payload
+            if [ -f /tmp/dailydawn-summary.json ]; then
+              curl -X POST "${{ secrets.WEB_WEBHOOK_URL }}" \
+                -H "X-Webhook-Secret: ${{ secrets.WEB_WEBHOOK_SECRET }}" \
+                -H "Content-Type: application/json" \
+                --data-binary @/tmp/dailydawn-summary.json \
+                --max-time 30
+            else
+              curl -X POST "${{ secrets.WEB_WEBHOOK_URL }}" \
+                -H "X-Webhook-Secret: ${{ secrets.WEB_WEBHOOK_SECRET }}" \
+                -H "Content-Type: application/json" \
+                -d "{\"date\":\"$(date -u +%Y-%m-%d)\"}" \
+                --max-time 30
+            fi
           fi

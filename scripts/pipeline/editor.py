@@ -378,10 +378,14 @@ def run_editor(
     classification: dict,
     experts_output: list[dict],
     trends: list[Signal],
-) -> str:
+) -> dict[str, str | None]:
     """
     主笔 agent：产出开篇 + Top 3 + 三级构建 + 风险（JSON）；
     Python 端把 5 个专家段落原文拼接到最终 markdown。
+
+    返回 {"markdown": 完整 markdown, "tagline": 首页归档用一句话摘要（可能 None）}。
+    tagline 由 LLM 专门生成（editor.{lang}.md 里要求 15-30 字 / 12-22 词），
+    供 Web 层 webhook 写入 reports.summary_zh/en，首页显示。
     """
     cross_themes = classification.get("cross_source_themes", [])
     priority_ids = classification.get("priority_ids", [])
@@ -423,4 +427,8 @@ def run_editor(
     markdown = _fix_time_stutter(markdown, lang)
     markdown = _validate_time_consistency(markdown, lang)
 
-    return markdown
+    # 首页归档摘要：LLM 失败或未产出时 None，Web 层 webhook 写 null 不覆盖旧值
+    tagline_raw = editor_output.get("tagline") if isinstance(editor_output, dict) else None
+    tagline = (tagline_raw or "").strip() or None
+
+    return {"markdown": markdown, "tagline": tagline}
