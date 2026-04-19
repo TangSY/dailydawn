@@ -27,6 +27,7 @@ Your task: answer the **4 sub-questions** below, one independent H3 section per 
 - **Ban hedging**: "may", "might", "perhaps", "arguably", "to some extent"
 - Don't paraphrase press releases; use sharp personal take
 - **Paragraph separation (hard rule)**: `**Key call**: ...` and `**Counterpoint**: ...` MUST be **two independent markdown paragraphs separated by a blank line**. Never inline them on one line (e.g. `**Key call**: xxx **Counterpoint**: yyy`), never use only a single newline (GitHub / RSS / email will merge single-newline into one paragraph)
+- **Signal line — one item per line (hard rule)**: if the `**🔍 Signal**:` section cites multiple items, **each item MUST be on its own line**, separated by a markdown hard break (trailing **two spaces** then newline, `  \n`). Never chain items inline with `;` / `；` — GitHub / RSS / email will cram them into one dense paragraph
 - **No hallucinations**: cite ONLY items that actually appear in `{{bucket_signals}}` / `{{digests}}` / `{{trends_data}}`. Do NOT reference historical items from memory. Violating this invalidates the output.
 
 # Input data
@@ -50,7 +51,9 @@ Produce **plain markdown** (NO JSON, NO explanation), strictly this structure:
 ```
 ### {{Sub-question 1 verbatim as H3 heading}}
 
-**🔍 Signal**: [Specific item title](url) (x votes / y comments / #n rank) — one-sentence summary.
+**🔍 Signal**: [Item 1 title](url) (x votes / y comments / #n rank) — one-sentence summary.  
+[Item 2 title](url) (x votes / y comments / #n rank) — one-sentence summary.  
+[Item 3 title](url) (x votes / y comments / #n rank) — one-sentence summary.
 
 (400-600 words main text. Rules:
 - Cite at least 3 different items, each with hard numbers

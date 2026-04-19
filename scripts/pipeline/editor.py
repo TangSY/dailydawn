@@ -132,6 +132,19 @@ _SPLIT_VERDICT_COUNTER_EN = re.compile(
     re.IGNORECASE,
 )
 
+# 🔍 信号段内多条目必须硬换行（每行末两个空格 + 换行）。LLM 常把 3 个条目用
+# "；" 或 ";" inline 串联，GitHub / RSS / 邮件渲染会挤成一坨。
+# 段落边界：从 "**🔍 信号**" 或 "**🔍 Signal**" 开始，到下一个空行（\n\n）或文末止
+_SIGNAL_PARA_ZH = re.compile(
+    r"(\*\*\s*🔍?\s*信号\s*\*\*[：:][\s\S]*?)(?=\n\n|\Z)"
+)
+_SIGNAL_PARA_EN = re.compile(
+    r"(\*\*\s*🔍?\s*Signal\s*\*\*[:：][\s\S]*?)(?=\n\n|\Z)",
+    re.IGNORECASE,
+)
+# 条目分隔符：; 或 ； 紧跟 "[" 链接开头
+_SIGNAL_ITEM_SEP = re.compile(r"[;；]\s*(?=\[)")
+
 
 def _fix_time_stutter(markdown: str, lang: str) -> str:
     """修时间叠词：过去 N 天前 → N 天前；in the past N days ago → N days ago"""
@@ -147,6 +160,19 @@ def _split_verdict_counter(markdown: str, lang: str) -> str:
     """
     pat = _SPLIT_VERDICT_COUNTER_ZH if lang == "zh" else _SPLIT_VERDICT_COUNTER_EN
     return pat.sub(r"\1\n\n", markdown)
+
+
+def _split_signal_items(markdown: str, lang: str) -> str:
+    """
+    🔍 信号段内的多条目用 markdown 硬换行（行尾两空格 + \\n）拆成独立行。
+    仅在信号段内替换 "；[" / ";[" 为 "  \\n["，其他段落的分号不动。
+    """
+    para_pat = _SIGNAL_PARA_ZH if lang == "zh" else _SIGNAL_PARA_EN
+
+    def _rewrite(m: re.Match) -> str:
+        return _SIGNAL_ITEM_SEP.sub("  \n", m.group(1))
+
+    return para_pat.sub(_rewrite, markdown)
 
 
 def _downgrade_h3_today(h3_line: str, lang: str) -> str:
@@ -389,9 +415,11 @@ def run_editor(
 
     # Post-LLM 正则修复：
     #   1. 强制关键判断 / 反向视角独立段落（让 GitHub、RSS、邮件渲染都正确换行）
-    #   2. 修时间叠词病句（"过去 N 天前"）
-    #   3. 降级 h3-body 时间矛盾（"今天发布 X" + 正文"N 天前"）
+    #   2. 🔍 信号段内多条目硬换行（避免 "；[link]" inline 挤成一段）
+    #   3. 修时间叠词病句（"过去 N 天前"）
+    #   4. 降级 h3-body 时间矛盾（"今天发布 X" + 正文"N 天前"）
     markdown = _split_verdict_counter(markdown, lang)
+    markdown = _split_signal_items(markdown, lang)
     markdown = _fix_time_stutter(markdown, lang)
     markdown = _validate_time_consistency(markdown, lang)
 
