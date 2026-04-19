@@ -28,6 +28,8 @@ class ProductHuntFetcher(BaseFetcher):
                 commentsCount
                 website
                 url
+                featuredAt
+                createdAt
                 topics(first: 3) { edges { node { name } } }
               }
             }
@@ -61,6 +63,9 @@ class ProductHuntFetcher(BaseFetcher):
                     comments=node.get("commentsCount", 0),
                     summary=node.get("tagline", ""),
                     tags=tags,
+                    # featuredAt 是上 PH 榜单当天时间，createdAt 是 maker 提交时间
+                    # 优先 featuredAt（"今日上榜"语义更贴 LLM 要表达的"今天"）
+                    published_at=node.get("featuredAt") or node.get("createdAt"),
                 )
             )
         return signals

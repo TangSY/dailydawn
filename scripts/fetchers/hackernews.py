@@ -41,6 +41,8 @@ class HackerNewsFetcher(BaseFetcher):
                     score=min(points / 500.0, 1.0),
                     comments=hit.get("num_comments", 0),
                     author=hit.get("author", ""),
+                    # Algolia HN API 直接返回 ISO 8601（如 "2026-04-18T03:21:00.000Z"）
+                    published_at=hit.get("created_at"),
                     extra={"hn_id": hit.get("objectID")},
                 )
             )

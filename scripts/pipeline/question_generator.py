@@ -19,6 +19,8 @@ def _format_signal_brief(s: Signal) -> dict:
         "raw_score": s.raw_score,
         "comments": s.comments,
         "author": s.author,
+        # 真实发布时间：LLM 生成问题时必须基于此判断时间词（"今天 / N 天前"）
+        "published_at": s.published_at,
     }
 
 

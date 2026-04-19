@@ -78,6 +78,8 @@ def _format_signal_for_prompt(s: Signal) -> dict:
         "author": s.author,
         "summary": s.summary,
         "tags": s.tags,
+        # 真实发布时间：正文里"N 天前 / 过去 N 天"描述必须基于此字段事实
+        "published_at": s.published_at,
         "extra": s.extra,
     }
 

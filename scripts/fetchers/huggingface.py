@@ -28,6 +28,9 @@ class HuggingFaceFetcher(BaseFetcher):
                         raw_score=likes,
                         score=min(likes / 500.0, 1.0),
                         tags=m.get("tags", [])[:5],
+                        # lastModified 是 HF 模型卡最后更新时间（ISO 8601），
+                        # 新发布的模型首次 push 即 last-modified，语义等同"发布时间"
+                        published_at=m.get("lastModified") or m.get("createdAt"),
                     )
                 )
         except Exception as e:
@@ -51,6 +54,7 @@ class HuggingFaceFetcher(BaseFetcher):
                         raw_score=likes,
                         score=min(likes / 200.0, 1.0),
                         tags=d.get("tags", [])[:3],
+                        published_at=d.get("lastModified") or d.get("createdAt"),
                     )
                 )
         except Exception as e:

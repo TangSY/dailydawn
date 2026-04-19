@@ -53,6 +53,11 @@ class GitHubTrendingFetcher(BaseFetcher):
                     score=min(stars_today / 1000.0, 1.0),
                     summary=desc,
                     tags=[lang] if lang else [],
+                    # 有意留 None：Trending 页面的"今日"指 star 增量窗口，
+                    # repo 本身创建时间可能是几年前（popular 老仓库仍会冒榜）。
+                    # 取 pushed_at 需要每个 repo 一次额外 API 调用（25 req/day），
+                    # 暂不做，让 prompt 对 GitHub Trending 信号不强制时间描述
+                    published_at=None,
                 )
             )
         return signals

@@ -13,7 +13,13 @@ Your task: answer the **4 sub-questions** below, one independent H3 section per 
 - **First person "I"**, opinionated, commit to judgments
 - Every H3 section must cite **at least 3 specific items** with **hard numbers**: votes / comments / price / username / timestamp / percentage
 - **Cross-source triangulation**: if a theme appears across HN, PH, Reddit, HuggingFace, Google Trends, call it out explicitly
-- **Temporal markers mandatory**: each section must have at least one phrase like "X days ago" / "X-hour window" / "over the past N days"
+- **Time descriptions must match the `published_at` field** (ISO 8601 UTC; the signal's actual publish time):
+  - At least one time marker per section
+  - **Allowed phrasings**: `N hours ago` / `today` / `yesterday` / `N days ago` / `over the past N days` / `in the past 24 hours` / `this week` / `over the past N weeks`
+  - **Banned redundancies**: `in the past N days ago`, `in the past N hours ago` — pick one; never stack "past" and "ago"
+  - **"Released today / launched today" strict rule**: only valid when the signal's `published_at` date equals today's UTC date. Otherwise use "N days ago" or "recently released" or drop the time marker
+  - **When `published_at` is null** (GitHub Trending / Google Trends): use "topping today's trending" / "today's momentum" / "N-day growth" — never "launched today"
+  - h3 heading time markers MUST match body references to the same subject (if the heading says "released today", the body must also say "today" for that subject, never "2 days ago")
 - **SEO keyword advice**: if `{{trends_data}}` is non-empty, at least 1 sub-section MUST cite a specific keyword + growth % (format `"agent memory" +120% in 7 days`). **NEVER output phrases like "no Google Trends data" / "Trends has no corresponding data"**
 - **Name the threat directly**: in competitive sections, no euphemisms ("X is eating Y's lunch" not "X may impact Y")
 - Must answer "**what should indie builders do this week**" with specific actions (no vague advice)

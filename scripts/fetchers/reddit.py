@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import random
+from datetime import datetime, timezone
 
 import httpx
 
@@ -56,6 +57,13 @@ class RedditFetcher(BaseFetcher):
                 ups = d.get("ups", 0)
                 if ups < MIN_UPS:
                     continue
+                # created_utc 是 Reddit 帖子发布时间 (unix 秒)，转 ISO 8601 UTC
+                created_utc = d.get("created_utc")
+                published_at = (
+                    datetime.fromtimestamp(created_utc, tz=timezone.utc).isoformat()
+                    if created_utc
+                    else None
+                )
                 signals.append(
                     Signal(
                         source=f"Reddit /r/{sub}",
@@ -67,6 +75,7 @@ class RedditFetcher(BaseFetcher):
                         comments=d.get("num_comments", 0),
                         author=d.get("author", ""),
                         tags=[sub],
+                        published_at=published_at,
                     )
                 )
         return signals

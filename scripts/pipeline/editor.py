@@ -17,14 +17,14 @@ SECTION_TITLES = {
         "high_confidence": "高置信度",
         "external_find": "外部发现",
         "double_validation": "双重验证",
-        "opener": "🗣 技术派说",
-        "build_2h": "🎯 今日 2 小时构建",
-        "launch": "发现机会",
+        "opener": "🗣 主编视角",
+        "build_2h": "🎯 今日构建",
+        "launch": "机会发现",
         "tech": "技术选型",
         "competition": "竞争情报",
         "demand": "需求雷达",
-        "trend": "趋势判断",
-        "action_header": "🔥 行动触发",
+        "trend": "趋势观察",
+        "action_header": "🔥 本周行动",
         "action_weekend": "周末扩展构建",
         "action_this_week": "这一周更长线的赌注",
         "action_risk": "本周最大的风险 / 陷阱",
@@ -36,13 +36,13 @@ SECTION_TITLES = {
         "external_find": "External find",
         "double_validation": "Double validation",
         "opener": "🗣 Editor's take",
-        "build_2h": "🎯 Today's 2-hour build",
+        "build_2h": "🎯 Today's build",
         "launch": "Launch discoveries",
         "tech": "Tech stack",
         "competition": "Competitive intel",
         "demand": "Demand radar",
-        "trend": "Trend verdict",
-        "action_header": "🔥 Action triggers",
+        "trend": "Trend watch",
+        "action_header": "🔥 This week's actions",
         "action_weekend": "Weekend extension build",
         "action_this_week": "This week's longer bet",
         "action_risk": "Biggest risk / trap this week",
@@ -67,6 +67,7 @@ def _format_signal_brief(s: Signal) -> dict:
         "raw_score": s.raw_score,
         "comments": s.comments,
         "author": s.author,
+        "published_at": s.published_at,
     }
 
 
@@ -76,6 +77,94 @@ def _summarize_expert(markdown: str, max_chars: int = 800) -> str:
         return ""
     stripped = markdown.strip()
     return stripped if len(stripped) <= max_chars else stripped[:max_chars] + "..."
+
+
+# ======================================================================
+# Post-LLM 时间描述一致性校验
+# ----------------------------------------------------------------------
+# LLM 即使加了 prompt 约束仍会偶发生成：
+#   1) 时间叠词病句："过去 2 天前" / "in the past 2 days ago"
+#   2) h3 标题与正文时间描述矛盾："今天发布的 X" + 正文"X 在 2 天前发布"
+# 这层 post-processing 用正则做兜底，不重试 LLM（避免 pipeline 耗时翻倍）
+# ======================================================================
+
+_TIME_STUTTER_ZH = re.compile(r"过去\s*(\d+)\s*(天|小时|日|周)\s*前")
+_TIME_STUTTER_EN = re.compile(
+    r"\b(?:in|over)\s+the\s+past\s+(\d+)\s+(day|days|hour|hours|week|weeks)\s+ago\b",
+    re.IGNORECASE,
+)
+
+# h3 里暗示"今日发布"的措辞
+_H3_TODAY_ZH = re.compile(r"(今天|今日)(发布|上线|推出|开源|登场|首发)")
+_H3_TODAY_EN = re.compile(
+    r"\b(released|launched|shipped|announced|dropped|debuted)\s+today\b",
+    re.IGNORECASE,
+)
+
+# 正文里明确"非今天"的时间描述
+_DAYS_AGO_ZH = re.compile(r"\d+\s*天前|过去\s*\d+\s*天(?!前)")
+_DAYS_AGO_EN = re.compile(
+    r"\b\d+\s+days?\s+ago\b|\b(?:in|over)\s+the\s+past\s+\d+\s+days\b",
+    re.IGNORECASE,
+)
+
+_EN_TODAY_DOWNGRADE = {
+    "released today": "recently released",
+    "launched today": "recently launched",
+    "shipped today": "recently shipped",
+    "announced today": "recently announced",
+    "dropped today": "recently dropped",
+    "debuted today": "recently debuted",
+}
+
+
+def _fix_time_stutter(markdown: str, lang: str) -> str:
+    """修时间叠词：过去 N 天前 → N 天前；in the past N days ago → N days ago"""
+    if lang == "zh":
+        return _TIME_STUTTER_ZH.sub(r"\1 \2前", markdown)
+    return _TIME_STUTTER_EN.sub(r"\1 \2 ago", markdown)
+
+
+def _downgrade_h3_today(h3_line: str, lang: str) -> str:
+    """把 h3 里"今天发布 X" / "released today" 降级为"最近发布 X" / "recently released"。"""
+    if lang == "zh":
+        # 只替换首次出现的"今天"/"今日"，降低误伤
+        return re.sub(r"今天|今日", "最近", h3_line, count=1)
+    out = h3_line
+    for old, new in _EN_TODAY_DOWNGRADE.items():
+        out = re.sub(re.escape(old), new, out, count=1, flags=re.IGNORECASE)
+    return out
+
+
+def _validate_time_consistency(markdown: str, lang: str) -> str:
+    """
+    扫描每个 h3 section。如果 h3 含"今天发布 X"类措辞，而同节正文明确出现
+    "N 天前"或"past N days"描述，判定为标题-正文时间矛盾，把 h3 降级为"最近发布"。
+
+    保守启发式：正文时间词可能指向其他主体（误伤低概率），但对 VoxCPM2 / GLM-5.1
+    这类 h3 + 正文同主体幻觉的命中率高，值得做。
+    """
+    today_pat = _H3_TODAY_ZH if lang == "zh" else _H3_TODAY_EN
+    days_ago_pat = _DAYS_AGO_ZH if lang == "zh" else _DAYS_AGO_EN
+
+    lines = markdown.split("\n")
+    # 收集 h3 起始行号；追加 sentinel 方便取 section body
+    h3_indices = [i for i, ln in enumerate(lines) if ln.startswith("### ")]
+    h3_indices.append(len(lines))
+
+    for k in range(len(h3_indices) - 1):
+        start = h3_indices[k]
+        end = h3_indices[k + 1]
+        h3 = lines[start]
+        if not today_pat.search(h3):
+            continue
+        body = "\n".join(lines[start + 1 : end])
+        if not days_ago_pat.search(body):
+            continue
+        # 冲突：降级 h3 措辞
+        lines[start] = _downgrade_h3_today(h3, lang)
+
+    return "\n".join(lines)
 
 
 def _call_editor_json(
@@ -267,9 +356,15 @@ def run_editor(
             "builds": {},
         }
 
-    return _assemble_markdown(
+    markdown = _assemble_markdown(
         lang=lang,
         date=date,
         editor_output=editor_output,
         experts_output=experts_output,
     )
+
+    # Post-LLM 时间描述校验：修叠词病句 + 降级 h3-body 时间矛盾
+    markdown = _fix_time_stutter(markdown, lang)
+    markdown = _validate_time_consistency(markdown, lang)
+
+    return markdown
