@@ -29,6 +29,12 @@ Your task: answer the **4 sub-questions** below, one independent H3 section per 
 - **Paragraph separation (hard rule)**: `**Key call**: ...` and `**Counterpoint**: ...` MUST be **two independent markdown paragraphs separated by a blank line**. Never inline them on one line (e.g. `**Key call**: xxx **Counterpoint**: yyy`), never use only a single newline (GitHub / RSS / email will merge single-newline into one paragraph)
 - **Signal line — one item per line (hard rule)**: if the `**🔍 Signal**:` section cites multiple items, **each item MUST be on its own line**, separated by a markdown hard break (trailing **two spaces** then newline, `  \n`). Never chain items inline with `;` / `；` — GitHub / RSS / email will cram them into one dense paragraph
 - **No hallucinations**: cite ONLY items that actually appear in `{{bucket_signals}}` / `{{digests}}` / `{{trends_data}}`. Do NOT reference historical items from memory. Violating this invalidates the output.
+- **age_bucket tier hard rule** (every signal in `{{bucket_signals}}` carries an `age_bucket` field, populated at runtime):
+  - `today` / `today_window` (published today OR window-based today signal like GitHub Trending daily-delta and Google Trends 7-day window): **every H3's 🔍 Signal line must use at least one item from this set as the primary citation (first item)**
+  - `past_72h` (1-3 days old): **only as cross-source corroboration**, never as the H3 primary focus; when cited must carry accurate time markers ("2 days ago" etc.) and must NOT be described as "today"
+  - `older` (4+ days old): **never cite**
+  - `unknown` (missing `published_at`): treat as `past_72h`, corroboration only
+  - Downgrade rule: if `today` + `today_window` combined < 1 item in this bucket, you MAY use `past_72h` as the primary citation, but the H3 heading MUST avoid "today / launched today / topping today's trending" — use "recently / this week / over the past few days" instead
 
 # Input data
 

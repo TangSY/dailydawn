@@ -21,6 +21,10 @@ Expert sections are **auto-embedded by the system**; don't handle them.
 - **Ban hedging**: "may", "might", "perhaps", "to some extent"
 - No closing pleasantries like "that's all for today"
 - **No hallucinations**: cite ONLY items that actually appear in the input
+- **age_bucket tier hard rule** (each item in `{{priority_signals}}` carries `age_bucket`: today / past_72h / older / today_window / unknown):
+  - `today_2h` candidate **MUST** be chosen from signals with `age_bucket ∈ {today, today_window}`. Only if none exist in `priority_signals`, you may downgrade to `past_72h` — but phrase as "recently launched" not "launched today"
+  - `top_signals.high_confidence` / `double_validation`: prioritize `today` / `today_window`; use `past_72h` only as corroboration; NEVER cite `older`
+  - At least 2 of the 3+ temporal markers in `opener` MUST point to `today` / `today_window` items
 
 # Input
 

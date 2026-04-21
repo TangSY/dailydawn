@@ -68,6 +68,9 @@ def _format_signal_brief(s: Signal) -> dict:
         "comments": s.comments,
         "author": s.author,
         "published_at": s.published_at,
+        # today / past_72h / older / today_window / unknown
+        # today_2h 候选必须在 today 或 today_window 池里选
+        "age_bucket": s.age_bucket,
     }
 
 

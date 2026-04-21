@@ -21,6 +21,10 @@
 - **禁用 hedging**："可能"、"或许"、"也许"、"在一定程度上"
 - 禁止"以上就是今天的日报"、"希望对你有帮助"类客套话
 - **严禁幻觉**：只引用输入里真实存在的条目
+- **age_bucket 分档硬约束**（`{{priority_signals}}` 每条带 `age_bucket` 字段：today / past_72h / older / today_window / unknown）：
+  - `today_2h` 候选**必须**选 `age_bucket ∈ {today, today_window}` 的信号；若 `priority_signals` 中没有满足条件的，才可降级到 `past_72h`，但句式改为"最近登场"而非"今天发布"
+  - `top_signals.high_confidence` / `double_validation`：优先引用 `today` / `today_window`，`past_72h` 做交叉佐证，`older` 禁用
+  - `opener` 至少 3 处时序词中 ≥2 处必须指向 `today` / `today_window` 的条目
 
 # 输入
 

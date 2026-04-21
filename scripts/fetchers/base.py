@@ -24,6 +24,13 @@ class Signal:
     #   - GitHub Trending：Trending 的"今日"指 star 增量窗口，repo 本身可能历史已久
     #   - Google Trends：关键词涨幅是 7 日聚合数据，非单条事件
     published_at: str | None = None
+    # age_bucket 由 aggregator 运行时填充，expert / editor prompt 用它做分档约束。
+    # today         : published_at 日期 == 今日 UTC
+    # past_72h      : 1-3 天前发布
+    # older         : 4+ 天前
+    # today_window  : 窗口类来源（GitHub Trending 今日增量 / Google Trends 7 日窗口），按定义视为今日
+    # unknown       : published_at 缺失或格式异常
+    age_bucket: str = "unknown"
     extra: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict:

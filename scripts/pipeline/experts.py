@@ -80,6 +80,9 @@ def _format_signal_for_prompt(s: Signal) -> dict:
         "tags": s.tags,
         # 真实发布时间：正文里"N 天前 / 过去 N 天"描述必须基于此字段事实
         "published_at": s.published_at,
+        # 分档标签（aggregator 计算）：today / past_72h / older / today_window / unknown
+        # prompt 层硬约束：H3 主引用必须是 today 或 today_window；past_72h 只做交叉佐证；older 禁止引用
+        "age_bucket": s.age_bucket,
         "extra": s.extra,
     }
 

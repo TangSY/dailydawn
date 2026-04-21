@@ -1,8 +1,14 @@
 from __future__ import annotations
 
+from datetime import date, datetime, timezone
 from urllib.parse import urlparse
 
 from .fetchers.base import Signal
+
+# 窗口类来源：Signal.source（显示名）命中则 age_bucket = today_window。
+# GitHub Trending 的"今日"是 star 增量窗口，Google Trends 是 7 日聚合窗口，
+# 两者都不是单条 "published_at 等于今日" 语义但按产品定义视为今日信号。
+_TODAY_WINDOW_SOURCES = {"GitHub Trending", "Google Trends"}
 
 
 def _canonical_url(url: str) -> str:
@@ -12,6 +18,25 @@ def _canonical_url(url: str) -> str:
         return f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/")
     except Exception:
         return url
+
+
+def _compute_age_bucket(signal: Signal, today_utc: date) -> str:
+    """按 published_at 归档到 today / past_72h / older；窗口类源直接 today_window。"""
+    if signal.source in _TODAY_WINDOW_SOURCES:
+        return "today_window"
+    if not signal.published_at:
+        return "unknown"
+    try:
+        raw = signal.published_at.replace("Z", "+00:00")
+        pub_date = datetime.fromisoformat(raw).astimezone(timezone.utc).date()
+    except Exception:
+        return "unknown"
+    days_ago = (today_utc - pub_date).days
+    if days_ago <= 0:
+        return "today"
+    if days_ago <= 3:
+        return "past_72h"
+    return "older"
 
 
 def aggregate(signals: list[Signal]) -> list[Signal]:
@@ -48,4 +73,11 @@ def aggregate(signals: list[Signal]) -> list[Signal]:
         if s.source == "Google Trends" and _canonical_url(s.url) not in top60_urls
     ]
 
-    return top60 + trends_supplement
+    final = top60 + trends_supplement
+
+    # 打 age_bucket 标签。下游 expert / editor prompt 依据它做「今日主骨 + 历史佐证」硬约束。
+    today_utc = datetime.now(timezone.utc).date()
+    for s in final:
+        s.age_bucket = _compute_age_bucket(s, today_utc)
+
+    return final
