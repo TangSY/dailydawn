@@ -18,12 +18,14 @@ async def generate_report(
     classification: dict,
     questions: dict[str, list[str]],
     digests: list[dict],
-) -> dict[str, str | None]:
+    recent_taglines: list[dict],
+) -> dict[str, str | list[str] | None]:
     """
     单语言的"专家 × 5 并行 + 主笔"流水线。
     classification 和 digests 语言无关（zh/en 共享）；questions 按语言生成。
+    recent_taglines：最近 7 天已发布的 tagline + top3_themes，editor 用它做跨日主题去重。
 
-    返回 {"markdown": 完整 markdown, "tagline": 首页归档用一句话摘要}。
+    返回 {"markdown": str, "tagline": str | None, "top3_themes": list[str]}。
     """
     # 抽出 Google Trends 信号（按源名过滤）
     trends = [s for s in signals if s.source == "Google Trends"]
@@ -46,6 +48,7 @@ async def generate_report(
         classification=classification,
         experts_output=experts_output,
         trends=trends,
+        recent_taglines=recent_taglines,
     )
     return result
 
@@ -55,7 +58,8 @@ async def run_pipeline(
     date: str,
     signals: list[Signal],
     langs: list[str] = ["zh", "en"],
-) -> dict[str, dict[str, str | None]]:
+    recent_taglines: list[dict] | None = None,
+) -> dict[str, dict[str, str | list[str] | None]]:
     """
     完整流水线：
       1. classify（1 次，语言无关）
@@ -63,7 +67,9 @@ async def run_pipeline(
       3. digest_all_sources（N 次并行，语言无关）
       4. 对每个 lang 并行跑 experts (×5) + editor (×1)
 
-    返回 {lang: {"markdown": str, "tagline": str | None}}。
+    recent_taglines：跨日主题去重锚（最近 7 天的 tagline + top3_themes），传给 editor。
+
+    返回 {lang: {"markdown": str, "tagline": str | None, "top3_themes": list[str]}}。
     """
     print("→ [classifier] ...")
     classification = await asyncio.to_thread(classify, signals)
@@ -106,6 +112,7 @@ async def run_pipeline(
                 classification=classification,
                 questions=questions_by_lang[lang],
                 digests=digests,
+                recent_taglines=recent_taglines or [],
             )
             for lang in langs
         ]

@@ -22,6 +22,11 @@ load_dotenv()
 # 放 /tmp 避免被 git 追踪，workflow 里用 `--data-binary @file` 直接发送。
 _SUMMARY_OUTPUT_PATH = Path("/tmp/dailydawn-summary.json")
 
+# 跨日主题去重锚：每天 pipeline 跑完 append 一条到 meta/recent-taglines.jsonl，
+# 次日 pipeline 读最后 N 条传给 editor，prompt 里硬约束禁止主题重合。
+# workflow 里 `git add meta/` 和 zh/ en/ 一起提交。
+_RECENT_TAGLINES_PATH = Path(__file__).parent.parent / "meta" / "recent-taglines.jsonl"
+
 
 async def fetch_all() -> list:
     async with httpx.AsyncClient(follow_redirects=True) as client:
@@ -33,6 +38,51 @@ async def fetch_all() -> list:
         signals.extend(result)
     print(f"✓ Fetched {len(signals)} signals from {len(ALL_FETCHERS)} sources")
     return signals
+
+
+def _load_recent_taglines(days: int = 7) -> list[dict]:
+    """读 meta/recent-taglines.jsonl 尾部 N 条。文件不存在或 jsonl 行损坏时降级返回。"""
+    if not _RECENT_TAGLINES_PATH.exists():
+        return []
+    try:
+        lines = _RECENT_TAGLINES_PATH.read_text(encoding="utf-8").strip().splitlines()
+    except OSError as err:
+        print(f"⚠ recent-taglines read failed ({err}); treating as empty")
+        return []
+    recent: list[dict] = []
+    for line in lines[-days:]:
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            recent.append(json.loads(line))
+        except json.JSONDecodeError:
+            continue
+    return recent
+
+
+def _append_recent_taglines(date: str, reports: dict) -> None:
+    """跑完 pipeline 把今日 tagline + top3_themes append 到 jsonl，workflow commit meta/。"""
+    zh = reports.get("zh") or {}
+    en = reports.get("en") or {}
+    entry = {
+        "date": date,
+        "tagline_zh": zh.get("tagline"),
+        "tagline_en": en.get("tagline"),
+        "top3_themes_zh": zh.get("top3_themes") or [],
+        "top3_themes_en": en.get("top3_themes") or [],
+    }
+    if not (entry["tagline_zh"] or entry["tagline_en"]):
+        print("⚠ no tagline generated, skipping recent-taglines append")
+        return
+    try:
+        _RECENT_TAGLINES_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with _RECENT_TAGLINES_PATH.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+        rel = _RECENT_TAGLINES_PATH.relative_to(Path(__file__).parent.parent)
+        print(f"✓ appended to {rel}")
+    except OSError as err:
+        print(f"⚠ recent-taglines append failed ({err})")
 
 
 def _write_summary_payload(date: str, reports: dict) -> None:
@@ -69,8 +119,15 @@ async def amain() -> None:
     ranked = aggregate(signals)
     print(f"✓ Aggregated to {len(ranked)} unique signals")
 
+    recent_taglines = _load_recent_taglines(days=7)
+    print(f"✓ Loaded {len(recent_taglines)} recent taglines (dedupe anchor for editor)")
+
     print("→ Running multi-agent pipeline (classifier → digest → experts × 4 → editor)...")
-    reports = await run_pipeline(date=date, signals=ranked)
+    reports = await run_pipeline(
+        date=date,
+        signals=ranked,
+        recent_taglines=recent_taglines,
+    )
 
     for lang, result in reports.items():
         markdown = (result or {}).get("markdown") or ""
@@ -80,6 +137,7 @@ async def amain() -> None:
         path = save_report(markdown, lang, date)
         print(f"✓ [{lang}] saved to {path.relative_to(Path(__file__).parent.parent)}")
 
+    _append_recent_taglines(date, reports)
     _write_summary_payload(date, reports)
 
 

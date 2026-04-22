@@ -82,6 +82,20 @@ def _summarize_expert(markdown: str, max_chars: int = 800) -> str:
     return stripped if len(stripped) <= max_chars else stripped[:max_chars] + "..."
 
 
+def _format_recent_taglines(recent: list[dict], lang: str) -> str:
+    """把最近 N 天的 tagline + top3 主题格式化为可读清单，作为 editor 的跨日去重锚。"""
+    tag_key = f"tagline_{lang}"
+    themes_key = f"top3_themes_{lang}"
+    lines: list[str] = []
+    for entry in recent:
+        date = entry.get("date", "?")
+        tagline = entry.get(tag_key) or "—"
+        themes = entry.get(themes_key) or []
+        themes_str = " | ".join(themes) if themes else "—"
+        lines.append(f"- {date}: {tagline}  [主题: {themes_str}]")
+    return "\n".join(lines) if lines else "（无历史记录，首次运行或 7 天内均为空）"
+
+
 # ======================================================================
 # Post-LLM 时间描述一致性校验
 # ----------------------------------------------------------------------
@@ -228,6 +242,7 @@ def _call_editor_json(
     cross_themes: list[dict],
     trends: list[Signal],
     experts_output: list[dict],
+    recent_taglines: list[dict],
 ) -> dict:
     template = load_prompt(f"editor.{lang}.md")
 
@@ -263,6 +278,10 @@ def _call_editor_json(
         .replace(
             "{{experts_summary}}",
             json.dumps(experts_summary, ensure_ascii=False, indent=2),
+        )
+        .replace(
+            "{{recent_taglines}}",
+            _format_recent_taglines(recent_taglines, lang),
         )
     )
 
@@ -381,14 +400,19 @@ def run_editor(
     classification: dict,
     experts_output: list[dict],
     trends: list[Signal],
-) -> dict[str, str | None]:
+    recent_taglines: list[dict] | None = None,
+) -> dict[str, str | list[str] | None]:
     """
     主笔 agent：产出开篇 + Top 3 + 三级构建 + 风险（JSON）；
     Python 端把 5 个专家段落原文拼接到最终 markdown。
 
-    返回 {"markdown": 完整 markdown, "tagline": 首页归档用一句话摘要（可能 None）}。
-    tagline 由 LLM 专门生成（editor.{lang}.md 里要求 15-30 字 / 12-22 词），
+    recent_taglines：最近 7 天 tagline + top3_themes，prompt 用作跨日主题去重锚。
+
+    返回 {"markdown": str, "tagline": str | None, "top3_themes": list[str]}。
+    tagline 由 LLM 生成（editor.{lang}.md 里要求 15-30 字 / 12-22 词），
     供 Web 层 webhook 写入 reports.summary_zh/en，首页显示。
+    top3_themes 由 main._append_recent_taglines 写入 meta/recent-taglines.jsonl，
+    次日 pipeline 读入作为去重锚。
     """
     cross_themes = classification.get("cross_source_themes", [])
     priority_ids = classification.get("priority_ids", [])
@@ -404,6 +428,7 @@ def run_editor(
             cross_themes=cross_themes,
             trends=trends,
             experts_output=experts_output,
+            recent_taglines=recent_taglines or [],
         )
     except Exception as err:
         print(f"[editor:{lang}] failed, falling back to empty skeleton: {err}")
@@ -411,6 +436,7 @@ def run_editor(
             "opener": "",
             "top_signals": {},
             "builds": {},
+            "top3_themes": [],
         }
 
     markdown = _assemble_markdown(
@@ -434,4 +460,12 @@ def run_editor(
     tagline_raw = editor_output.get("tagline") if isinstance(editor_output, dict) else None
     tagline = (tagline_raw or "").strip() or None
 
-    return {"markdown": markdown, "tagline": tagline}
+    # 跨日去重锚：editor 自填 3 条主题短句（<= 15 字），供明日 pipeline 读入
+    themes_raw = editor_output.get("top3_themes") if isinstance(editor_output, dict) else None
+    top3_themes: list[str] = []
+    if isinstance(themes_raw, list):
+        for t in themes_raw[:3]:
+            if isinstance(t, str) and t.strip():
+                top3_themes.append(t.strip())
+
+    return {"markdown": markdown, "tagline": tagline, "top3_themes": top3_themes}
