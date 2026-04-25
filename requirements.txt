@@ -9,3 +9,5 @@ praw>=7.7.1
 pytrends>=4.9.2
 tenacity>=8.2.0
 tzdata>=2024.1
+# OG image 生成（scripts/generate_og.py）
+Pillow>=10.4.0

@@ -23,6 +23,12 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
+      # 中文 OG image 字体（OFL 开源许可，~50MB apt 安装）
+      - name: Install CJK fonts for OG image
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra
+
       - run: pip install -r requirements.txt
 
       - name: Generate daily report
@@ -38,13 +44,28 @@ jobs:
           REDDIT_USER_AGENT: dailydawn/0.1
         run: python scripts/main.py
 
+      # 生成今日双语 OG image（Pillow），失败不阻塞主流程
+      - name: Generate OG image
+        continue-on-error: true
+        run: |
+          python scripts/generate_og.py
+          # 默认 OG 仅在不存在时生成（首次运行 / 强制刷新）
+          if [ ! -f og/default.png ]; then
+            python scripts/generate_og.py --default
+          fi
+
+      # README 顶部注入「最近 3 期日报」链接（双向引流：GitHub → 站点）
+      - name: Sync README latest issues
+        continue-on-error: true
+        run: python scripts/update_readme.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add zh/ en/ meta/
+          git add zh/ en/ meta/ og/ README.md README.en.md
           if git diff --staged --quiet; then
-            echo "No new report generated (likely no change)."
+            echo "No new content (likely no change)."
           else
             git commit -m "chore: daily report $(date -u +%Y-%m-%d)"
             git push
@@ -55,7 +76,7 @@ jobs:
         continue-on-error: true
         run: |
           if [ -n "${{ secrets.WEB_WEBHOOK_URL }}" ]; then
-            # main.py 会把 {date, summary_zh, summary_en} 写到 /tmp/dailydawn-summary.json
+            # main.py 会把 {date, summary_zh, summary_en, topics_zh, topics_en} 写到 /tmp/dailydawn-summary.json
             # 读不到文件时（老版本 main.py / 写入失败）fallback 用仅 date 的 payload
             if [ -f /tmp/dailydawn-summary.json ]; then
               curl -X POST "${{ secrets.WEB_WEBHOOK_URL }}" \
