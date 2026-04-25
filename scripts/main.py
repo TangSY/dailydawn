@@ -86,11 +86,19 @@ def _append_recent_taglines(date: str, reports: dict) -> None:
 
 
 def _write_summary_payload(date: str, reports: dict) -> None:
-    """把双语 tagline 落到 /tmp 供 CI 读取发 webhook。"""
+    """把双语 tagline + top3_themes 落到 /tmp 供 CI 读取发 webhook。
+
+    topics 字段直接复用 top3_themes（LLM 已生成的 ≤15 字主题词，3 项），
+    Web 层会用作详情页 <title> 长尾词后缀 + JSON-LD Article keywords。
+    """
+    zh = reports.get("zh") or {}
+    en = reports.get("en") or {}
     payload = {
         "date": date,
-        "summary_zh": (reports.get("zh") or {}).get("tagline"),
-        "summary_en": (reports.get("en") or {}).get("tagline"),
+        "summary_zh": zh.get("tagline"),
+        "summary_en": en.get("tagline"),
+        "topics_zh": zh.get("top3_themes") or [],
+        "topics_en": en.get("top3_themes") or [],
     }
     try:
         _SUMMARY_OUTPUT_PATH.write_text(
@@ -99,8 +107,8 @@ def _write_summary_payload(date: str, reports: dict) -> None:
         )
         print(
             f"✓ summary payload written to {_SUMMARY_OUTPUT_PATH}: "
-            f"zh={'✓' if payload['summary_zh'] else '—'} "
-            f"en={'✓' if payload['summary_en'] else '—'}"
+            f"zh={'✓' if payload['summary_zh'] else '—'}({len(payload['topics_zh'])} topics) "
+            f"en={'✓' if payload['summary_en'] else '—'}({len(payload['topics_en'])} topics)"
         )
     except OSError as err:
         # 本地跑没 /tmp 或 CI 环境不同都不阻塞内容生成
