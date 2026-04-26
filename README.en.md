@@ -12,6 +12,21 @@
 [![Latest EN](https://img.shields.io/badge/Today%20EN-en%2Ftoday.md-orange)](./en/)
 [![Latest zh](https://img.shields.io/badge/今日中文-zh%2F今日.md-orange)](./zh/)
 
+<!-- LATEST_ISSUES_START -->
+
+## Latest 3 issues
+
+- [2026-04-26 · DIY Core Tools Repo / Modular Pen-Testing Kit / DIY Tool Adoption Surge](https://dailydawn.dev/en/2026-04-26)
+  > DIY tool repo surges on GitHub as indie builders skip paid AI platforms
+- [2026-04-25 · ML Intern Prep Repo / DeepSeek V4 Criticism / AI Industry Consolidation](https://dailydawn.dev/en/2026-04-25)
+  > Hugging Face ML intern repo tops GitHub Trending as devs chase open AI roles
+- [2026-04-24 · Free Claude Code Access / AI Proxy User Demand / AI Code Tool Workarounds](https://dailydawn.dev/en/2026-04-24)
+  > Free Claude Code access repo tops GitHub Trending today
+
+[Full archive →](https://dailydawn.dev/en/archive)
+
+<!-- LATEST_ISSUES_END -->
+
 ---
 
 ## Why read it daily

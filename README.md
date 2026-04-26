@@ -12,6 +12,21 @@
 [![Latest zh](https://img.shields.io/badge/今日中文-zh%2F今日.md-orange)](./zh/)
 [![Latest en](https://img.shields.io/badge/Today%20EN-en%2Ftoday.md-orange)](./en/)
 
+<!-- LATEST_ISSUES_START -->
+
+## 最近 3 期日报
+
+- [2026-04-26 · 复刻式编程学习 / 黑客工具热度攀升 / ML实践导向学习](https://dailydawn.dev/zh/2026-04-26)
+  > 复刻式编程学习仓库登GitHub趋势，ML入门转向任务实践
+- [2026-04-25 · ML实习项目集登顶 / 开源ML工具热度 / 跨源AI项目联动](https://dailydawn.dev/zh/2026-04-25)
+  > HuggingFace ML实习项目集登GitHub趋势榜首
+- [2026-04-24 · 免费Claude Code工具 / 黑客工具热度飙升 / 闭源模型用户逃逸](https://dailydawn.dev/zh/2026-04-24)
+  > 免费Claude Code工具登GitHub趋势，黑客工具热度飙升
+
+[全部归档 →](https://dailydawn.dev/archive)
+
+<!-- LATEST_ISSUES_END -->
+
 ---
 
 ## 为什么值得每天看
