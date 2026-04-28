@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-04-28 · LLM skill-building tools / Open-source MoE adoption / Unshackled LLM access](https://dailydawn.dev/en/2026-04-28)
+  > Dual GitHub repos highlight LLM tool demand amid OpenAI-Microsoft split
 - [2026-04-27 · Job-Aligned Skill Tracking / Dev Employability Tools / Skill-Recruiter Integration](https://dailydawn.dev/en/2026-04-27)
   > Skill-tracking repo leads GitHub as devs prioritize role-specific upskilling
 - [2026-04-26 · DIY Core Tools Repo / Modular Pen-Testing Kit / DIY Tool Adoption Surge](https://dailydawn.dev/en/2026-04-26)
   > DIY tool repo surges on GitHub as indie builders skip paid AI platforms
-- [2026-04-25 · ML Intern Prep Repo / DeepSeek V4 Criticism / AI Industry Consolidation](https://dailydawn.dev/en/2026-04-25)
-  > Hugging Face ML intern repo tops GitHub Trending as devs chase open AI roles
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
