@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-04-29 · Workflow automation scripts / Compact LLM efficiency / GitHub alternative tools](https://dailydawn.dev/en/2026-04-29)
+  > Today’s GitHub Trending sees GitNexus repo gain 1607 stars for code repo management
 - [2026-04-28 · LLM skill-building tools / Open-source MoE adoption / Unshackled LLM access](https://dailydawn.dev/en/2026-04-28)
   > Dual GitHub repos highlight LLM tool demand amid OpenAI-Microsoft split
 - [2026-04-27 · Job-Aligned Skill Tracking / Dev Employability Tools / Skill-Recruiter Integration](https://dailydawn.dev/en/2026-04-27)
   > Skill-tracking repo leads GitHub as devs prioritize role-specific upskilling
-- [2026-04-26 · DIY Core Tools Repo / Modular Pen-Testing Kit / DIY Tool Adoption Surge](https://dailydawn.dev/en/2026-04-26)
-  > DIY tool repo surges on GitHub as indie builders skip paid AI platforms
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
