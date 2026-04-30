@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-04-30 · 结构化技能框架 / 开发者能力体系 / AI协作技能](https://dailydawn.dev/zh/2026-04-30)
+  > 结构化技能框架登GitHub榜首 开发者能力体系需求爆发
 - [2026-04-29 · 私有Git服务器工具 / 数据主权搜索热度 / 跨源验证开发者诉求](https://dailydawn.dev/zh/2026-04-29)
   > GitNexus登GitHub趋势 开发者自建代码托管工具
 - [2026-04-28 · 微软OpenAI协议终止 / Copilot付费政策调整 / 低成本AI工具需求爆发](https://dailydawn.dev/zh/2026-04-28)
   > 微软终止OpenAI独家分成 开源模型迎替代窗口
-- [2026-04-27 · AI技能集工具登顶 / DeepSeek-V4-Pro热度攀升 / AI落地场景转向](https://dailydawn.dev/zh/2026-04-27)
-  > AI技能集工具霸榜GitHub，大模型转向落地场景
 
 [全部归档 →](https://dailydawn.dev/archive)
 
