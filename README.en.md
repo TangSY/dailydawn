@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-01 · Nuclear policy shift impact / Rust terminal tool adoption / Silent code failure solutions](https://dailydawn.dev/en/2026-05-01)
+  > Belgium’s nuclear reversal sparks tech sector debate on energy reliability
 - [2026-04-30 · AI coding workflow guardrails / Open-source AirDrop alternative / Cross-source dev pain points](https://dailydawn.dev/en/2026-04-30)
   > mattpocock/skills tops GitHub Trending with AI coding workflow frameworks
 - [2026-04-29 · Workflow automation scripts / Compact LLM efficiency / GitHub alternative tools](https://dailydawn.dev/en/2026-04-29)
   > Today’s GitHub Trending sees GitNexus repo gain 1607 stars for code repo management
-- [2026-04-28 · LLM skill-building tools / Open-source MoE adoption / Unshackled LLM access](https://dailydawn.dev/en/2026-04-28)
-  > Dual GitHub repos highlight LLM tool demand amid OpenAI-Microsoft split
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
