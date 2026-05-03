@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-03 · Claude专属Agent编排平台 / Qwen3.6模型热度攀升 / AI Agent跨源需求爆发](https://dailydawn.dev/zh/2026-05-03)
+  > Claude专属Agent编排平台ruflo登GitHub趋势
 - [2026-05-02 · 量化交易智能体工具 / 交易类项目热度攀升 / 交易智能体跨源验证](https://dailydawn.dev/zh/2026-05-02)
   > 量化交易智能体工具登GitHub趋势 终端集成交易插件
 - [2026-05-01 · Zed 1.0 轻量编辑器 / DeepSeek-V4-Pro 模型 / Claude Code 计费争议](https://dailydawn.dev/zh/2026-05-01)
   > Zed 1.0 成 HN 榜首 开发者弃 VS Code转轻量编辑器
-- [2026-04-30 · 结构化技能框架 / 开发者能力体系 / AI协作技能](https://dailydawn.dev/zh/2026-04-30)
-  > 结构化技能框架登GitHub榜首 开发者能力体系需求爆发
 
 [全部归档 →](https://dailydawn.dev/archive)
 
