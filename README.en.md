@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-05 · TUI for DeepSeek V4 Pro / Kimi K2.6 coding lead / TUI-LLM cross-source surge](https://dailydawn.dev/en/2026-05-05)
+  > Today’s GitHub repos push TUI tools for open LLM model integration
 - [2026-05-04 · Niche Trading Agent Tools / OSINT Username Scanning / Lightweight Workflow Engines](https://dailydawn.dev/en/2026-05-04)
   > Three niche GitHub repos top Trending as devs prioritize specialized tools
 - [2026-05-03 · Modular Agent Orchestration / Open LLM Integration Tools / Cross-Source Agent Framework](https://dailydawn.dev/en/2026-05-03)
   > Dual agent orchestration repos top GitHub as devs shift from paid AI tools
-- [2026-05-02 · AI Trading Tools Surge / Retail FinTech Dev Demand / Rule-Based Agent Adoption](https://dailydawn.dev/en/2026-05-02)
-  > TradingAgents repo surges on GitHub as devs build AI stock tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
