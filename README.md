@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-07 · 终端AI编码工具 / AI隐私过滤工具 / DeepSeek生态爆发](https://dailydawn.dev/zh/2026-05-07)
+  > DeepSeek-TUI 登顶GitHub 终端AI编码工具成焦点
 - [2026-05-06 · AI技能图谱工具 / 终端AI学习工具 / 结构化技能拆解](https://dailydawn.dev/zh/2026-05-06)
   > 结构化AI技能框架登GitHub趋势 开发者技能图谱工具爆发
 - [2026-05-05 · TUI 终端工具爆发 / DeepSeek 模型领先 / 无负担交互崛起](https://dailydawn.dev/zh/2026-05-05)
   > TUI 工具登 GitHub 趋势 开发者转向高效终端交互
-- [2026-05-04 · 代码归属权工具 / 开发者隐私诉求 / 跨平台身份验证](https://dailydawn.dev/zh/2026-05-04)
-  > VS Code强制署名引抗议 开发者隐私工具登榜
 
 [全部归档 →](https://dailydawn.dev/archive)
 

@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-07 · DeepSeek-TUI terminal tools / AI privacy filtering tools / User-controlled open hardware](https://dailydawn.dev/en/2026-05-07)
+  > Valve releases Steam Controller CAD files for open hardware modding
 - [2026-05-06 · Claude Agent Orchestration Tools / Karpathy Coding Exercise Repos / Rust-Based Dev Tool Launches](https://dailydawn.dev/en/2026-05-06)
   > Indie devs launch Claude-focused agent orchestration tool on GitHub
 - [2026-05-05 · TUI for DeepSeek V4 Pro / Kimi K2.6 coding lead / TUI-LLM cross-source surge](https://dailydawn.dev/en/2026-05-05)
   > Today’s GitHub repos push TUI tools for open LLM model integration
-- [2026-05-04 · Niche Trading Agent Tools / OSINT Username Scanning / Lightweight Workflow Engines](https://dailydawn.dev/en/2026-05-04)
-  > Three niche GitHub repos top Trending as devs prioritize specialized tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
