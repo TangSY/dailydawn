@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-09 · DeepSeek反超Gemma / 开源模型热度倾斜 / DeepSeek生态爆发](https://dailydawn.dev/zh/2026-05-09)
+  > 开源大模型赛道格局生变 DeepSeek反超Gemma
 - [2026-05-08 · 金融AI合规工具集 / 垂直AI工具搜索热 / 跨源金融AI关注](https://dailydawn.dev/zh/2026-05-08)
   > Anthropic 开源金融服务工具集登 GitHub 趋势
 - [2026-05-07 · 终端AI编码工具 / AI隐私过滤工具 / DeepSeek生态爆发](https://dailydawn.dev/zh/2026-05-07)
   > DeepSeek-TUI 登顶GitHub 终端AI编码工具成焦点
-- [2026-05-06 · AI技能图谱工具 / 终端AI学习工具 / 结构化技能拆解](https://dailydawn.dev/zh/2026-05-06)
-  > 结构化AI技能框架登GitHub趋势 开发者技能图谱工具爆发
 
 [全部归档 →](https://dailydawn.dev/archive)
 

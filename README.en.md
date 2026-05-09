@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-09 · Google Privacy Restrictions / Meeting Productivity Tools / Cross-Source Privacy Backlash](https://dailydawn.dev/en/2026-05-09)
+  > Google reCAPTCHA blocks de-googled Android users sparking privacy backlash
 - [2026-05-08 · FinTech AI Document Tools / Sensitive Data Redaction AI / Vertical AI Workflow Demand](https://dailydawn.dev/en/2026-05-08)
   > Anthropic launches financial AI repo as indie builders target enterprise workflows
 - [2026-05-07 · DeepSeek-TUI terminal tools / AI privacy filtering tools / User-controlled open hardware](https://dailydawn.dev/en/2026-05-07)
   > Valve releases Steam Controller CAD files for open hardware modding
-- [2026-05-06 · Claude Agent Orchestration Tools / Karpathy Coding Exercise Repos / Rust-Based Dev Tool Launches](https://dailydawn.dev/en/2026-05-06)
-  > Indie devs launch Claude-focused agent orchestration tool on GitHub
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
