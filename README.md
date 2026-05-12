@@ -151,3 +151,9 @@ python scripts/main.py  # 跑一次，产出 zh/2026/今日.md + en/2026/今日.
 ## License
 
 MIT
+
+---
+
+## 友情链接
+
+- [LINUX DO](https://linux.do/)

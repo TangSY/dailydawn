@@ -151,3 +151,9 @@ python scripts/main.py  # One run produces zh/2026/today.md + en/2026/today.md
 ## License
 
 MIT
+
+---
+
+## Links
+
+- [LINUX DO](https://linux.do/)
