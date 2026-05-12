@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-12 · 本地AI代理框架 / 隐私工具需求 / 跨源AI工具爆发](https://dailydawn.dev/zh/2026-05-12)
+  > Hermes-Agent登GitHub趋势 隐身浏览器同步上榜
 - [2026-05-11 · AI金融合规工具 / 硬件认证反垄断 / 反云绑定工具需求](https://dailydawn.dev/zh/2026-05-11)
   > 硬件认证遭批垄断工具 开发者反云绑定情绪升温
 - [2026-05-10 · Agent 工程技能指南 / Agent 工程化搜索热 / 跨源 Agent 需求验证](https://dailydawn.dev/zh/2026-05-10)
   > AI Agent 工程技能指南登顶 GitHub 趋势
-- [2026-05-09 · DeepSeek反超Gemma / 开源模型热度倾斜 / DeepSeek生态爆发](https://dailydawn.dev/zh/2026-05-09)
-  > 开源大模型赛道格局生变 DeepSeek反超Gemma
 
 [全部归档 →](https://dailydawn.dev/archive)
 

@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-12 · Privacy-Focused Full Browser / Sensitive Data Protection Model / Self-Hosted User Control Tools](https://dailydawn.dev/en/2026-05-12)
+  > Privacy-focused CloakBrowser tops GitHub Trending as users reject data tracking
 - [2026-05-11 · Enterprise LLM Tooling / Open LLM Performance Lead / Self-Hosted AI Demand](https://dailydawn.dev/en/2026-05-11)
   > DeepSeek-V4-Pro outpaces Gemma-4 as enterprise LLM demand surges
 - [2026-05-10 · FinTech AI Agent Workflows / AI Coding Agent Tools / Production Agent Reliability](https://dailydawn.dev/en/2026-05-10)
   > GitHub repos focus on AI agent engineering skills for production workflows
-- [2026-05-09 · Google Privacy Restrictions / Meeting Productivity Tools / Cross-Source Privacy Backlash](https://dailydawn.dev/en/2026-05-09)
-  > Google reCAPTCHA blocks de-googled Android users sparking privacy backlash
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
