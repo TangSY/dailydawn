@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-14 · Long-context skill workflows / Rust-based personal AI tools / Indie builder tool demand](https://dailydawn.dev/en/2026-05-14)
+  > Rust-based personal AI tool tops GitHub Trending as long-context tools gain traction
 - [2026-05-13 · Structured Dev Skill Frameworks / AI Agent Memory Systems / AI-to-Earn Developer Tools](https://dailydawn.dev/en/2026-05-13)
   > AI-to-earn repos hit GitHub Trending as devs monetize model training
 - [2026-05-12 · Privacy-Focused Full Browser / Sensitive Data Protection Model / Self-Hosted User Control Tools](https://dailydawn.dev/en/2026-05-12)
   > Privacy-focused CloakBrowser tops GitHub Trending as users reject data tracking
-- [2026-05-11 · Enterprise LLM Tooling / Open LLM Performance Lead / Self-Hosted AI Demand](https://dailydawn.dev/en/2026-05-11)
-  > DeepSeek-V4-Pro outpaces Gemma-4 as enterprise LLM demand surges
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
