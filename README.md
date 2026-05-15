@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-15 · 类人化AI交互框架 / 自托管隐私工具 / 私有部署AI需求](https://dailydawn.dev/zh/2026-05-15)
+  > 类人化AI交互框架登顶GitHub 隐私工具同步上榜
 - [2026-05-14 · 工程师技能量化框架 / Qwen3.6模型热度 / AI代理私有部署](https://dailydawn.dev/zh/2026-05-14)
   > 工程师技能量化框架登顶GitHub 轻量AI代理工具同步上榜
 - [2026-05-13 · AI开发者变现工具 / AI变现搜索热 / 跨源AI盈利需求](https://dailydawn.dev/zh/2026-05-13)
   > AI盈利工具AiToEarn登GitHub 开发者变现需求爆发
-- [2026-05-12 · 本地AI代理框架 / 隐私工具需求 / 跨源AI工具爆发](https://dailydawn.dev/zh/2026-05-12)
-  > Hermes-Agent登GitHub趋势 隐身浏览器同步上榜
 
 [全部归档 →](https://dailydawn.dev/archive)
 
