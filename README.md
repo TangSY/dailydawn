@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-16 · Rust 技能框架登顶 / Rust 垂直工具爆发 / Rust 生态溢出验证](https://dailydawn.dev/zh/2026-05-16)
+  > Rust 垂直工具扎堆登 GitHub Trending 生态溢出效应显现
 - [2026-05-15 · 类人化AI交互框架 / 自托管隐私工具 / 私有部署AI需求](https://dailydawn.dev/zh/2026-05-15)
   > 类人化AI交互框架登顶GitHub 隐私工具同步上榜
 - [2026-05-14 · 工程师技能量化框架 / Qwen3.6模型热度 / AI代理私有部署](https://dailydawn.dev/zh/2026-05-14)
   > 工程师技能量化框架登顶GitHub 轻量AI代理工具同步上榜
-- [2026-05-13 · AI开发者变现工具 / AI变现搜索热 / 跨源AI盈利需求](https://dailydawn.dev/zh/2026-05-13)
-  > AI盈利工具AiToEarn登GitHub 开发者变现需求爆发
 
 [全部归档 →](https://dailydawn.dev/archive)
 

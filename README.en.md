@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-16 · Skill-mapping dev frameworks / Rust local AI tools / Cross-functional skill alignment](https://dailydawn.dev/en/2026-05-16)
+  > Skill-mapping GitHub repos top trending as devs align talent to projects
 - [2026-05-15 · Local humanoid AI framework / Local LLM fine-tuning tools / Private AI tool adoption](https://dailydawn.dev/en/2026-05-15)
   > Open-source humanoid AI framework tops GitHub as devs prioritize local control
 - [2026-05-14 · Long-context skill workflows / Rust-based personal AI tools / Indie builder tool demand](https://dailydawn.dev/en/2026-05-14)
   > Rust-based personal AI tool tops GitHub Trending as long-context tools gain traction
-- [2026-05-13 · Structured Dev Skill Frameworks / AI Agent Memory Systems / AI-to-Earn Developer Tools](https://dailydawn.dev/en/2026-05-13)
-  > AI-to-earn repos hit GitHub Trending as devs monetize model training
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
