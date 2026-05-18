@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-18 · OpenHuman private AI harness / Bun JS runtime lead / Cross-source indie tool demand](https://dailydawn.dev/en/2026-05-18)
+  > OpenHuman tops GitHub Trending as Bun reclaims JS runtime lead
 - [2026-05-17 · Local-control AI frameworks / Forced AI adoption backlash / Cross-source AI psychosis discourse](https://dailydawn.dev/en/2026-05-17)
   > Corporate AI psychosis debates erupt as new personal AI frameworks trend
 - [2026-05-16 · Skill-mapping dev frameworks / Rust local AI tools / Cross-functional skill alignment](https://dailydawn.dev/en/2026-05-16)
   > Skill-mapping GitHub repos top trending as devs align talent to projects
-- [2026-05-15 · Local humanoid AI framework / Local LLM fine-tuning tools / Private AI tool adoption](https://dailydawn.dev/en/2026-05-15)
-  > Open-source humanoid AI framework tops GitHub as devs prioritize local control
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
