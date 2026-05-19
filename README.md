@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-19 · 学术技能工具 / 隐私浏览器 / AI技能教程](https://dailydawn.dev/zh/2026-05-19)
+  > 学术技能框架登GitHub 隐身浏览器同步上榜
 - [2026-05-18 · OpenHuman开源AI工具 / 私有AI助手搜索热 / 跨平台AI工具热度](https://dailydawn.dev/zh/2026-05-18)
   > OpenHuman登GitHub榜首 Bun框架同步跻身趋势前列
 - [2026-05-17 · 个人AI框架登顶 / 小众模态模型热门 / 个人AI工具需求爆发](https://dailydawn.dev/zh/2026-05-17)
   > 个人AI超级智能框架登顶GitHub 模块化设计获认可
-- [2026-05-16 · Rust 技能框架登顶 / Rust 垂直工具爆发 / Rust 生态溢出验证](https://dailydawn.dev/zh/2026-05-16)
-  > Rust 垂直工具扎堆登 GitHub Trending 生态溢出效应显现
 
 [全部归档 →](https://dailydawn.dev/archive)
 

@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-19 · Academic skill workflow repos / Open-source note-taking tools / Skill-focused AI tooling](https://dailydawn.dev/en/2026-05-19)
+  > Academic skill repos top GitHub as devs target research workflows
 - [2026-05-18 · OpenHuman private AI harness / Bun JS runtime lead / Cross-source indie tool demand](https://dailydawn.dev/en/2026-05-18)
   > OpenHuman tops GitHub Trending as Bun reclaims JS runtime lead
 - [2026-05-17 · Local-control AI frameworks / Forced AI adoption backlash / Cross-source AI psychosis discourse](https://dailydawn.dev/en/2026-05-17)
   > Corporate AI psychosis debates erupt as new personal AI frameworks trend
-- [2026-05-16 · Skill-mapping dev frameworks / Rust local AI tools / Cross-functional skill alignment](https://dailydawn.dev/en/2026-05-16)
-  > Skill-mapping GitHub repos top trending as devs align talent to projects
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
