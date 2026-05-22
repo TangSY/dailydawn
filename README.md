@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-22 · AI工程技能仓库集群 / 多模态代码辅助模型 / AI工程实操需求爆发](https://dailydawn.dev/zh/2026-05-22)
+  > 开源AI工程技能仓库集群登GitHub 需求转向实操
 - [2026-05-21 · Claude本地代码图谱工具 / DeepSeek-V4-Pro模型热度 / Karpathy技能适配框架](https://dailydawn.dev/zh/2026-05-21)
   > 代码图谱工具登顶GitHub 适配Claude本地代码处理
 - [2026-05-20 · OpenHuman AI工具 / 低成本代码模型 / AI Agent开发集群](https://dailydawn.dev/zh/2026-05-20)
   > OpenHuman登顶GitHub AI Agent工具集群热度第一
-- [2026-05-19 · 学术技能工具 / 隐私浏览器 / AI技能教程](https://dailydawn.dev/zh/2026-05-19)
-  > 学术技能框架登GitHub 隐身浏览器同步上榜
 
 [全部归档 →](https://dailydawn.dev/archive)
 
