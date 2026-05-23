@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-23 · Code knowledge graph tools / Character AI model traction / Workflow-integrated AI tools](https://dailydawn.dev/en/2026-05-23)
+  > Anthropic launches official Claude plugins as CodeGraph leads GitHub Trending
 - [2026-05-22 · LLM coding skill datasets / AI agent workflow frameworks / Cross-source skill tool integration](https://dailydawn.dev/en/2026-05-22)
   > AI skill repos surge as devs target LLM coding error reduction
 - [2026-05-21 · Code visualization tools / AI e-commerce agents / Non-AI dev tool demand](https://dailydawn.dev/en/2026-05-21)
   > CodeGraph tops GitHub Trending as devs prioritize code visualization tools
-- [2026-05-20 · Agent memory AI stacks / Local reasoning tools / Cost-cutting LLM workflows](https://dailydawn.dev/en/2026-05-20)
-  > Agent memory tools dominate GitHub as indie devs prioritize LLM reasoning
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

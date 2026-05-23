@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-23 · 本地代码图谱工具 / AI代码隐私防护 / Claude官方插件生态](https://dailydawn.dev/zh/2026-05-23)
+  > 官方Claude插件目录上线 本地代码图谱工具获双认可
 - [2026-05-22 · AI工程技能仓库集群 / 多模态代码辅助模型 / AI工程实操需求爆发](https://dailydawn.dev/zh/2026-05-22)
   > 开源AI工程技能仓库集群登GitHub 需求转向实操
 - [2026-05-21 · Claude本地代码图谱工具 / DeepSeek-V4-Pro模型热度 / Karpathy技能适配框架](https://dailydawn.dev/zh/2026-05-21)
   > 代码图谱工具登顶GitHub 适配Claude本地代码处理
-- [2026-05-20 · OpenHuman AI工具 / 低成本代码模型 / AI Agent开发集群](https://dailydawn.dev/zh/2026-05-20)
-  > OpenHuman登顶GitHub AI Agent工具集群热度第一
 
 [全部归档 →](https://dailydawn.dev/archive)
 
