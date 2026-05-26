@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-26 · Token-reduction code tools / ECC Claude optimization / Cross-source cost mitigation](https://dailydawn.dev/en/2026-05-26)
+  > ECC Claude optimization tool tops GitHub as devs target token cost cuts
 - [2026-05-25 · Universal content parsing / Voice cloning models / Cross-source content tools](https://dailydawn.dev/en/2026-05-25)
   > Understand-Anything tops GitHub as devs prioritize universal content parsing
 - [2026-05-24 · Karpathy workflow Claude plugin / DeepSeek V4 Pro price undercut / Cross-source cost-sensitive dev tools](https://dailydawn.dev/en/2026-05-24)
   > DeepSeek locks in permanent V4 Pro discount undercuts GPT-4 Claude 3 pricing
-- [2026-05-23 · Code knowledge graph tools / Character AI model traction / Workflow-integrated AI tools](https://dailydawn.dev/en/2026-05-23)
-  > Anthropic launches official Claude plugins as CodeGraph leads GitHub Trending
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
