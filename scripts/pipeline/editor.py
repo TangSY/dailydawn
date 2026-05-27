@@ -53,6 +53,23 @@ SECTION_TITLES = {
 # 按顺序渲染的 expert bucket
 _EXPERT_ORDER = ("launch", "tech", "competition", "demand", "trend")
 
+# TL;DR 引用块的语言本地化前缀（H2 章节摘要）
+# 中文用全角冒号、英文用半角冒号，与 expert/editor prompt 保持一致。
+# postprocess 端的正则要同时识别这两种冒号变体。
+_TLDR_PREFIX = {"zh": "> TL;DR：", "en": "> TL;DR: "}
+
+
+def _format_h2_takeaway(takeaway: str, lang: str) -> str:
+    """把 LLM 输出的纯文本 takeaway 格式化为 blockquote TL;DR 行。"""
+    text = (takeaway or "").strip()
+    if not text:
+        return ""
+    # 去掉 LLM 偶发自带的前缀，避免 "> TL;DR：TL;DR：xxx"
+    text = re.sub(r"^TL;DR[：:]\s*", "", text, flags=re.IGNORECASE)
+    # 去结尾句号（中英文）
+    text = text.rstrip("。.")
+    return _TLDR_PREFIX[lang] + text
+
 
 def _strip_bullet_prefix(text: str) -> str:
     """去掉开头可能重复的 bullet 标记，避免模板拼接出现 '- - xxx'。"""
@@ -326,6 +343,11 @@ def _assemble_markdown(
     top = editor_output.get("top_signals", {}) or {}
     opener = (editor_output.get("opener") or "").strip()
     builds = editor_output.get("builds", {}) or {}
+    # H2 章节级 TL;DR：editor LLM 产出 5 个 expert bucket 的一句话摘要
+    # 用于详情页 H2 标题下方的摘要卡 + 首屏速览。LLM 漏字段时降级为空 dict。
+    bucket_takeaways = editor_output.get("bucket_takeaways") or {}
+    if not isinstance(bucket_takeaways, dict):
+        bucket_takeaways = {}
     today_2h = (builds.get("today_2h") or "").strip()
     weekend = (builds.get("weekend") or "").strip()
     this_week = (builds.get("this_week") or "").strip()
@@ -364,7 +386,12 @@ def _assemble_markdown(
     for bucket in _EXPERT_ORDER:
         title = t[bucket]
         body = expert_by_bucket.get(bucket, "") or f"_（{title} 段落生成失败）_"
-        parts.extend([f"## {title}", "", body, ""])
+        # H2 章节后注入 TL;DR 引用块（LLM 漏给该 bucket 的 takeaway 时跳过）
+        tldr = _format_h2_takeaway(bucket_takeaways.get(bucket, ""), lang)
+        if tldr:
+            parts.extend([f"## {title}", "", tldr, "", body, ""])
+        else:
+            parts.extend([f"## {title}", "", body, ""])
 
     parts.extend([
         "---",
