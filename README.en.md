@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
-- [2026-05-12 · Privacy-Focused Full Browser / Sensitive Data Protection Model / Self-Hosted User Control Tools](https://dailydawn.dev/en/2026-05-12)
-  > Privacy-focused CloakBrowser tops GitHub Trending as users reject data tracking
-- [2026-05-11 · Enterprise LLM Tooling / Open LLM Performance Lead / Self-Hosted AI Demand](https://dailydawn.dev/en/2026-05-11)
-  > DeepSeek-V4-Pro outpaces Gemma-4 as enterprise LLM demand surges
-- [2026-05-10 · FinTech AI Agent Workflows / AI Coding Agent Tools / Production Agent Reliability](https://dailydawn.dev/en/2026-05-10)
-  > GitHub repos focus on AI agent engineering skills for production workflows
+- [2026-05-27 · Deliberate AI code refactoring / Conversational LLM leadership / Cross-source slow coding traction](https://dailydawn.dev/en/2026-05-27)
+  > Regulatory actions target tech platforms as devs shift to deliberate AI coding
+- [2026-05-26 · Token-reduction code tools / ECC Claude optimization / Cross-source cost mitigation](https://dailydawn.dev/en/2026-05-26)
+  > ECC Claude optimization tool tops GitHub as devs target token cost cuts
+- [2026-05-25 · Universal content parsing / Voice cloning models / Cross-source content tools](https://dailydawn.dev/en/2026-05-25)
+  > Understand-Anything tops GitHub as devs prioritize universal content parsing
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

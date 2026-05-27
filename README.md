@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
-- [2026-05-12 · 本地AI代理框架 / 隐私工具需求 / 跨源AI工具爆发](https://dailydawn.dev/zh/2026-05-12)
-  > Hermes-Agent登GitHub趋势 隐身浏览器同步上榜
-- [2026-05-11 · AI金融合规工具 / 硬件认证反垄断 / 反云绑定工具需求](https://dailydawn.dev/zh/2026-05-11)
-  > 硬件认证遭批垄断工具 开发者反云绑定情绪升温
-- [2026-05-10 · Agent 工程技能指南 / Agent 工程化搜索热 / 跨源 Agent 需求验证](https://dailydawn.dev/zh/2026-05-10)
-  > AI Agent 工程技能指南登顶 GitHub 趋势
+- [2026-05-27 · 多AI代码理解工具 / AI代理性能优化 / 代码安全合规工具](https://dailydawn.dev/zh/2026-05-27)
+  > 多AI代码理解工具登顶GitHub 聚焦协作治理
+- [2026-05-26 · AI跨域伦理锚点 / 开源模型热度上涨 / 科技政策反向修正](https://dailydawn.dev/zh/2026-05-26)
+  > 梵蒂冈AI伦理通谕登顶HN 加州豁免Linux年龄验证
+- [2026-05-25 · 多模态代码理解工具 / 开发者流量焦虑 / 跨平台代码效率工具](https://dailydawn.dev/zh/2026-05-25)
+  > 多模态代码理解工具登顶GitHub 自学类仓库热度飙升
 
 [全部归档 →](https://dailydawn.dev/archive)
 
