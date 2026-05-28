@@ -179,6 +179,27 @@ _SIGNAL_PARA_EN = re.compile(
 # 条目分隔符：; 或 ； 紧跟 "[" 链接开头
 _SIGNAL_ITEM_SEP = re.compile(r"[;；]\s*(?=\[)")
 
+# H3 details 包装检测规则：
+#   - 含 "**🔍 信号**" 或 "**🔍 Signal**" 块的 H3 视为深度问题 → 折叠
+#   - 不含信号块的 H3（如 action_header 下的 "周末扩展构建"）→ 保留原样
+_H3_HAS_SIGNAL_ZH = re.compile(r"\*\*\s*🔍?\s*信号\s*\*\*\s*[：:]")
+_H3_HAS_SIGNAL_EN = re.compile(r"\*\*\s*🔍?\s*Signal\s*\*\*\s*[:：]", re.IGNORECASE)
+
+# 从「关键判断」/「Key call」段提取首句作为 TL;DR：
+#   - 命中后取分组 1（标记后到首个句末标点的内容）
+#   - 句末标点：中文 "。！？"，英文 ".!?"（不含逗号，避免截得太短）
+_KEY_CALL_ZH = re.compile(
+    r"\*\*\s*关键判断\s*\*\*\s*[：:]\s*([^\n。！？]+)(?:[。！？]|\Z)"
+)
+_KEY_CALL_EN = re.compile(
+    r"\*\*\s*Key\s+call\s*\*\*\s*[:：]\s*([^\n.!?]+)(?:[.!?]|\Z)",
+    re.IGNORECASE,
+)
+
+# TL;DR 最长字符数：超出截断 + "..."，避免 summary 过长撑破视觉布局
+_TLDR_MAX_CHARS = 80
+_TLDR_PREFIX_INLINE = {"zh": "TL;DR：", "en": "TL;DR: "}
+
 
 def _fix_time_stutter(markdown: str, lang: str) -> str:
     """修时间叠词：过去 N 天前 → N 天前；in the past N days ago → N days ago"""
@@ -218,6 +239,111 @@ def _downgrade_h3_today(h3_line: str, lang: str) -> str:
     for old, new in _EN_TODAY_DOWNGRADE.items():
         out = re.sub(re.escape(old), new, out, count=1, flags=re.IGNORECASE)
     return out
+
+
+def _extract_tldr_from_h3(body: str, lang: str) -> str:
+    """
+    从 H3 正文中提取「关键判断 / Key call」首句作为 TL;DR。
+    截断到 _TLDR_MAX_CHARS，避免 summary 过长。无法提取时返回空字符串。
+    """
+    pat = _KEY_CALL_ZH if lang == "zh" else _KEY_CALL_EN
+    m = pat.search(body)
+    if not m:
+        return ""
+    text = m.group(1).strip()
+    # 去尾部常见标点（裁剪后可能残留逗号/分号）
+    text = text.rstrip("，,；; ")
+    if not text:
+        return ""
+    if len(text) > _TLDR_MAX_CHARS:
+        text = text[:_TLDR_MAX_CHARS].rstrip() + "..."
+    return text
+
+
+def _wrap_h3_in_details(markdown: str, lang: str) -> str:
+    """
+    把每个含 "**🔍 信号**" 块的 H3 包装为可折叠 <details>：
+
+        <details>
+        <summary><strong>原 H3 标题</strong> — TL;DR：从关键判断首句提取</summary>
+
+        原 H3 正文（不含标题行，因为已注入 summary）
+
+        </details>
+
+    判断规则：
+      - 含信号块 → 折叠（expert agent 输出的所有深度问题 H3）
+      - 不含信号块 → 保留（action_header 下的短 H3）
+
+    边界处理：
+      - 遇到 H2 (## )、--- 分隔符、文件末时切断当前 H3 块
+      - 切断的分隔符保留在 details 之外（避免视觉错乱）
+      - TL;DR 提取失败时 summary 仅显示加粗标题
+      - 幂等：已包装 <details> 的内容不会重复包装（按 H3 起始检测）
+
+    GitHub / 网站 / 邮件三端渲染策略：
+      - GitHub：原生折叠
+      - 网站：marked 透传 + CSS 美化
+      - 邮件：src/lib/email-digest.ts 在 HTML 层剥离 <details> 改造为摘要版
+    """
+    has_signal = _H3_HAS_SIGNAL_ZH if lang == "zh" else _H3_HAS_SIGNAL_EN
+
+    lines = markdown.split("\n")
+    n = len(lines)
+
+    # 收集所有 H3 起始行号
+    h3_starts: list[int] = [i for i, ln in enumerate(lines) if ln.startswith("### ")]
+    if not h3_starts:
+        return markdown
+
+    # 计算每个 H3 块的边界：[start, end)
+    # end = 下一个 H3 / H2 / --- 分隔符 / 文末（取最近的）
+    blocks: list[tuple[int, int, str]] = []  # (start, end, title)
+    for idx, start in enumerate(h3_starts):
+        next_h3 = h3_starts[idx + 1] if idx + 1 < len(h3_starts) else n
+        end = next_h3
+        for j in range(start + 1, next_h3):
+            ln = lines[j]
+            if ln.startswith("## ") or ln.startswith("---"):
+                end = j
+                break
+        title = lines[start][4:].strip()  # 去掉 "### " 前缀
+        blocks.append((start, end, title))
+
+    # 自底向上替换，避免索引错乱
+    for start, end, title in reversed(blocks):
+        body_lines = lines[start + 1 : end]
+        body = "\n".join(body_lines)
+
+        # 跳过不含信号块的 H3（如 action_header 下的短 H3）
+        if not has_signal.search(body):
+            continue
+
+        # 提取 TL;DR
+        tldr = _extract_tldr_from_h3(body, lang)
+        if tldr:
+            summary = f"<summary><strong>{title}</strong> — {_TLDR_PREFIX_INLINE[lang]}{tldr}</summary>"
+        else:
+            summary = f"<summary><strong>{title}</strong></summary>"
+
+        # 去掉 body 首尾空行（让 details 内部紧凑）
+        body_stripped = body.strip("\n")
+
+        # </details> 后追加空行：GitHub Flavored Markdown 要求 raw HTML 块
+        # 前后空行才能让后续 markdown（如 ##/---）正常解析。
+        # 多余的空行 marked 渲染时会被合并，不会引起视觉问题。
+        wrapped = [
+            "<details>",
+            summary,
+            "",
+            body_stripped,
+            "",
+            "</details>",
+            "",
+        ]
+        lines[start:end] = wrapped
+
+    return "\n".join(lines)
 
 
 def _validate_time_consistency(markdown: str, lang: str) -> str:
@@ -478,10 +604,14 @@ def run_editor(
     #   2. 🔍 信号段内多条目硬换行（避免 "；[link]" inline 挤成一段）
     #   3. 修时间叠词病句（"过去 N 天前"）
     #   4. 降级 h3-body 时间矛盾（"今天发布 X" + 正文"N 天前"）
+    #   5. 包装 H3 深度问题为可折叠 <details>（GitHub 原生折叠 + 网站 CSS 美化）
+    #      必须放在 _validate_time_consistency 之后：后者依赖 "### " 行号索引扫描，
+    #      包装后行结构变化会破坏其逻辑。
     markdown = _split_verdict_counter(markdown, lang)
     markdown = _split_signal_items(markdown, lang)
     markdown = _fix_time_stutter(markdown, lang)
     markdown = _validate_time_consistency(markdown, lang)
+    markdown = _wrap_h3_in_details(markdown, lang)
 
     # 首页归档摘要：LLM 失败或未产出时 None，Web 层 webhook 写 null 不覆盖旧值
     tagline_raw = editor_output.get("tagline") if isinstance(editor_output, dict) else None
