@@ -196,8 +196,10 @@ _KEY_CALL_EN = re.compile(
     re.IGNORECASE,
 )
 
-# TL;DR 最长字符数：超出截断 + "..."，避免 summary 过长撑破视觉布局
-_TLDR_MAX_CHARS = 80
+# TL;DR 最长字符数：仅作 LLM 失控时的兜底（如关键判断段缺句末标点导致正则取到整段）。
+# 正常情况下首句正则 [^\n。！？]+ 已截到句末，长度通常 50-100 字。
+# 阈值定 150 字而非更小：80 字会把"做 A，同时做 B"这类长动作描述切掉关键名词。
+_TLDR_MAX_CHARS = 150
 _TLDR_PREFIX_INLINE = {"zh": "TL;DR：", "en": "TL;DR: "}
 
 
