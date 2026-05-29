@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-29 · AI-free search growth / LLM factual gaps / User-centric tool surge](https://dailydawn.dev/en/2026-05-29)
+  > AI fatigue drives 28% DuckDuckGo surge as users reject forced AI
 - [2026-05-28 · Zero-cost domain tools / Non-AI workflow tools / Cost-cutting dev tools](https://dailydawn.dev/en/2026-05-28)
   > FreeDomain tops GitHub as devs chase zero-cost domain tools
 - [2026-05-27 · Deliberate AI code refactoring / Conversational LLM leadership / Cross-source slow coding traction](https://dailydawn.dev/en/2026-05-27)
   > Regulatory actions target tech platforms as devs shift to deliberate AI coding
-- [2026-05-26 · Token-reduction code tools / ECC Claude optimization / Cross-source cost mitigation](https://dailydawn.dev/en/2026-05-26)
-  > ECC Claude optimization tool tops GitHub as devs target token cost cuts
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

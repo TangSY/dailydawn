@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-05-29 · AI短视频变现工具 / 文本转视频模型 / 实用型AI工具集群](https://dailydawn.dev/zh/2026-05-29)
+  > AI短视频工具登顶GitHub 独立开发者锁定三大变现路径
 - [2026-05-28 · 多模态内容解析工具 / 非AI搜索流量增长 / AI过载解决方案](https://dailydawn.dev/zh/2026-05-28)
   > 多模态解析工具登顶GitHub 非AI搜索流量暴涨28%
 - [2026-05-27 · 多AI代码理解工具 / AI代理性能优化 / 代码安全合规工具](https://dailydawn.dev/zh/2026-05-27)
   > 多AI代码理解工具登顶GitHub 聚焦协作治理
-- [2026-05-26 · AI跨域伦理锚点 / 开源模型热度上涨 / 科技政策反向修正](https://dailydawn.dev/zh/2026-05-26)
-  > 梵蒂冈AI伦理通谕登顶HN 加州豁免Linux年龄验证
 
 [全部归档 →](https://dailydawn.dev/archive)
 
