@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-05-30 · AI short video tools / LLM content refinement / Creator-focused AI tools](https://dailydawn.dev/en/2026-05-30)
+  > Indie tools target LLM generic content gaps to capture creator users
 - [2026-05-29 · AI-free search growth / LLM factual gaps / User-centric tool surge](https://dailydawn.dev/en/2026-05-29)
   > AI fatigue drives 28% DuckDuckGo surge as users reject forced AI
 - [2026-05-28 · Zero-cost domain tools / Non-AI workflow tools / Cost-cutting dev tools](https://dailydawn.dev/en/2026-05-28)
   > FreeDomain tops GitHub as devs chase zero-cost domain tools
-- [2026-05-27 · Deliberate AI code refactoring / Conversational LLM leadership / Cross-source slow coding traction](https://dailydawn.dev/en/2026-05-27)
-  > Regulatory actions target tech platforms as devs shift to deliberate AI coding
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
