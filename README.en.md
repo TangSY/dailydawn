@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-01 · Markdown tool adoption / Indie video model use / Plaintext workflow shift](https://dailydawn.dev/en/2026-06-01)
+  > Microsoft Markdown tool tops GitHub as devs shift to plaintext workflows
 - [2026-05-31 · AI Agent Workflow Tools / Tokenizer-Free TTS / Indie Dev Productivity](https://dailydawn.dev/en/2026-05-31)
   > GitHub today sees surge in AI agent workflow tools for indie devs
 - [2026-05-30 · AI short video tools / LLM content refinement / Creator-focused AI tools](https://dailydawn.dev/en/2026-05-30)
   > Indie tools target LLM generic content gaps to capture creator users
-- [2026-05-29 · AI-free search growth / LLM factual gaps / User-centric tool surge](https://dailydawn.dev/en/2026-05-29)
-  > AI fatigue drives 28% DuckDuckGo surge as users reject forced AI
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
