@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-02 · 自适应爬虫工具 / 隐私合规热议 / 本地开发工具](https://dailydawn.dev/zh/2026-06-02)
+  > 开源隐私工具受关注 自适应爬虫登GitHub热榜
 - [2026-06-01 · DeepSeek-V4-Pro 代码LLM / Anthropic 替代 OpenAI / 轻量化工具需求爆发](https://dailydawn.dev/zh/2026-06-01)
   > DeepSeek-V4-Pro 蚕食 CodeLlama 开发者份额
 - [2026-05-31 · 轻量化离线文档工具 / 新兴市场开发者工具 / 本地替代云服务工具](https://dailydawn.dev/zh/2026-05-31)
   > 微软MarkItDown登顶GitHub 聚焦轻量化文档协作
-- [2026-05-30 · 收藏资产管理工具 / 非AI议题热度飙升 / 小众服务需求爆发](https://dailydawn.dev/zh/2026-05-30)
-  > 科技圈注意力转向现实议题 小众收藏工具需求凸显
 
 [全部归档 →](https://dailydawn.dev/archive)
 
