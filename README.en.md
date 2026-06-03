@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-03 · AI Fundraising Agent Tools / LLM Cost Reduction Tech / Niche AI Agent Verticalization](https://dailydawn.dev/en/2026-06-03)
+  > AI fundraising agents launch to cut indie founder outreach time
 - [2026-06-02 · Adaptive Web Scraping Tools / Local LLM Data Pipelines / Indie Dev Infrastructure](https://dailydawn.dev/en/2026-06-02)
   > Adaptive web scrapers top GitHub as indie devs scale data crawls
 - [2026-06-01 · Markdown tool adoption / Indie video model use / Plaintext workflow shift](https://dailydawn.dev/en/2026-06-01)
   > Microsoft Markdown tool tops GitHub as devs shift to plaintext workflows
-- [2026-05-31 · AI Agent Workflow Tools / Tokenizer-Free TTS / Indie Dev Productivity](https://dailydawn.dev/en/2026-05-31)
-  > GitHub today sees surge in AI agent workflow tools for indie devs
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
