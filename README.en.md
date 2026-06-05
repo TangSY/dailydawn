@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-05 · LLM Token Compression / AI Skill Gap Risk / Dual-Sided AI Tools](https://dailydawn.dev/en/2026-06-05)
+  > Berkeley CS fails jump 20% as AI erodes foundational math skills
 - [2026-06-04 · Token Compression Tools / Multimodal Object Detection / Cross-Source Multimodal Demand](https://dailydawn.dev/en/2026-06-04)
   > Multimodal LLMs edge out closed models as devs prioritize cross-format support
 - [2026-06-03 · AI Fundraising Agent Tools / LLM Cost Reduction Tech / Niche AI Agent Verticalization](https://dailydawn.dev/en/2026-06-03)
   > AI fundraising agents launch to cut indie founder outreach time
-- [2026-06-02 · Adaptive Web Scraping Tools / Local LLM Data Pipelines / Indie Dev Infrastructure](https://dailydawn.dev/en/2026-06-02)
-  > Adaptive web scrapers top GitHub as indie devs scale data crawls
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
