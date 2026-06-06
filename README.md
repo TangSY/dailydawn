@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-06 · 轻量型大模型崛起 / 本地部署工具受宠 / 低资源AI需求爆发](https://dailydawn.dev/zh/2026-06-06)
+  > 轻量型大模型占HuggingFace热度前五四席 开发者转向本地部署
 - [2026-06-05 · 代码Agent优化工具 / AI成本管控需求 / AI Agent落地细分](https://dailydawn.dev/zh/2026-06-05)
   > AI Agent工具聚焦垂直场景 代码优化类项目异军突起
 - [2026-06-04 · LLM输入压缩工具 / Agent成本优化 / 确定性工具需求](https://dailydawn.dev/zh/2026-06-04)
   > LLM输入压缩工具登顶GitHub 降本成Agent落地核心
-- [2026-06-03 · AI Agent可视化工具 / 新兴市场文档工具 / 开源加密工具](https://dailydawn.dev/zh/2026-06-03)
-  > Hermes WebUI登顶GitHub 独立开发者抢滩AI Agent可视化
 
 [全部归档 →](https://dailydawn.dev/archive)
 
