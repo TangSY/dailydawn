@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-07 · 开源Notebook LM替代 / 大模型本地化部署 / AI Agent工具适配](https://dailydawn.dev/zh/2026-06-07)
+  > open-notebook登GitHub热榜 替代Notebook LM本地化交互
 - [2026-06-06 · 轻量型大模型崛起 / 本地部署工具受宠 / 低资源AI需求爆发](https://dailydawn.dev/zh/2026-06-06)
   > 轻量型大模型占HuggingFace热度前五四席 开发者转向本地部署
 - [2026-06-05 · 代码Agent优化工具 / AI成本管控需求 / AI Agent落地细分](https://dailydawn.dev/zh/2026-06-05)
   > AI Agent工具聚焦垂直场景 代码优化类项目异军突起
-- [2026-06-04 · LLM输入压缩工具 / Agent成本优化 / 确定性工具需求](https://dailydawn.dev/zh/2026-06-04)
-  > LLM输入压缩工具登顶GitHub 降本成Agent落地核心
 
 [全部归档 →](https://dailydawn.dev/archive)
 
