@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-08 · AI Agent Vectorization Tools / AI Agent Visual Context / Indie Builder AI Scaling](https://dailydawn.dev/en/2026-06-08)
+  > AI agent skill repos dominate GitHub as indie builders scale solo ops
 - [2026-06-07 · Custom LLM Notebook Tools / DeepSeek-V4-Pro Leadership / LLM Cost Efficiency Shift](https://dailydawn.dev/en/2026-06-07)
   > DeepSeek-V4-Pro leads HuggingFace as devs chase 40% inference cuts
 - [2026-06-06 · Open Notebook Tools / Self-Hosted Workflows / Dev Data Control](https://dailydawn.dev/en/2026-06-06)
   > Open-source notebook tools top GitHub as devs shift to collaborative workflows
-- [2026-06-05 · LLM Token Compression / AI Skill Gap Risk / Dual-Sided AI Tools](https://dailydawn.dev/en/2026-06-05)
-  > Berkeley CS fails jump 20% as AI erodes foundational math skills
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
