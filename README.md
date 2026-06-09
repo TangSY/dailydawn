@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-09 · 跨平台AI调研工具 / AI调研模型热度上涨 / 开发者效率工具需求](https://dailydawn.dev/zh/2026-06-09)
+  > last30days-skill登顶GitHub 跨平台AI调研替代人工
 - [2026-06-08 · 轻量向量工具崛起 / 开发者工具需求爆发 / AI工具轻量化趋势](https://dailydawn.dev/zh/2026-06-08)
   > turbovec登GitHub热榜 抢食FAISS中小场景市场
 - [2026-06-07 · 开源Notebook LM替代 / 大模型本地化部署 / AI Agent工具适配](https://dailydawn.dev/zh/2026-06-07)
   > open-notebook登GitHub热榜 替代Notebook LM本地化交互
-- [2026-06-06 · 轻量型大模型崛起 / 本地部署工具受宠 / 低资源AI需求爆发](https://dailydawn.dev/zh/2026-06-06)
-  > 轻量型大模型占HuggingFace热度前五四席 开发者转向本地部署
 
 [全部归档 →](https://dailydawn.dev/archive)
 
