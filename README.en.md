@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-10 · Rust vector index leadership / Self-hosted AI tools / Cross-source indie builder demand](https://dailydawn.dev/en/2026-06-10)
+  > Rust vector indexes outpace Python tools as self-hosted AI gains traction
 - [2026-06-09 · Skill-Tracking Dev Tools / Vectorization Tool Adoption / Career Resilience Tech](https://dailydawn.dev/en/2026-06-09)
   > Skill-tracking repos top GitHub as devs audit AI career risks
 - [2026-06-08 · AI Agent Vectorization Tools / AI Agent Visual Context / Indie Builder AI Scaling](https://dailydawn.dev/en/2026-06-08)
   > AI agent skill repos dominate GitHub as indie builders scale solo ops
-- [2026-06-07 · Custom LLM Notebook Tools / DeepSeek-V4-Pro Leadership / LLM Cost Efficiency Shift](https://dailydawn.dev/en/2026-06-07)
-  > DeepSeek-V4-Pro leads HuggingFace as devs chase 40% inference cuts
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
