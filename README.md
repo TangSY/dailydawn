@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
-- [2026-05-29 · AI短视频变现工具 / 文本转视频模型 / 实用型AI工具集群](https://dailydawn.dev/zh/2026-05-29)
-  > AI短视频工具登顶GitHub 独立开发者锁定三大变现路径
-- [2026-05-28 · 多模态内容解析工具 / 非AI搜索流量增长 / AI过载解决方案](https://dailydawn.dev/zh/2026-05-28)
-  > 多模态解析工具登顶GitHub 非AI搜索流量暴涨28%
-- [2026-05-27 · 多AI代码理解工具 / AI代理性能优化 / 代码安全合规工具](https://dailydawn.dev/zh/2026-05-27)
-  > 多AI代码理解工具登顶GitHub 聚焦协作治理
+- [2026-06-10 · 苹果Gemini抢OpenAI份额 / 多模态定位模型升温 / 多模型兼容工具爆发](https://dailydawn.dev/zh/2026-06-10)
+  > 苹果Gemini架构蚕食OpenAI移动端与企业级市场
+- [2026-06-09 · 跨平台AI调研工具 / AI调研模型热度上涨 / 开发者效率工具需求](https://dailydawn.dev/zh/2026-06-09)
+  > last30days-skill登顶GitHub 跨平台AI调研替代人工
+- [2026-06-08 · 轻量向量工具崛起 / 开发者工具需求爆发 / AI工具轻量化趋势](https://dailydawn.dev/zh/2026-06-08)
+  > turbovec登GitHub热榜 抢食FAISS中小场景市场
 
 [全部归档 →](https://dailydawn.dev/archive)
 

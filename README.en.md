@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
-- [2026-05-29 · AI-free search growth / LLM factual gaps / User-centric tool surge](https://dailydawn.dev/en/2026-05-29)
-  > AI fatigue drives 28% DuckDuckGo surge as users reject forced AI
-- [2026-05-28 · Zero-cost domain tools / Non-AI workflow tools / Cost-cutting dev tools](https://dailydawn.dev/en/2026-05-28)
-  > FreeDomain tops GitHub as devs chase zero-cost domain tools
-- [2026-05-27 · Deliberate AI code refactoring / Conversational LLM leadership / Cross-source slow coding traction](https://dailydawn.dev/en/2026-05-27)
-  > Regulatory actions target tech platforms as devs shift to deliberate AI coding
+- [2026-06-10 · Rust vector index leadership / Self-hosted AI tools / Cross-source indie builder demand](https://dailydawn.dev/en/2026-06-10)
+  > Rust vector indexes outpace Python tools as self-hosted AI gains traction
+- [2026-06-09 · Skill-Tracking Dev Tools / Vectorization Tool Adoption / Career Resilience Tech](https://dailydawn.dev/en/2026-06-09)
+  > Skill-tracking repos top GitHub as devs audit AI career risks
+- [2026-06-08 · AI Agent Vectorization Tools / AI Agent Visual Context / Indie Builder AI Scaling](https://dailydawn.dev/en/2026-06-08)
+  > AI agent skill repos dominate GitHub as indie builders scale solo ops
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
