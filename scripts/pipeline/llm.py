@@ -10,6 +10,10 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 PROMPTS_DIR = Path(__file__).parent.parent.parent / "prompts"
 
+# LLM 调用容错：指数退避重试，覆盖服务端瞬时不可用（如 Connection reset by peer）。
+# 5 次尝试、退避序列约 2/4/8/16s（封顶 60s），可跨过数十秒级的服务端抖动窗口。
+_RETRY = retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=2, max=60))
+
 
 def _require_env(name: str) -> str:
     value = os.environ.get(name)
@@ -26,6 +30,8 @@ def get_client() -> OpenAI:
     return OpenAI(
         api_key=_require_env("LLM_API_KEY"),
         base_url=_require_env("LLM_BASE_URL"),
+        timeout=60.0,
+        max_retries=0,  # 重试统一交给 tenacity（_RETRY），避免双层退避叠加
     )
 
 
@@ -46,7 +52,7 @@ def _extract_json(text: str) -> str:
     return match.group(1) if match else text
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, max=20))
+@_RETRY
 def call_json(
     system: str,
     user: str,
@@ -85,7 +91,7 @@ def call_json(
     return json.loads(_extract_json(content))
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, max=20))
+@_RETRY
 def call_text(
     system: str,
     user: str,
