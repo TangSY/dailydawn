@@ -66,10 +66,27 @@ jobs:
           git add zh/ en/ meta/ og/ README.md README.en.md
           if git diff --staged --quiet; then
             echo "No new content (likely no change)."
-          else
-            git commit -m "chore: daily report $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "chore: daily report $(date -u +%Y-%m-%d)"
+          # push 兜底：远端被外部/并发推进时（non-fast-forward），rebase 到最新 main 后重试。
+          # 日报产物按日期命名，与外部改动（如脚本/配置）几乎不重叠，rebase 通常零冲突；
+          # 万一真冲突则 abort 并报错退出，绝不静默选边覆盖（人工介入）。
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); rebasing onto origin/main..."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "::error::Rebase hit a conflict; aborting. Manual intervention required."
+              exit 1
+            fi
+          done
+          echo "::error::git push still failing after 5 attempts."
+          exit 1
 
       - name: Notify web layer
         if: success()
