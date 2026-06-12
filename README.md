@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-12 · AI Agent技能框架 / AI内容合规工具 / 轻量Agent运行环境](https://dailydawn.dev/zh/2026-06-12)
+  > AI Agent技能框架标准化 多场景落地工具齐登热榜
 - [2026-06-11 · 苹果官方容器工具 / Claude条款规避服务 / AI Agent容器化部署](https://dailydawn.dev/zh/2026-06-11)
   > 苹果官方容器工具蚕食Docker苹果硅轻量场景
 - [2026-06-10 · 苹果Gemini抢OpenAI份额 / 多模态定位模型升温 / 多模型兼容工具爆发](https://dailydawn.dev/zh/2026-06-10)
   > 苹果Gemini架构蚕食OpenAI移动端与企业级市场
-- [2026-06-09 · 跨平台AI调研工具 / AI调研模型热度上涨 / 开发者效率工具需求](https://dailydawn.dev/zh/2026-06-09)
-  > last30days-skill登顶GitHub 跨平台AI调研替代人工
 
 [全部归档 →](https://dailydawn.dev/archive)
 

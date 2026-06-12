@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-12 · Niche AI Agent Repos / Cross-Domain Visual Mapping / Local Workflow Optimization](https://dailydawn.dev/en/2026-06-12)
+  > Niche AI agent repos narrow star gap with general-purpose leader
 - [2026-06-11 · Apple silicon container tools / Visual localization models / AI agent skill repos](https://dailydawn.dev/en/2026-06-11)
   > Apple’s Swift container tool outperforms Docker on M-series Macs
 - [2026-06-10 · Rust vector index leadership / Self-hosted AI tools / Cross-source indie builder demand](https://dailydawn.dev/en/2026-06-10)
   > Rust vector indexes outpace Python tools as self-hosted AI gains traction
-- [2026-06-09 · Skill-Tracking Dev Tools / Vectorization Tool Adoption / Career Resilience Tech](https://dailydawn.dev/en/2026-06-09)
-  > Skill-tracking repos top GitHub as devs audit AI career risks
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
