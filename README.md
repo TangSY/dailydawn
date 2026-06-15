@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-15 · IPTV开源聚合项目 / 非AI工具需求回升 / 开源性价比趋势](https://dailydawn.dev/zh/2026-06-15)
+  > iptv-org/iptv登GitHub热榜 成今日最受关注开源项目
 - [2026-06-14 · AI编码Agent技能模块 / AI中转服务破局 / Agent技能工具赛道](https://dailydawn.dev/zh/2026-06-14)
   > Anthropic模型受限 开源AI阵营抢食企业级市场
 - [2026-06-13 · Agent技能框架缺管控 / 无审查大模型升温 / Agent风险管控缺口](https://dailydawn.dev/zh/2026-06-13)
   > AI Agent风险事件倒逼行业补全管控机制
-- [2026-06-12 · AI Agent技能框架 / AI内容合规工具 / 轻量Agent运行环境](https://dailydawn.dev/zh/2026-06-12)
-  > AI Agent技能框架标准化 多场景落地工具齐登热榜
 
 [全部归档 →](https://dailydawn.dev/archive)
 

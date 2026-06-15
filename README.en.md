@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-15 · IPTV community repo leadership / Visual localization model demand / Non-AI tool adoption surge](https://dailydawn.dev/en/2026-06-15)
+  > IPTV community repo surges to top GitHub Trending today
 - [2026-06-14 · AI Agent Skill Frameworks / Open-Source Coding Models / AI Risk Mitigation Tools](https://dailydawn.dev/en/2026-06-14)
   > Regulatory crackdown shifts enterprise AI spend to OpenAI overnight
 - [2026-06-13 · Uncensored Qwen3.6-35B LLM / Kimi K2.7-Code efficiency / Self-hosted AI tools](https://dailydawn.dev/en/2026-06-13)
   > Uncensored Qwen3.6-35B poaches closed AI’s privacy-focused users
-- [2026-06-12 · Niche AI Agent Repos / Cross-Domain Visual Mapping / Local Workflow Optimization](https://dailydawn.dev/en/2026-06-12)
-  > Niche AI agent repos narrow star gap with general-purpose leader
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
