@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-17 · IPTV repo leadership / AI model inflexibility complaints / AI crowdfunding tool demand](https://dailydawn.dev/en/2026-06-17)
+  > Fundraisly leads AI crowdfunding tools as founders skip manual outreach
 - [2026-06-16 · Agent-Reach AI Infra / NocoBase Non-AI Growth / Non-AI Tool Dominance](https://dailydawn.dev/en/2026-06-16)
   > Agent-Reach tops GitHub Trending as devs build cross-platform AI tools
 - [2026-06-15 · IPTV community repo leadership / Visual localization model demand / Non-AI tool adoption surge](https://dailydawn.dev/en/2026-06-15)
   > IPTV community repo surges to top GitHub Trending today
-- [2026-06-14 · AI Agent Skill Frameworks / Open-Source Coding Models / AI Risk Mitigation Tools](https://dailydawn.dev/en/2026-06-14)
-  > Regulatory crackdown shifts enterprise AI spend to OpenAI overnight
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
