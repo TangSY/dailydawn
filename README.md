@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-18 · 技能框架工具 / 细分场景筹款 / 垂直化AI工具](https://dailydawn.dev/zh/2026-06-18)
+  > 技能框架工具登顶 GitHub 抢走同赛道30%流量
 - [2026-06-17 · 非AI开源项目热榜登顶 / 长上下文LLM搜索升温 / 邮件营销低成本工具需求](https://dailydawn.dev/zh/2026-06-17)
   > 开源大模型垂直优化加速 商业工具抢食传统服务商
 - [2026-06-16 · AI代理可复用模块 / 多模态开发热度 / AI代理落地工具](https://dailydawn.dev/zh/2026-06-16)
   > Agent-Reach登GitHub热榜 3项AI代理功能可直接复用
-- [2026-06-15 · IPTV开源聚合项目 / 非AI工具需求回升 / 开源性价比趋势](https://dailydawn.dev/zh/2026-06-15)
-  > iptv-org/iptv登GitHub热榜 成今日最受关注开源项目
 
 [全部归档 →](https://dailydawn.dev/archive)
 
