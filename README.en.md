@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-19 · Local code memory tools / Mid-tier LLM adoption / Cost-focused AI infra](https://dailydawn.dev/en/2026-06-19)
+  > Codebase memory tools slash indie dev AI token costs by 99%
 - [2026-06-18 · AI skill framework tools / Open-source LLM preference / Task-focused AI productivity](https://dailydawn.dev/en/2026-06-18)
   > Three GitHub repos top trends for AI skill and workflow tools
 - [2026-06-17 · IPTV repo leadership / AI model inflexibility complaints / AI crowdfunding tool demand](https://dailydawn.dev/en/2026-06-17)
   > Fundraisly leads AI crowdfunding tools as founders skip manual outreach
-- [2026-06-16 · Agent-Reach AI Infra / NocoBase Non-AI Growth / Non-AI Tool Dominance](https://dailydawn.dev/en/2026-06-16)
-  > Agent-Reach tops GitHub Trending as devs build cross-platform AI tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
