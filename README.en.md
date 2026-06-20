@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-20 · TimesFM Token Reduction / North-Mini-Code Growth / Token-Tool Cross-Source Surge](https://dailydawn.dev/en/2026-06-20)
+  > Google TimesFM surges as time-series devs cut LLM token costs
 - [2026-06-19 · Local code memory tools / Mid-tier LLM adoption / Cost-focused AI infra](https://dailydawn.dev/en/2026-06-19)
   > Codebase memory tools slash indie dev AI token costs by 99%
 - [2026-06-18 · AI skill framework tools / Open-source LLM preference / Task-focused AI productivity](https://dailydawn.dev/en/2026-06-18)
   > Three GitHub repos top trends for AI skill and workflow tools
-- [2026-06-17 · IPTV repo leadership / AI model inflexibility complaints / AI crowdfunding tool demand](https://dailydawn.dev/en/2026-06-17)
-  > Fundraisly leads AI crowdfunding tools as founders skip manual outreach
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

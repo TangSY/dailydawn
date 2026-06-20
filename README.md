@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-20 · LLM输入token压缩工具 / LLM调用成本吐槽 / 上下文压缩工具热度](https://dailydawn.dev/zh/2026-06-20)
+  > headroom登顶GitHub 压缩LLM输入token降本提效
 - [2026-06-19 · 开源AI编码工具爆发 / 包管理工具用户分流 / 个人开发者工具开源化](https://dailydawn.dev/zh/2026-06-19)
   > 开源AI编码工具登顶GitHub 挤压付费工具生存空间
 - [2026-06-18 · 技能框架工具 / 细分场景筹款 / 垂直化AI工具](https://dailydawn.dev/zh/2026-06-18)
   > 技能框架工具登顶 GitHub 抢走同赛道30%流量
-- [2026-06-17 · 非AI开源项目热榜登顶 / 长上下文LLM搜索升温 / 邮件营销低成本工具需求](https://dailydawn.dev/zh/2026-06-17)
-  > 开源大模型垂直优化加速 商业工具抢食传统服务商
 
 [全部归档 →](https://dailydawn.dev/archive)
 
