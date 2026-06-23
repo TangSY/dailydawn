@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-23 · AI Video Tool Dominance / Retail Trader Tool Demand / Open-Source Agentic Workflows](https://dailydawn.dev/en/2026-06-23)
+  > AI video tools dominate GitHub Trending as creators skip manual editing
 - [2026-06-22 · Local Code-Agent Integration / Low-VRAM Agent Models / Cross-Source Agent Infra Shift](https://dailydawn.dev/en/2026-06-22)
   > Three new GitHub repos lead AI agent tooling infrastructure shifts
 - [2026-06-21 · Token Reduction Tools / Cost-Efficiency Demand / Low-Friction Dev Tools](https://dailydawn.dev/en/2026-06-21)
   > Voice-first Mac tools outperform AI inboxes on Product Hunt
-- [2026-06-20 · TimesFM Token Reduction / North-Mini-Code Growth / Token-Tool Cross-Source Surge](https://dailydawn.dev/en/2026-06-20)
-  > Google TimesFM surges as time-series devs cut LLM token costs
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

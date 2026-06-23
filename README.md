@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-06-23 · AI视频批量生产项目 / AI视频赛道热度飙升 / 全流程AI视频工具爆发](https://dailydawn.dev/zh/2026-06-23)
+  > OpenMontage登顶GitHub 独立开发者抢滩AI视频批量生产
 - [2026-06-22 · 轻量桌面封装工具 / 本地包管理工具 / 轻量化开发工具需求](https://dailydawn.dev/zh/2026-06-22)
   > Pake与palmier-pro登GitHub热榜 轻量工具受开发者追捧
 - [2026-06-21 · 轻量网页封装工具 / 本地化包管理需求 / 技能管理框架](https://dailydawn.dev/zh/2026-06-21)
   > 多模态模型渗透视频生产 挤压传统剪辑工具市场
-- [2026-06-20 · LLM输入token压缩工具 / LLM调用成本吐槽 / 上下文压缩工具热度](https://dailydawn.dev/zh/2026-06-20)
-  > headroom登顶GitHub 压缩LLM输入token降本提效
 
 [全部归档 →](https://dailydawn.dev/archive)
 
