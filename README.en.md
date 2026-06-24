@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-24 · Non-AI workflow tools / Multimodal model leadership / User-centric tool demand](https://dailydawn.dev/en/2026-06-24)
+  > Today’s GitHub Trending sees 5 new non-AI workflow tools surge
 - [2026-06-23 · AI Video Tool Dominance / Retail Trader Tool Demand / Open-Source Agentic Workflows](https://dailydawn.dev/en/2026-06-23)
   > AI video tools dominate GitHub Trending as creators skip manual editing
 - [2026-06-22 · Local Code-Agent Integration / Low-VRAM Agent Models / Cross-Source Agent Infra Shift](https://dailydawn.dev/en/2026-06-22)
   > Three new GitHub repos lead AI agent tooling infrastructure shifts
-- [2026-06-21 · Token Reduction Tools / Cost-Efficiency Demand / Low-Friction Dev Tools](https://dailydawn.dev/en/2026-06-21)
-  > Voice-first Mac tools outperform AI inboxes on Product Hunt
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
