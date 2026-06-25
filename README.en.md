@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-25 · AI video pipeline tools / Self-hosted storage demand / Apple silicon container tools](https://dailydawn.dev/en/2026-06-25)
+  > Retail investor AI tools and Apple silicon containers surge on GitHub
 - [2026-06-24 · Non-AI workflow tools / Multimodal model leadership / User-centric tool demand](https://dailydawn.dev/en/2026-06-24)
   > Today’s GitHub Trending sees 5 new non-AI workflow tools surge
 - [2026-06-23 · AI Video Tool Dominance / Retail Trader Tool Demand / Open-Source Agentic Workflows](https://dailydawn.dev/en/2026-06-23)
   > AI video tools dominate GitHub Trending as creators skip manual editing
-- [2026-06-22 · Local Code-Agent Integration / Low-VRAM Agent Models / Cross-Source Agent Infra Shift](https://dailydawn.dev/en/2026-06-22)
-  > Three new GitHub repos lead AI agent tooling infrastructure shifts
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
