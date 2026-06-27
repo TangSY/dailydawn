@@ -16,12 +16,11 @@
 
 ## 最近 3 期日报
 
+- [2026-06-27 · ai-berkshire登GitHub 独立开发者抢滩AI金融落地](https://dailydawn.dev/zh/2026-06-27)
 - [2026-06-26 · Gemma-4 中小团队市场 / AI工具数据迁移需求 / Gemma-4 生态标准化](https://dailydawn.dev/zh/2026-06-26)
   > Gemma-4 衍生模型碾压 GLM-5.2 抢占中小团队市场
 - [2026-06-25 · Apple轻量容器工具 / Apple Silicon存储需求 / 垂直AI Agent落地](https://dailydawn.dev/zh/2026-06-25)
   > Apple轻量Linux容器登GitHub 适配Apple Silicon
-- [2026-06-24 · AI安全技能框架 / 中小团队募资工具 / 轻量云原生工具](https://dailydawn.dev/zh/2026-06-24)
-  > AI安全技能框架登顶GitHub 中小团队募资工具需求显现
 
 [全部归档 →](https://dailydawn.dev/archive)
 
