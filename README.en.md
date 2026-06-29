@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-06-29 · AI Investing Tool Surge / Code Memory Privacy Demand / Agent Cost-Cut Infrastructure](https://dailydawn.dev/en/2026-06-29)
+  > xbtlin/ai-berkshire leads GitHub Trending as AI investing tools surge
 - [2026-06-28 · Private Messaging Tools / Self-Hosted AI Memory / User-Controlled AI Tools](https://dailydawn.dev/en/2026-06-28)
   > Simplex Chat grabs GitHub Trending second spot as private messaging gains traction
 - [2026-06-27 · CodeLlama coding model dominance / AI coding tool pain points / GLM-5.2 traction failure](https://dailydawn.dev/en/2026-06-27)
   > GLM-5.2 trails CodeLlama as top GitHub repos snub new coding model
-- [2026-06-26 · Design-code agent spec / Flexible agent demand / Cross-silo agent workflow](https://dailydawn.dev/en/2026-06-26)
-  > Google design.md unites design and coding agents on GitHub
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

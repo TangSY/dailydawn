@@ -16,11 +16,11 @@
 
 ## 最近 3 期日报
 
+- [2026-06-29 · 代码记忆MCP服务器 / 无身份私密通讯 / AI金融落地工具](https://dailydawn.dev/zh/2026-06-29)
+  > 三款今日登榜工具重构代码记忆与私密通讯逻辑
 - [2026-06-28 · AI视觉编码规范 / GLM-5.2社区热度 / AI Agent部署生态](https://dailydawn.dev/zh/2026-06-28)
   > 谷歌发布AI视觉编码规范 腾讯工具抢先适配反超Vercel
 - [2026-06-27 · ai-berkshire登GitHub 独立开发者抢滩AI金融落地](https://dailydawn.dev/zh/2026-06-27)
-- [2026-06-26 · Gemma-4 中小团队市场 / AI工具数据迁移需求 / Gemma-4 生态标准化](https://dailydawn.dev/zh/2026-06-26)
-  > Gemma-4 衍生模型碾压 GLM-5.2 抢占中小团队市场
 
 [全部归档 →](https://dailydawn.dev/archive)
 
