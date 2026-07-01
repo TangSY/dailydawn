@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-01 · Shell-Powered AI Agents / Claude Account Grievances / Specialized Workflow Tools](https://dailydawn.dev/en/2026-07-01)
+  > Shell-powered AI agent repo tops GitHub, outscoring peers by 822 points
 - [2026-06-30 · Free Dev Tools Surge / Paid AI Backlash / Revenue-Focused Agents](https://dailydawn.dev/en/2026-06-30)
   > AI fundraising agents outperform inbox tools on Product Hunt
 - [2026-06-29 · AI Investing Tool Surge / Code Memory Privacy Demand / Agent Cost-Cut Infrastructure](https://dailydawn.dev/en/2026-06-29)
   > xbtlin/ai-berkshire leads GitHub Trending as AI investing tools surge
-- [2026-06-28 · Private Messaging Tools / Self-Hosted AI Memory / User-Controlled AI Tools](https://dailydawn.dev/en/2026-06-28)
-  > Simplex Chat grabs GitHub Trending second spot as private messaging gains traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
