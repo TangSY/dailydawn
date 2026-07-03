@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-03 · Specialized AI agent tools / Local coding LLM adoption / Task-specific agent demand](https://dailydawn.dev/en/2026-07-03)
+  > Agency-Agents claims GitHub top spot poaching Upstream enterprise users
 - [2026-07-02 · Fitness Dataset Dominance / Free OCR Tool Traction / Cost-Cut Tool Demand](https://dailydawn.dev/en/2026-07-02)
   > Fitness dataset repo tops GitHub as indie app builders fix content gaps
 - [2026-07-01 · Shell-Powered AI Agents / Claude Account Grievances / Specialized Workflow Tools](https://dailydawn.dev/en/2026-07-01)
   > Shell-powered AI agent repo tops GitHub, outscoring peers by 822 points
-- [2026-06-30 · Free Dev Tools Surge / Paid AI Backlash / Revenue-Focused Agents](https://dailydawn.dev/en/2026-06-30)
-  > AI fundraising agents outperform inbox tools on Product Hunt
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
