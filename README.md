@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-04 · 大模型代码Token降本 / AI工具成本用户诉求 / 跨源降本方案组合](https://dailydawn.dev/zh/2026-07-04)
+  > caveman登GitHub 砍65%Claude代码Token用量
 - [2026-07-03 · 自定义Agent协作框架 / 离线AI工具需求 / 跨源AI工具验证](https://dailydawn.dev/zh/2026-07-03)
   > agency-agents登顶GitHub 抢食Upstream用户份额
 - [2026-07-02 · 垂直场景AI Agent / 轻量化开源模型 / AI工具垂直需求](https://dailydawn.dev/zh/2026-07-02)
   > 垂直场景Agent工具登顶GitHub 碾压通用Agent
-- [2026-07-01 · 多角色AI协作框架 / AI垂直场景工具 / 跨源AI工具爆发](https://dailydawn.dev/zh/2026-07-01)
-  > 多角色AI协作框架登顶GitHub 细分场景工具抢滩市场
 
 [全部归档 →](https://dailydawn.dev/archive)
 
