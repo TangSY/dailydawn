@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-05 · Strix workflow automation / Uncensored AI demand / Task-specific tool alignment](https://dailydawn.dev/en/2026-07-05)
+  > Strix tops GitHub Trending as indie builders adopt new AI workflow tools
 - [2026-07-04 · Coding cost-cut tools / Freemium AI demand / Coding workflow streamlining](https://dailydawn.dev/en/2026-07-04)
   > Caveman coding prompt tool tops GitHub cutting token costs 65%
 - [2026-07-03 · Specialized AI agent tools / Local coding LLM adoption / Task-specific agent demand](https://dailydawn.dev/en/2026-07-03)
   > Agency-Agents claims GitHub top spot poaching Upstream enterprise users
-- [2026-07-02 · Fitness Dataset Dominance / Free OCR Tool Traction / Cost-Cut Tool Demand](https://dailydawn.dev/en/2026-07-02)
-  > Fitness dataset repo tops GitHub as indie app builders fix content gaps
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
