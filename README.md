@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-07 · 本地AI会议工具 / LLM透明化需求 / GLM生态升温](https://dailydawn.dev/zh/2026-07-07)
+  > 无审查Qwen3.6分流三类大模型用户 开发者抢攻LLM透明化
 - [2026-07-06 · 本地AI会议工具 / GGUF量化模型 / 大厂提示词模板](https://dailydawn.dev/zh/2026-07-06)
   > 今日四款工具登榜 大厂提示词与轻量化模型成刚需
 - [2026-07-05 · AI渗透测试工具 / 独立开发者安全需求 / 跨源安全需求验证](https://dailydawn.dev/zh/2026-07-05)
   > 开源AI渗透测试工具登顶GitHub 抢食传统安全服务份额
-- [2026-07-04 · 大模型代码Token降本 / AI工具成本用户诉求 / 跨源降本方案组合](https://dailydawn.dev/zh/2026-07-04)
-  > caveman登GitHub 砍65%Claude代码Token用量
 
 [全部归档 →](https://dailydawn.dev/archive)
 

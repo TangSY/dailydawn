@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-07 · System Prompt Leak Utilization / Cross-Model AI Demand / Cross-Platform Tool Unification](https://dailydawn.dev/en/2026-07-07)
+  > System prompt leaks unify cross-platform AI agent behavior
 - [2026-07-06 · Codex Plugin Traction / Uncensored Coding AI Demand / Coding Infrastructure Shift](https://dailydawn.dev/en/2026-07-06)
   > Codex plugin repo tops GitHub as open-source coding tools gain traction
 - [2026-07-05 · Strix workflow automation / Uncensored AI demand / Task-specific tool alignment](https://dailydawn.dev/en/2026-07-05)
   > Strix tops GitHub Trending as indie builders adopt new AI workflow tools
-- [2026-07-04 · Coding cost-cut tools / Freemium AI demand / Coding workflow streamlining](https://dailydawn.dev/en/2026-07-04)
-  > Caveman coding prompt tool tops GitHub cutting token costs 65%
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
