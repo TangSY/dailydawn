@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-09 · Office CLI Productivity / OCR Document Automation / Enterprise AI Tools](https://dailydawn.dev/en/2026-07-09)
+  > OfficeCLI tops GitHub Trending as desktop AI productivity tools surge
 - [2026-07-08 · Dev Career Tool Traction / Hiring Pain Point Demand / Cross-Source Dev Needs](https://dailydawn.dev/en/2026-07-08)
   > ai-job-search tops GitHub solving dev resume and job match gaps
 - [2026-07-07 · System Prompt Leak Utilization / Cross-Model AI Demand / Cross-Platform Tool Unification](https://dailydawn.dev/en/2026-07-07)
   > System prompt leaks unify cross-platform AI agent behavior
-- [2026-07-06 · Codex Plugin Traction / Uncensored Coding AI Demand / Coding Infrastructure Shift](https://dailydawn.dev/en/2026-07-06)
-  > Codex plugin repo tops GitHub as open-source coding tools gain traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
