@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-10 · AI Agent Engineering Guides / Local LLM Agent Deployment / Accessible AI Tooling](https://dailydawn.dev/en/2026-07-10)
+  > addyosmani/agent-skills tops GitHub as devs chase production AI agent skills
 - [2026-07-09 · Office CLI Productivity / OCR Document Automation / Enterprise AI Tools](https://dailydawn.dev/en/2026-07-09)
   > OfficeCLI tops GitHub Trending as desktop AI productivity tools surge
 - [2026-07-08 · Dev Career Tool Traction / Hiring Pain Point Demand / Cross-Source Dev Needs](https://dailydawn.dev/en/2026-07-08)
   > ai-job-search tops GitHub solving dev resume and job match gaps
-- [2026-07-07 · System Prompt Leak Utilization / Cross-Model AI Demand / Cross-Platform Tool Unification](https://dailydawn.dev/en/2026-07-07)
-  > System prompt leaks unify cross-platform AI agent behavior
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

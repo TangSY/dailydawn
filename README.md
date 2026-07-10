@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-10 · AI Agent技能组件化 / 轻量化大模型落地 / 垂直AI工具爆发](https://dailydawn.dev/zh/2026-07-10)
+  > 三款AI工具登GitHub Trending 瞄准Agent与办公场景
 - [2026-07-09 · 移动端AI指令工具 / 开发者碎片化时间 / 垂直场景AI代理](https://dailydawn.dev/zh/2026-07-09)
   > 移动端AI指令工具抢食独立开发者碎片化时间
 - [2026-07-08 · AI求职工具爆发 / AI求职讨论升温 / 轻量化AI工具需求](https://dailydawn.dev/zh/2026-07-08)
   > AI求职工具登顶GitHub 开发者求职刚需爆发
-- [2026-07-07 · 本地AI会议工具 / LLM透明化需求 / GLM生态升温](https://dailydawn.dev/zh/2026-07-07)
-  > 无审查Qwen3.6分流三类大模型用户 开发者抢攻LLM透明化
 
 [全部归档 →](https://dailydawn.dev/archive)
 
