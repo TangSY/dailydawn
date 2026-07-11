@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-11 · AI技能体系化框架 / GLM-5.2部署需求 / 跨源AI学习趋势](https://dailydawn.dev/zh/2026-07-11)
+  > mattpocock/skills登顶GitHub 重构AI开发者技能框架
 - [2026-07-10 · AI Agent技能组件化 / 轻量化大模型落地 / 垂直AI工具爆发](https://dailydawn.dev/zh/2026-07-10)
   > 三款AI工具登GitHub Trending 瞄准Agent与办公场景
 - [2026-07-09 · 移动端AI指令工具 / 开发者碎片化时间 / 垂直场景AI代理](https://dailydawn.dev/zh/2026-07-09)
   > 移动端AI指令工具抢食独立开发者碎片化时间
-- [2026-07-08 · AI求职工具爆发 / AI求职讨论升温 / 轻量化AI工具需求](https://dailydawn.dev/zh/2026-07-08)
-  > AI求职工具登顶GitHub 开发者求职刚需爆发
 
 [全部归档 →](https://dailydawn.dev/archive)
 
