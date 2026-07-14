@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-14 · 开源视频编辑工具 / AI服务成本吐槽 / 零成本工具需求](https://dailydawn.dev/zh/2026-07-14)
+  > OpenCut登顶GitHub 抢食CapCut免费创作者用户
 - [2026-07-13 · GLM-5.2长文本优化 / AI交易Agent落地 / AI生产力工具分流](https://dailydawn.dev/zh/2026-07-13)
   > GLM-5.2降长文本门槛 Acti抢食AI生产力工具份额
 - [2026-07-12 · AI人才竞业约束升级 / 垂直AI模型热度飙升 / AI行业分层加速](https://dailydawn.dev/zh/2026-07-12)
   > Apple起诉OpenAI 推高AI人才竞业门槛
-- [2026-07-11 · AI技能体系化框架 / GLM-5.2部署需求 / 跨源AI学习趋势](https://dailydawn.dev/zh/2026-07-11)
-  > mattpocock/skills登顶GitHub 重构AI开发者技能框架
 
 [全部归档 →](https://dailydawn.dev/archive)
 

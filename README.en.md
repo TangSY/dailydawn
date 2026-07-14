@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-14 · Open-Source Video Editing / Unfiltered LLM Options / Open Tool Traction](https://dailydawn.dev/en/2026-07-14)
+  > OpenCut tops GitHub as open-source video editor siphons CapCut users
 - [2026-07-13 · GLM-5.2 conversational lead / AI trading agent traction / Open-source agent workspace](https://dailydawn.dev/en/2026-07-13)
   > GLM-5.2 claims HuggingFace top spot with conversational MoE edge
 - [2026-07-12 · AI Video Editing for Indies / Uncensored Qwen Vision Models / Indie Workflow Tool Traction](https://dailydawn.dev/en/2026-07-12)
   > ChatCut launches on PH to cut indie builder video editing time by 70%
-- [2026-07-11 · Visual Agent Engineering / OCR for Agent Tools / Indie AI Tool Traction](https://dailydawn.dev/en/2026-07-11)
-  > mattpocock/skills tops GitHub for visual agent engineering
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
