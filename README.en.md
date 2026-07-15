@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-15 · Visual Data Mapping Tools / Unstructured Data Parsing / No-Code Data Viz Demand](https://dailydawn.dev/en/2026-07-15)
+  > Graphify-Labs/graphify tops GitHub for visual data mapping tools
 - [2026-07-14 · Open-Source Video Editing / Unfiltered LLM Options / Open Tool Traction](https://dailydawn.dev/en/2026-07-14)
   > OpenCut tops GitHub as open-source video editor siphons CapCut users
 - [2026-07-13 · GLM-5.2 conversational lead / AI trading agent traction / Open-source agent workspace](https://dailydawn.dev/en/2026-07-13)
   > GLM-5.2 claims HuggingFace top spot with conversational MoE edge
-- [2026-07-12 · AI Video Editing for Indies / Uncensored Qwen Vision Models / Indie Workflow Tool Traction](https://dailydawn.dev/en/2026-07-12)
-  > ChatCut launches on PH to cut indie builder video editing time by 70%
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
