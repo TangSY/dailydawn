@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-17 · AI代码冗余优化工具 / 数字内容所有权焦虑 / 开源付费工具替代](https://dailydawn.dev/zh/2026-07-17)
+  > hallmark反AI垃圾代码工具与OpenCut登GitHub趋势
 - [2026-07-16 · 可复用工程技能模板 / 无限制Qwen变体分流 / 本地AI工具需求](https://dailydawn.dev/zh/2026-07-16)
   > 无限制Qwen变体分流官方流量 隐私顾虑推本地部署
 - [2026-07-15 · RAG落地工具爆发 / 开源AI工具升温 / 闭源API信任危机](https://dailydawn.dev/zh/2026-07-15)
   > Graphify 登顶GitHub 开发者转向可落地RAG应用
-- [2026-07-14 · 开源视频编辑工具 / AI服务成本吐槽 / 零成本工具需求](https://dailydawn.dev/zh/2026-07-14)
-  > OpenCut登顶GitHub 抢食CapCut免费创作者用户
 
 [全部归档 →](https://dailydawn.dev/archive)
 
