@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-18 · Core Tech Mastery Tools / Unfiltered Open LLMs / Dev Skill-Building Shift](https://dailydawn.dev/en/2026-07-18)
+  > codecrafters-io/build-your-own-x surges as devs prioritize core tech mastery
 - [2026-07-17 · Kimi K3 MoE LLM launch / GLM-5.2 conversational lead / Open LLM cross-source validation](https://dailydawn.dev/en/2026-07-17)
   > Dual open-source LLM launches redefine conversational model benchmarks
 - [2026-07-16 · Anti-AI-slop Prompt Tools / Claude Output Fixes / AI Quality Workflows](https://dailydawn.dev/en/2026-07-16)
   > Nutlope/hallmark tops GitHub with anti-AI-slop prompt frameworks
-- [2026-07-15 · Visual Data Mapping Tools / Unstructured Data Parsing / No-Code Data Viz Demand](https://dailydawn.dev/en/2026-07-15)
-  > Graphify-Labs/graphify tops GitHub for visual data mapping tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
