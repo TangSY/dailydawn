@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-19 · AI部署实操工具爆发 / 本地AI部署需求攀升 / 开发者实操需求觉醒](https://dailydawn.dev/zh/2026-07-19)
+  > build-your-own-x登顶GitHub 新增AI部署模块
 - [2026-07-18 · 反AI垃圾代码工具 / 无审查模型监管 / 轻量化AI工具需求](https://dailydawn.dev/zh/2026-07-18)
   > 监管锁定开源大模型备案溯源分级三方向
 - [2026-07-17 · AI代码冗余优化工具 / 数字内容所有权焦虑 / 开源付费工具替代](https://dailydawn.dev/zh/2026-07-17)
   > hallmark反AI垃圾代码工具与OpenCut登GitHub趋势
-- [2026-07-16 · 可复用工程技能模板 / 无限制Qwen变体分流 / 本地AI工具需求](https://dailydawn.dev/zh/2026-07-16)
-  > 无限制Qwen变体分流官方流量 隐私顾虑推本地部署
 
 [全部归档 →](https://dailydawn.dev/archive)
 
