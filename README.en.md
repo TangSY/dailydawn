@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-21 · Multi-Model AI Gateways / Open-Source OCR Tools / Modular Dev Tooling](https://dailydawn.dev/en/2026-07-21)
+  > OmniRoute AI gateway tops GitHub as indie devs embrace multi-model access
 - [2026-07-20 · AI Agent Engineering Guides / Specialized AI Tooling / Data Pipeline Tools](https://dailydawn.dev/en/2026-07-20)
   > Bojieli’s AI agent guide tops GitHub as devs prioritize data pipeline tools
 - [2026-07-19 · Hardware Update Control Tools / Transparent AI Tooling / User-Centric Software Demand](https://dailydawn.dev/en/2026-07-19)
   > LG silent update backlash sparks user demand for opt-in software controls
-- [2026-07-18 · Core Tech Mastery Tools / Unfiltered Open LLMs / Dev Skill-Building Shift](https://dailydawn.dev/en/2026-07-18)
-  > codecrafters-io/build-your-own-x surges as devs prioritize core tech mastery
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
