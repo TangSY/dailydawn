@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-22 · 开源工具替代付费服务 / 中小机构安全工具需求 / 中国开源模型崛起](https://dailydawn.dev/zh/2026-07-22)
+  > 中小机构安全工具需求爆发 开源模型蚕食闭源份额
 - [2026-07-21 · 自托管部署工具 / 开源大模型优化 / AI Agent落地工具](https://dailydawn.dev/zh/2026-07-21)
   > openship登GitHub趋势 抢食PaaS与客服工具付费用户
 - [2026-07-20 · AI Agent落地框架 / 极端量化模型 / Agent部署工具](https://dailydawn.dev/zh/2026-07-20)
   > ai-agent-book登顶GitHub 三类框架重构Agent落地路径
-- [2026-07-19 · AI部署实操工具爆发 / 本地AI部署需求攀升 / 开发者实操需求觉醒](https://dailydawn.dev/zh/2026-07-19)
-  > build-your-own-x登顶GitHub 新增AI部署模块
 
 [全部归档 →](https://dailydawn.dev/archive)
 
