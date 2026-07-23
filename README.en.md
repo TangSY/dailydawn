@@ -16,12 +16,11 @@
 
 ## Latest 3 issues
 
+- [2026-07-23 · 多模型网关与AI输出优化工具登GitHub趋势](https://dailydawn.dev/en/2026-07-23)
 - [2026-07-22 · Open E-Commerce Deployment / Open-Weight AI Strategy / Open-Source E-Commerce Tools](https://dailydawn.dev/en/2026-07-22)
   > OpenShip cuts e-commerce deployment time by 70% for solo builders
 - [2026-07-21 · Multi-Model AI Gateways / Open-Source OCR Tools / Modular Dev Tooling](https://dailydawn.dev/en/2026-07-21)
   > OmniRoute AI gateway tops GitHub as indie devs embrace multi-model access
-- [2026-07-20 · AI Agent Engineering Guides / Specialized AI Tooling / Data Pipeline Tools](https://dailydawn.dev/en/2026-07-20)
-  > Bojieli’s AI agent guide tops GitHub as devs prioritize data pipeline tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
