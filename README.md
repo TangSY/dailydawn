@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-24 · 多场景情报监控工具 / OCR模型需求爆发 / 跨源工具联动落地](https://dailydawn.dev/zh/2026-07-24)
+  > worldmonitor等4款监控工具登GitHub趋势 重构情报获取逻辑
 - [2026-07-23 · 多模型网关普及 / AI输出冗余优化 / 开发者隐私焦虑](https://dailydawn.dev/zh/2026-07-23)
   > 多模型网关与AI输出优化工具登GitHub趋势
 - [2026-07-22 · 开源工具替代付费服务 / 中小机构安全工具需求 / 中国开源模型崛起](https://dailydawn.dev/zh/2026-07-22)
   > 中小机构安全工具需求爆发 开源模型蚕食闭源份额
-- [2026-07-21 · 自托管部署工具 / 开源大模型优化 / AI Agent落地工具](https://dailydawn.dev/zh/2026-07-21)
-  > openship登GitHub趋势 抢食PaaS与客服工具付费用户
 
 [全部归档 →](https://dailydawn.dev/archive)
 
