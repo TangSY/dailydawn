@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-25 · Rust轻量协作工具 / 开发者工具需求转向 / 小团队协作工具赛道](https://dailydawn.dev/zh/2026-07-25)
+  > Rust轻量协作工具block/buzz登顶GitHub蚕食Slack用户
 - [2026-07-24 · 多场景情报监控工具 / OCR模型需求爆发 / 跨源工具联动落地](https://dailydawn.dev/zh/2026-07-24)
   > worldmonitor等4款监控工具登GitHub趋势 重构情报获取逻辑
 - [2026-07-23 · 多模型网关普及 / AI输出冗余优化 / 开发者隐私焦虑](https://dailydawn.dev/zh/2026-07-23)
   > 多模型网关与AI输出优化工具登GitHub趋势
-- [2026-07-22 · 开源工具替代付费服务 / 中小机构安全工具需求 / 中国开源模型崛起](https://dailydawn.dev/zh/2026-07-22)
-  > 中小机构安全工具需求爆发 开源模型蚕食闭源份额
 
 [全部归档 →](https://dailydawn.dev/archive)
 
