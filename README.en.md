@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-07-27 · AI agent web automation / Open-source OCR tools / Android user backlash](https://dailydawn.dev/en/2026-07-27)
+  > Android users revolt over proposed ADB restrictions killing custom controls
 - [2026-07-26 · Unregulated P2P Chat Tools / Lightweight Rust Dev Tools / User-Controlled Software Shift](https://dailydawn.dev/en/2026-07-26)
   > Bitchat GitHub surge sparks debate over unregulated peer-to-peer tools
 - [2026-07-25 · Rust remote sync tools / GLM-5.2 architecture gains / Code-native collaboration shift](https://dailydawn.dev/en/2026-07-25)
   > block/buzz tops GitHub as indie devs adopt Rust remote sync tools
-- [2026-07-24 · Real-time shared dashboards / Open-source OCR tools / Browser-native collaboration](https://dailydawn.dev/en/2026-07-24)
-  > WorldMonitor tops GitHub as devs prioritize real-time shared dashboards
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
