@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-07-31 · GitHub堆叠PR功能 / Kimi-K3模型讨论 / Fuzzy AI用户分流](https://dailydawn.dev/zh/2026-07-31)
+  > GitHub推出堆叠PR Fuzzy AI分流三类付费AI助手用户
 - [2026-07-30 · 技术书转AI技能工具 / Claude记忆共享工具 / AI技能落地工具](https://dailydawn.dev/zh/2026-07-30)
   > book-to-skill登GitHub趋势 技术书转Claude技能
 - [2026-07-29 · 轻量化视频分析工具 / 跨端AI视频剪辑 / 多模态轻量化模型](https://dailydawn.dev/zh/2026-07-29)
   > claude-video登GitHub趋势 轻量化视频分析抢付费工具市场
-- [2026-07-28 · 无审查开源模型分流 / 隐私手机合规需求 / 无网协作工具爆发](https://dailydawn.dev/zh/2026-07-28)
-  > 无审查开源模型分流官方版核心用户隐私手机需求待补
 
 [全部归档 →](https://dailydawn.dev/archive)
 
