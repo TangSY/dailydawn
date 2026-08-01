@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-01 · Local LLM training guides / Low-VRAM LLM optimization / Opaque tool backlash](https://dailydawn.dev/en/2026-08-01)
+  > Microsoft’s AI-For-Beginners tops GitHub for local LLM training
 - [2026-07-31 · Low-memory LLM dev tools / Self-hosted AI assistants / Indie builder ops automation](https://dailydawn.dev/en/2026-07-31)
   > Low-VRAM LLMs unlock self-hosted dev tools for indie builders
 - [2026-07-30 · Skill-aligned coding tools / Lightweight dev editors / Dev workflow prioritization](https://dailydawn.dev/en/2026-07-30)
   > book-to-skill tops GitHub as devs map texts to actionable skills
-- [2026-07-29 · Kimi-K3 indie adoption / LLM fine-tuning datasets / Closed-model backlash](https://dailydawn.dev/en/2026-07-29)
-  > Kimi-K3 siphons indie devs from GPT-4 via expanded context and lower costs
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
