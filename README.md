@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-02 · AI安全工具reverse-skill / AI安全搜索热度飙升 / AI安全需求爆发](https://dailydawn.dev/zh/2026-08-02)
+  > AI安全工具reverse-skill登GitHub趋势 替代零散工具链
 - [2026-08-01 · AI入门开源课程 / 小显存AI模型 / AI开发者需求](https://dailydawn.dev/zh/2026-08-01)
   > 微软AI入门课登顶GitHub 小显存模型成开发者新宠
 - [2026-07-31 · GitHub堆叠PR功能 / Kimi-K3模型讨论 / Fuzzy AI用户分流](https://dailydawn.dev/zh/2026-07-31)
   > GitHub推出堆叠PR Fuzzy AI分流三类付费AI助手用户
-- [2026-07-30 · 技术书转AI技能工具 / Claude记忆共享工具 / AI技能落地工具](https://dailydawn.dev/zh/2026-07-30)
-  > book-to-skill登GitHub趋势 技术书转Claude技能
 
 [全部归档 →](https://dailydawn.dev/archive)
 
