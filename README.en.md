@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-03 · DIY AI Framework Surge / Niche Video AI Tools / Cross-Source Builder Autonomy](https://dailydawn.dev/en/2026-08-03)
+  > Build-Your-Own-X tops GitHub as devs prioritize hands-on AI building
 - [2026-08-02 · AI security demo tools / Local inference optimizations / Zero-friction demo workflows](https://dailydawn.dev/en/2026-08-02)
   > AI security tool reverse-skill tops GitHub with one-click demo deployment
 - [2026-08-01 · Local LLM training guides / Low-VRAM LLM optimization / Opaque tool backlash](https://dailydawn.dev/en/2026-08-01)
   > Microsoft’s AI-For-Beginners tops GitHub for local LLM training
-- [2026-07-31 · Low-memory LLM dev tools / Self-hosted AI assistants / Indie builder ops automation](https://dailydawn.dev/en/2026-07-31)
-  > Low-VRAM LLMs unlock self-hosted dev tools for indie builders
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
