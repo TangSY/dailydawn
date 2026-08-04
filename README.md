@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-04 · PDF结构化分析工具 / 文档处理模型增长 / AI细分工具需求](https://dailydawn.dev/zh/2026-08-04)
+  > PDF Inspector登GitHub趋势 聚焦文档结构化分析
 - [2026-08-03 · Agent工具抢 Zapier 市场 / 低显存模型增速领先 / AI工具链绑定](https://dailydawn.dev/zh/2026-08-03)
   > Agent-Reach等三款AI工具登GitHub趋势抢中小开发者市场
 - [2026-08-02 · AI安全工具reverse-skill / AI安全搜索热度飙升 / AI安全需求爆发](https://dailydawn.dev/zh/2026-08-02)
   > AI安全工具reverse-skill登GitHub趋势 替代零散工具链
-- [2026-08-01 · AI入门开源课程 / 小显存AI模型 / AI开发者需求](https://dailydawn.dev/zh/2026-08-01)
-  > 微软AI入门课登顶GitHub 小显存模型成开发者新宠
 
 [全部归档 →](https://dailydawn.dev/archive)
 
