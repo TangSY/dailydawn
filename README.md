@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-05 · 离线PDF解析工具 / 离线工具需求 / 离线模式用户流向](https://dailydawn.dev/zh/2026-08-05)
+  > 用户反强制在线绑定 离线工具需求飙升
 - [2026-08-04 · PDF结构化分析工具 / 文档处理模型增长 / AI细分工具需求](https://dailydawn.dev/zh/2026-08-04)
   > PDF Inspector登GitHub趋势 聚焦文档结构化分析
 - [2026-08-03 · Agent工具抢 Zapier 市场 / 低显存模型增速领先 / AI工具链绑定](https://dailydawn.dev/zh/2026-08-03)
   > Agent-Reach等三款AI工具登GitHub趋势抢中小开发者市场
-- [2026-08-02 · AI安全工具reverse-skill / AI安全搜索热度飙升 / AI安全需求爆发](https://dailydawn.dev/zh/2026-08-02)
-  > AI安全工具reverse-skill登GitHub趋势 替代零散工具链
 
 [全部归档 →](https://dailydawn.dev/archive)
 
