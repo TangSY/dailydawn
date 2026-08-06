@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-06 · Agent Memory Tools / Chinese LLM Demand / Long-Document Workflows](https://dailydawn.dev/en/2026-08-06)
+  > Tencent, Firecrawl launch agent memory tools for long-document AI workflows
 - [2026-08-05 · DRM Backlash Impact / Anti-Corporate Tech Sentiment / User Ownership Demand](https://dailydawn.dev/en/2026-08-05)
   > Xbox DRM backlash sparks gamer demand for true digital ownership
 - [2026-08-04 · PDF Inspector AI parsing / Unlimited OCR open-source / Open ops tool dominance](https://dailydawn.dev/en/2026-08-04)
   > Firecrawl’s PDF Inspector tops GitHub for AI-powered document analysis
-- [2026-08-03 · DIY AI Framework Surge / Niche Video AI Tools / Cross-Source Builder Autonomy](https://dailydawn.dev/en/2026-08-03)
-  > Build-Your-Own-X tops GitHub as devs prioritize hands-on AI building
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
