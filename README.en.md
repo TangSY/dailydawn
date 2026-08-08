@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-08 · Self-Improving Coding Agents / Agent Skill Frameworks / Structured Agent Tool Demand](https://dailydawn.dev/en/2026-08-08)
+  > GitHub’s agent skill frameworks outpace edge AI orchestration tools
 - [2026-08-07 · Edge AI agent tools / Low-cost retrieval models / Open agent orchestration](https://dailydawn.dev/en/2026-08-07)
   > Cloudflare OS repos top GitHub for edge AI agent orchestration
 - [2026-08-06 · Agent Memory Tools / Chinese LLM Demand / Long-Document Workflows](https://dailydawn.dev/en/2026-08-06)
   > Tencent, Firecrawl launch agent memory tools for long-document AI workflows
-- [2026-08-05 · DRM Backlash Impact / Anti-Corporate Tech Sentiment / User Ownership Demand](https://dailydawn.dev/en/2026-08-05)
-  > Xbox DRM backlash sparks gamer demand for true digital ownership
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

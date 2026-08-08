@@ -16,11 +16,11 @@
 
 ## 最近 3 期日报
 
+- [2026-08-08 · 自治编码代理 / 长文本模型竞争 / AI技能框架联动](https://dailydawn.dev/zh/2026-08-08)
+  > prime-agent登顶GitHub 自治编码替代人工重复任务
 - [2026-08-07 · Cloudflare Computer登顶GitHub 赋予AI Agent完整系统权限](https://dailydawn.dev/zh/2026-08-07)
 - [2026-08-06 · Agent团队级内存工具 / 个人跨应用内存工具 / AI轻量化模型](https://dailydawn.dev/zh/2026-08-06)
   > 腾讯团队级Agent内存工具登GitHub趋势 抢滩企业级AI市场
-- [2026-08-05 · 离线PDF解析工具 / 离线工具需求 / 离线模式用户流向](https://dailydawn.dev/zh/2026-08-05)
-  > 用户反强制在线绑定 离线工具需求飙升
 
 [全部归档 →](https://dailydawn.dev/archive)
 
