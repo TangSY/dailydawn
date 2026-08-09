@@ -16,11 +16,11 @@
 
 ## 最近 3 期日报
 
+- [2026-08-09 · AI生成代码合规 / 开发者职业焦虑 / AI编码代理替代](https://dailydawn.dev/zh/2026-08-09)
+  > Oracle 禁AI生成代码入OpenJDK 合规成职业自保手段
 - [2026-08-08 · 自治编码代理 / 长文本模型竞争 / AI技能框架联动](https://dailydawn.dev/zh/2026-08-08)
   > prime-agent登顶GitHub 自治编码替代人工重复任务
 - [2026-08-07 · Cloudflare Computer登顶GitHub 赋予AI Agent完整系统权限](https://dailydawn.dev/zh/2026-08-07)
-- [2026-08-06 · Agent团队级内存工具 / 个人跨应用内存工具 / AI轻量化模型](https://dailydawn.dev/zh/2026-08-06)
-  > 腾讯团队级Agent内存工具登GitHub趋势 抢滩企业级AI市场
 
 [全部归档 →](https://dailydawn.dev/archive)
 
