@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-10 · Self-Improving Coding Agents / Open Video AI Leadership / Low-Resource AI Tools](https://dailydawn.dev/en/2026-08-10)
+  > MiniMax-H3 leads open video AI as devs adopt fine-tuning tools
 - [2026-08-09 · Self-Improving Coding Agents / Uncensored Open LLMs / ARC Prize Top Models](https://dailydawn.dev/en/2026-08-09)
   > Prime-agent leads GitHub as uncensored LLMs siphon closed-model users
 - [2026-08-08 · Self-Improving Coding Agents / Agent Skill Frameworks / Structured Agent Tool Demand](https://dailydawn.dev/en/2026-08-08)
   > GitHub’s agent skill frameworks outpace edge AI orchestration tools
-- [2026-08-07 · Edge AI agent tools / Low-cost retrieval models / Open agent orchestration](https://dailydawn.dev/en/2026-08-07)
-  > Cloudflare OS repos top GitHub for edge AI agent orchestration
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

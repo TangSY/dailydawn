@@ -16,11 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-10 · AI编码代理适配 / 国产模型海外渗透 / AI代理与模型协同](https://dailydawn.dev/zh/2026-08-10)
+  > 国产大模型包揽HuggingFace前三 海外渗透提速
 - [2026-08-09 · AI生成代码合规 / 开发者职业焦虑 / AI编码代理替代](https://dailydawn.dev/zh/2026-08-09)
   > Oracle 禁AI生成代码入OpenJDK 合规成职业自保手段
 - [2026-08-08 · 自治编码代理 / 长文本模型竞争 / AI技能框架联动](https://dailydawn.dev/zh/2026-08-08)
   > prime-agent登顶GitHub 自治编码替代人工重复任务
-- [2026-08-07 · Cloudflare Computer登顶GitHub 赋予AI Agent完整系统权限](https://dailydawn.dev/zh/2026-08-07)
 
 [全部归档 →](https://dailydawn.dev/archive)
 
