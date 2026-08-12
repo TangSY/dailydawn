@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-12 · 自我迭代编码Agent / 用户隐私控制权诉求 / 多场景Agent工具热](https://dailydawn.dev/zh/2026-08-12)
+  > 法国禁骚扰电话 92%用户索要隐私绝对控制权
 - [2026-08-11 · MiniMax-H3视频模型 / 本地Agent模型 / Agent工作流工具](https://dailydawn.dev/zh/2026-08-11)
   > MiniMax-H3 抢占视频模型赛道 低显存版本获开发者追捧
 - [2026-08-10 · AI编码代理适配 / 国产模型海外渗透 / AI代理与模型协同](https://dailydawn.dev/zh/2026-08-10)
   > 国产大模型包揽HuggingFace前三 海外渗透提速
-- [2026-08-09 · AI生成代码合规 / 开发者职业焦虑 / AI编码代理替代](https://dailydawn.dev/zh/2026-08-09)
-  > Oracle 禁AI生成代码入OpenJDK 合规成职业自保手段
 
 [全部归档 →](https://dailydawn.dev/archive)
 
