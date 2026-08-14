@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-14 · 开源低成本工具 / 低显存LLM部署 / 独立开发者工具需求](https://dailydawn.dev/zh/2026-08-14)
+  > macro-inc/macro登GitHub趋势，开源工具瞄准独立开发者
 - [2026-08-13 · 轻量化SVG图表工具 / 开源工具可视化需求 / 多Agent协作框架](https://dailydawn.dev/zh/2026-08-13)
   > diagram-design登GitHub趋势 轻量化SVG工具成开发者新宠
 - [2026-08-12 · 自我迭代编码Agent / 用户隐私控制权诉求 / 多场景Agent工具热](https://dailydawn.dev/zh/2026-08-12)
   > 法国禁骚扰电话 92%用户索要隐私绝对控制权
-- [2026-08-11 · MiniMax-H3视频模型 / 本地Agent模型 / Agent工作流工具](https://dailydawn.dev/zh/2026-08-11)
-  > MiniMax-H3 抢占视频模型赛道 低显存版本获开发者追捧
 
 [全部归档 →](https://dailydawn.dev/archive)
 

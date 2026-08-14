@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-14 · Macro unified workspace / Diagram design tool / Simple utility dev tools](https://dailydawn.dev/en/2026-08-14)
+  > Macro unified workspace tops GitHub with shared AI memory
 - [2026-08-13 · Diagram Tool Dominance / Privacy-Driven Utility Shift / Agent Hype Rejection](https://dailydawn.dev/en/2026-08-13)
   > New diagram design tool tops GitHub as devs skip AI agent frameworks
 - [2026-08-12 · Prime-agent open LLM chaining / Kimi-K3 tensor optimization / Muse Glimmer local agent speed](https://dailydawn.dev/en/2026-08-12)
   > Prime-agent tops GitHub as open-source AI siphons closed model enterprise users
-- [2026-08-11 · Lean Windows Utility Demand / Niche LLM Tool Traction / Cross-Source User Frustration](https://dailydawn.dev/en/2026-08-11)
-  > Windows 11 bloat fuels demand for lean privacy-focused utility tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
