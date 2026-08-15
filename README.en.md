@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-15 · Qwen3.8-27B LLM lead / Opus 5 alternative tools / Open-source LLM accessibility](https://dailydawn.dev/en/2026-08-15)
+  > Qwen3.8-27B outcompetes Gemini 3.7 Flash for indie devs
 - [2026-08-14 · Macro unified workspace / Diagram design tool / Simple utility dev tools](https://dailydawn.dev/en/2026-08-14)
   > Macro unified workspace tops GitHub with shared AI memory
 - [2026-08-13 · Diagram Tool Dominance / Privacy-Driven Utility Shift / Agent Hype Rejection](https://dailydawn.dev/en/2026-08-13)
   > New diagram design tool tops GitHub as devs skip AI agent frameworks
-- [2026-08-12 · Prime-agent open LLM chaining / Kimi-K3 tensor optimization / Muse Glimmer local agent speed](https://dailydawn.dev/en/2026-08-12)
-  > Prime-agent tops GitHub as open-source AI siphons closed model enterprise users
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
