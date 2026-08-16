@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-16 · Free Python API List Lead / OpenSEO Market Traction / Indie Open Tool Demand](https://dailydawn.dev/en/2026-08-16)
+  > OpenSEO undercuts Ahrefs as indie SEO teams ditch paid tools
 - [2026-08-15 · Qwen3.8-27B LLM lead / Opus 5 alternative tools / Open-source LLM accessibility](https://dailydawn.dev/en/2026-08-15)
   > Qwen3.8-27B outcompetes Gemini 3.7 Flash for indie devs
 - [2026-08-14 · Macro unified workspace / Diagram design tool / Simple utility dev tools](https://dailydawn.dev/en/2026-08-14)
   > Macro unified workspace tops GitHub with shared AI memory
-- [2026-08-13 · Diagram Tool Dominance / Privacy-Driven Utility Shift / Agent Hype Rejection](https://dailydawn.dev/en/2026-08-13)
-  > New diagram design tool tops GitHub as devs skip AI agent frameworks
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

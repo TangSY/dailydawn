@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-16 · 开源SEO工具替代 / 免费API资源热 / SEO工具生态闭环](https://dailydawn.dev/zh/2026-08-16)
+  > OpenSEO登Product Hunt 抢Ahrefs中小开发者用户
 - [2026-08-15 · Qwen3.8-27B小显存优化 / Opus5体验下滑需求 / diagram-design低成本工具](https://dailydawn.dev/zh/2026-08-15)
   > Qwen3.8-27B 凭小显存优化抢走Gemini3.7Flash开发者
 - [2026-08-14 · 开源低成本工具 / 低显存LLM部署 / 独立开发者工具需求](https://dailydawn.dev/zh/2026-08-14)
   > macro-inc/macro登GitHub趋势，开源工具瞄准独立开发者
-- [2026-08-13 · 轻量化SVG图表工具 / 开源工具可视化需求 / 多Agent协作框架](https://dailydawn.dev/zh/2026-08-13)
-  > diagram-design登GitHub趋势 轻量化SVG工具成开发者新宠
 
 [全部归档 →](https://dailydawn.dev/archive)
 
