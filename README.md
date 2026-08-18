@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-18 · AI短视频变现工具 / AI广告生成工具 / 多模态视频生成](https://dailydawn.dev/zh/2026-08-18)
+  > MoneyPrinterTurbo登GitHub趋势 解锁AI短视频变现新路径
 - [2026-08-17 · 免费API聚合工具 / AI数学研究需求 / 开发者工具缺口](https://dailydawn.dev/zh/2026-08-17)
   > public-apis登GitHub趋势 聚合免费API资源
 - [2026-08-16 · 开源SEO工具替代 / 免费API资源热 / SEO工具生态闭环](https://dailydawn.dev/zh/2026-08-16)
   > OpenSEO登Product Hunt 抢Ahrefs中小开发者用户
-- [2026-08-15 · Qwen3.8-27B小显存优化 / Opus5体验下滑需求 / diagram-design低成本工具](https://dailydawn.dev/zh/2026-08-15)
-  > Qwen3.8-27B 凭小显存优化抢走Gemini3.7Flash开发者
 
 [全部归档 →](https://dailydawn.dev/archive)
 

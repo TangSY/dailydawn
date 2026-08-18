@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-18 · AI Video Tool Traction / Qwen 3.8 Enterprise Use / Open-Source Content Tools](https://dailydawn.dev/en/2026-08-18)
+  > MoneyPrinterTurbo tops GitHub as AI video creation gains mainstream traction
 - [2026-08-17 · Public APIs dev tool lead / Fineweb dataset traction / Claude prompt guide dominance](https://dailydawn.dev/en/2026-08-17)
   > Claude system prompt guides dominate HN as users fix output consistency
 - [2026-08-16 · Free Python API List Lead / OpenSEO Market Traction / Indie Open Tool Demand](https://dailydawn.dev/en/2026-08-16)
   > OpenSEO undercuts Ahrefs as indie SEO teams ditch paid tools
-- [2026-08-15 · Qwen3.8-27B LLM lead / Opus 5 alternative tools / Open-source LLM accessibility](https://dailydawn.dev/en/2026-08-15)
-  > Qwen3.8-27B outcompetes Gemini 3.7 Flash for indie devs
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
