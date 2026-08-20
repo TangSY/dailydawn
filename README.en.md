@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-20 · Skills Workflow Curation / Uncensored Qwen Variants / Creator Tool Traction](https://dailydawn.dev/en/2026-08-20)
+  > mattpocock/skills takes #2 spot on GitHub Trending today
 - [2026-08-19 · Code Hosting Shifts / Open Prompt Datasets / Infrastructure Tool Demand](https://dailydawn.dev/en/2026-08-19)
   > Code Hosting Platform Shifts gain traction as devs reevaluate tooling
 - [2026-08-18 · AI Video Tool Traction / Qwen 3.8 Enterprise Use / Open-Source Content Tools](https://dailydawn.dev/en/2026-08-18)
   > MoneyPrinterTurbo tops GitHub as AI video creation gains mainstream traction
-- [2026-08-17 · Public APIs dev tool lead / Fineweb dataset traction / Claude prompt guide dominance](https://dailydawn.dev/en/2026-08-17)
-  > Claude system prompt guides dominate HN as users fix output consistency
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
