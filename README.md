@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-21 · 开源反指纹工具 / 用户隐私焦虑 / 跨源验证刚需](https://dailydawn.dev/zh/2026-08-21)
+  > OpenLogi登GitHub趋势 隐私工具成开发者新刚需
 - [2026-08-20 · 开发者技能图谱工具 / Qwen3.8轻量化变体 / 开发者轻量化工具需求](https://dailydawn.dev/zh/2026-08-20)
   > mattpocock/skills登GitHub趋势，开发者技能图谱工具走红
 - [2026-08-19 · AI短视频工具变现 / 场景化Prompt需求 / AI工具付费模型](https://dailydawn.dev/zh/2026-08-19)
   > 拆解AI短视频工具三类可落地变现逻辑
-- [2026-08-18 · AI短视频变现工具 / AI广告生成工具 / 多模态视频生成](https://dailydawn.dev/zh/2026-08-18)
-  > MoneyPrinterTurbo登GitHub趋势 解锁AI短视频变现新路径
 
 [全部归档 →](https://dailydawn.dev/archive)
 
