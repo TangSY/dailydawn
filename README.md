@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-23 · Kagi付费墙工具吐槽 / Qwen3.8社区热度 / Shell技能工具登榜](https://dailydawn.dev/zh/2026-08-23)
+  > Kagi去付费墙功能遭HN用户吐槽 需求转向内容获取方案
 - [2026-08-22 · 稀有书籍数字存档 / AI数据伦理讨论 / AI生态供需矛盾](https://dailydawn.dev/zh/2026-08-22)
   > Anna's Archive 发起稀有书籍扫描 抵制AI公司毁书行为
 - [2026-08-21 · 开源反指纹工具 / 用户隐私焦虑 / 跨源验证刚需](https://dailydawn.dev/zh/2026-08-21)
   > OpenLogi登GitHub趋势 隐私工具成开发者新刚需
-- [2026-08-20 · 开发者技能图谱工具 / Qwen3.8轻量化变体 / 开发者轻量化工具需求](https://dailydawn.dev/zh/2026-08-20)
-  > mattpocock/skills登GitHub趋势，开发者技能图谱工具走红
 
 [全部归档 →](https://dailydawn.dev/archive)
 

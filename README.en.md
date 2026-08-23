@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-23 · Codex GitHub Trending Return / Rust LSP Memory Efficiency / Coding Agent Market Tension](https://dailydawn.dev/en/2026-08-23)
+  > OpenAI Codex re-enters GitHub Trending as local Qwen variants challenge its lead
 - [2026-08-22 · Niche Logic Tools / AI Spam Mitigation / Niche Builder Tools](https://dailydawn.dev/en/2026-08-22)
   > AprilNEA/OpenLogi tops GitHub Trending as devs adopt new logic tools
 - [2026-08-21 · AI API Aggregation Monopoly / Community Launch Virality / Unified Tool Demand](https://dailydawn.dev/en/2026-08-21)
   > OpenRouter-Stripe merger eliminates AI API aggregation rivals
-- [2026-08-20 · Skills Workflow Curation / Uncensored Qwen Variants / Creator Tool Traction](https://dailydawn.dev/en/2026-08-20)
-  > mattpocock/skills takes #2 spot on GitHub Trending today
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
