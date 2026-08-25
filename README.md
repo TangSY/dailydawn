@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-25 · AI代码偏差拦截工具 / 大模型落地提示词库 / AI代码质量跨源需求](https://dailydawn.dev/zh/2026-08-25)
+  > Prelint登PH 拦截AI代码隐性偏差
 - [2026-08-24 · 终端AI编码工具 / 本地部署需求 / 跨源AI工具适配](https://dailydawn.dev/zh/2026-08-24)
   > openai/codex登GitHub趋势 终端编码工具蚕食IDE插件市场
 - [2026-08-23 · Kagi付费墙工具吐槽 / Qwen3.8社区热度 / Shell技能工具登榜](https://dailydawn.dev/zh/2026-08-23)
   > Kagi去付费墙功能遭HN用户吐槽 需求转向内容获取方案
-- [2026-08-22 · 稀有书籍数字存档 / AI数据伦理讨论 / AI生态供需矛盾](https://dailydawn.dev/zh/2026-08-22)
-  > Anna's Archive 发起稀有书籍扫描 抵制AI公司毁书行为
 
 [全部归档 →](https://dailydawn.dev/archive)
 
