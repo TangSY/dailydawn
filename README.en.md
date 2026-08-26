@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-26 · Self-hosted AI image prompts / Uncensored Qwen variants / Cross-source self-hosted demand](https://dailydawn.dev/en/2026-08-26)
+  > freestylefly/awesome-gpt-image-2 tops GitHub as self-hosted AI image tools boom
 - [2026-08-25 · Hardware Ownership Tools / Debloated Software Alternatives / User Control Demand](https://dailydawn.dev/en/2026-08-25)
   > basecamp/omarchy tops GitHub as devs demand hardware ownership tools
 - [2026-08-24 · Lightweight Coding Agents / Local LLM Optimization / Workflow Tool Demand](https://dailydawn.dev/en/2026-08-24)
   > 14 Product Hunt tools hit 500+ votes as dev and marketing tools lead
-- [2026-08-23 · Codex GitHub Trending Return / Rust LSP Memory Efficiency / Coding Agent Market Tension](https://dailydawn.dev/en/2026-08-23)
-  > OpenAI Codex re-enters GitHub Trending as local Qwen variants challenge its lead
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
