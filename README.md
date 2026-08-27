@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-27 · 英伟达收购HuggingFace / AI求职工具本地化 / AI生态巨头整合](https://dailydawn.dev/zh/2026-08-27)
+  > 英伟达130亿美元收购HuggingFace 重构AI模型生态
 - [2026-08-26 · 图像生成Prompt引擎 / Qwen3.8低显存部署 / Prompt自动化工具](https://dailydawn.dev/zh/2026-08-26)
   > awesome-gpt-image-2登GitHub趋势，整合530+图像生成Prompt
 - [2026-08-25 · AI代码偏差拦截工具 / 大模型落地提示词库 / AI代码质量跨源需求](https://dailydawn.dev/zh/2026-08-25)
   > Prelint登PH 拦截AI代码隐性偏差
-- [2026-08-24 · 终端AI编码工具 / 本地部署需求 / 跨源AI工具适配](https://dailydawn.dev/zh/2026-08-24)
-  > openai/codex登GitHub趋势 终端编码工具蚕食IDE插件市场
 
 [全部归档 →](https://dailydawn.dev/archive)
 

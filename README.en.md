@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-27 · Nvidia-Hugging Face Acquisition / AI Architecture Tool Traction / New AI Tools Launch](https://dailydawn.dev/en/2026-08-27)
+  > Nvidia buys Hugging Face for $13B to lock AI model distribution
 - [2026-08-26 · Self-hosted AI image prompts / Uncensored Qwen variants / Cross-source self-hosted demand](https://dailydawn.dev/en/2026-08-26)
   > freestylefly/awesome-gpt-image-2 tops GitHub as self-hosted AI image tools boom
 - [2026-08-25 · Hardware Ownership Tools / Debloated Software Alternatives / User Control Demand](https://dailydawn.dev/en/2026-08-25)
   > basecamp/omarchy tops GitHub as devs demand hardware ownership tools
-- [2026-08-24 · Lightweight Coding Agents / Local LLM Optimization / Workflow Tool Demand](https://dailydawn.dev/en/2026-08-24)
-  > 14 Product Hunt tools hit 500+ votes as dev and marketing tools lead
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
