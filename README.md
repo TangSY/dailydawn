@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-28 · AI架构图生成工具 / 大模型优化类应用 / 垂直AI工具爆发](https://dailydawn.dev/zh/2026-08-28)
+  > archify登GitHub趋势 抢付费绘图工具独立开发者用户
 - [2026-08-27 · 英伟达收购HuggingFace / AI求职工具本地化 / AI生态巨头整合](https://dailydawn.dev/zh/2026-08-27)
   > 英伟达130亿美元收购HuggingFace 重构AI模型生态
 - [2026-08-26 · 图像生成Prompt引擎 / Qwen3.8低显存部署 / Prompt自动化工具](https://dailydawn.dev/zh/2026-08-26)
   > awesome-gpt-image-2登GitHub趋势，整合530+图像生成Prompt
-- [2026-08-25 · AI代码偏差拦截工具 / 大模型落地提示词库 / AI代码质量跨源需求](https://dailydawn.dev/zh/2026-08-25)
-  > Prelint登PH 拦截AI代码隐性偏差
 
 [全部归档 →](https://dailydawn.dev/archive)
 
