@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-29 · Open App Flow Tracking / Local LLM Quantization / Self-Contained Dev Tools](https://dailydawn.dev/en/2026-08-29)
+  > bilawalsidhu/gods-eye-view enters GitHub Trending as devs track app flows
 - [2026-08-28 · AI Diagramming Tools / LLM Edge Deployment / Niche Builder Tools](https://dailydawn.dev/en/2026-08-28)
   > Browser-based spy satellite simulator tops GitHub Trending today
 - [2026-08-27 · Nvidia-Hugging Face Acquisition / AI Architecture Tool Traction / New AI Tools Launch](https://dailydawn.dev/en/2026-08-27)
   > Nvidia buys Hugging Face for $13B to lock AI model distribution
-- [2026-08-26 · Self-hosted AI image prompts / Uncensored Qwen variants / Cross-source self-hosted demand](https://dailydawn.dev/en/2026-08-26)
-  > freestylefly/awesome-gpt-image-2 tops GitHub as self-hosted AI image tools boom
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
