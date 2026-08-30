@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-08-30 · Edge AI Diagramming Tools / AI Agent Skill Libraries / AI Workflow Optimization](https://dailydawn.dev/en/2026-08-30)
+  > tt-a1i/archify tops GitHub Trending for edge AI diagramming
 - [2026-08-29 · Open App Flow Tracking / Local LLM Quantization / Self-Contained Dev Tools](https://dailydawn.dev/en/2026-08-29)
   > bilawalsidhu/gods-eye-view enters GitHub Trending as devs track app flows
 - [2026-08-28 · AI Diagramming Tools / LLM Edge Deployment / Niche Builder Tools](https://dailydawn.dev/en/2026-08-28)
   > Browser-based spy satellite simulator tops GitHub Trending today
-- [2026-08-27 · Nvidia-Hugging Face Acquisition / AI Architecture Tool Traction / New AI Tools Launch](https://dailydawn.dev/en/2026-08-27)
-  > Nvidia buys Hugging Face for $13B to lock AI model distribution
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-30 · AI架构图生成工具 / 全权重开源大模型 / 大模型合规政策落地](https://dailydawn.dev/zh/2026-08-30)
+  > GLM-5.3 全权重开源 抢食闭源大模型政企市场
 - [2026-08-29 · 开源系统监控工具 / 轻量无依赖前端工具 / 无依赖开发工具需求](https://dailydawn.dev/zh/2026-08-29)
   > gods-eye-view登GitHub趋势 聚焦开源开发者工具新赛道
 - [2026-08-28 · AI架构图生成工具 / 大模型优化类应用 / 垂直AI工具爆发](https://dailydawn.dev/zh/2026-08-28)
   > archify登GitHub趋势 抢付费绘图工具独立开发者用户
-- [2026-08-27 · 英伟达收购HuggingFace / AI求职工具本地化 / AI生态巨头整合](https://dailydawn.dev/zh/2026-08-27)
-  > 英伟达130亿美元收购HuggingFace 重构AI模型生态
 
 [全部归档 →](https://dailydawn.dev/archive)
 
