@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-08-31 · 科研Agent技能库 / 多Agent教学工具 / 开源科研工具赛道](https://dailydawn.dev/zh/2026-08-31)
+  > 科研Agent技能库登GitHub趋势 服务19万+科学家
 - [2026-08-30 · AI架构图生成工具 / 全权重开源大模型 / 大模型合规政策落地](https://dailydawn.dev/zh/2026-08-30)
   > GLM-5.3 全权重开源 抢食闭源大模型政企市场
 - [2026-08-29 · 开源系统监控工具 / 轻量无依赖前端工具 / 无依赖开发工具需求](https://dailydawn.dev/zh/2026-08-29)
   > gods-eye-view登GitHub趋势 聚焦开源开发者工具新赛道
-- [2026-08-28 · AI架构图生成工具 / 大模型优化类应用 / 垂直AI工具爆发](https://dailydawn.dev/zh/2026-08-28)
-  > archify登GitHub趋势 抢付费绘图工具独立开发者用户
 
 [全部归档 →](https://dailydawn.dev/archive)
 
