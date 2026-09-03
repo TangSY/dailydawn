@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-03 · AI代码精简工具爆发 / Qwen3.8蚕食海外模型市场 / 隐私用户替代应用需求](https://dailydawn.dev/zh/2026-09-03)
+  > ponytail登顶GitHub趋势 约束AI优先复用现有代码
 - [2026-09-02 · 多Agent协作工具 / Google平台限制 / 多Agent需求验证](https://dailydawn.dev/zh/2026-09-02)
   > 用户倒逼浏览器厂商开放MV3权限或转向第三方工具
 - [2026-09-01 · 多Agent协作开发工具 / 本地部署模型需求 / 多Agent生态工具集群](https://dailydawn.dev/zh/2026-09-01)
   > OpenMAIC登顶GitHub趋势 抢食单Agent工具市场
-- [2026-08-31 · 科研Agent技能库 / 多Agent教学工具 / 开源科研工具赛道](https://dailydawn.dev/zh/2026-08-31)
-  > 科研Agent技能库登GitHub趋势 服务19万+科学家
 
 [全部归档 →](https://dailydawn.dev/archive)
 
