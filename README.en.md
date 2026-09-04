@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-04 · AI Audio Editing Tools / Open-Source Voice Tools / Indie Creator Tool Demand](https://dailydawn.dev/en/2026-09-04)
+  > Audacity 4.0 launches with AI upgrades for indie audio creators
 - [2026-09-03 · Ponytail GitHub repo trend / Skills GitHub repo trend / Indie dev micro-tool wave](https://dailydawn.dev/en/2026-09-03)
   > New GitHub repos DietrichGebert/ponytail and mattpocock/skills trend today
 - [2026-09-02 · One-click multi-agent tools / Qwen3.8 efficiency gains / Open-source agent traction](https://dailydawn.dev/en/2026-09-02)
   > OpenMAIC tops GitHub Trending as one-click multi-agent tools gain traction
-- [2026-09-01 · Edge AI Deployment Tools / Global Privacy Backlash / User-Controlled AI Tools](https://dailydawn.dev/en/2026-09-01)
-  > Chrome MV2 removal sparks global privacy and workflow backlash
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
