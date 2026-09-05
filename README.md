@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-05 · AI Agent技能标准化工具 / Agent工具类搜索涨幅 / 跨源Agent工具爆发](https://dailydawn.dev/zh/2026-09-05)
+  > mattpocock/skills登GitHub趋势 重构AI Agent技能落地逻辑
 - [2026-09-04 · Qwen3.8性能碾压GPT-6 / GPT-6用户痛点爆发 / 开源模型落地提速](https://dailydawn.dev/zh/2026-09-04)
   > GPT-6 Astra遭用户吐槽 开源模型抢食闭源市场
 - [2026-09-03 · AI代码精简工具爆发 / Qwen3.8蚕食海外模型市场 / 隐私用户替代应用需求](https://dailydawn.dev/zh/2026-09-03)
   > ponytail登顶GitHub趋势 约束AI优先复用现有代码
-- [2026-09-02 · 多Agent协作工具 / Google平台限制 / 多Agent需求验证](https://dailydawn.dev/zh/2026-09-02)
-  > 用户倒逼浏览器厂商开放MV3权限或转向第三方工具
 
 [全部归档 →](https://dailydawn.dev/archive)
 

@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-05 · 27B-scale model tooling / Quantized self-hosted AI / Indie AI API routing](https://dailydawn.dev/en/2026-09-05)
+  > GPT-6 Astra undercuts Qwen 3.8 on cost for indie builder AI workloads
 - [2026-09-04 · AI Audio Editing Tools / Open-Source Voice Tools / Indie Creator Tool Demand](https://dailydawn.dev/en/2026-09-04)
   > Audacity 4.0 launches with AI upgrades for indie audio creators
 - [2026-09-03 · Ponytail GitHub repo trend / Skills GitHub repo trend / Indie dev micro-tool wave](https://dailydawn.dev/en/2026-09-03)
   > New GitHub repos DietrichGebert/ponytail and mattpocock/skills trend today
-- [2026-09-02 · One-click multi-agent tools / Qwen3.8 efficiency gains / Open-source agent traction](https://dailydawn.dev/en/2026-09-02)
-  > OpenMAIC tops GitHub Trending as one-click multi-agent tools gain traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
