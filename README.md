@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-08 · 欧洲民营航天入轨 / 本土服务搜索升温 / 欧洲供应链替代](https://dailydawn.dev/zh/2026-09-08)
+  > Isar Aerospace入轨欧洲民营航天抢食细分市场
 - [2026-09-07 · qBittorrent隐私危机 / 隐私合规工具升温 / 大厂软件越权争议](https://dailydawn.dev/zh/2026-09-07)
   > 用户痛斥qBittorrent越权 隐私信任彻底崩塌
 - [2026-09-06 · AI代码复用工具 / Qwen3.8通用场景优势 / Agent技能标准化需求](https://dailydawn.dev/zh/2026-09-06)
   > ponytail登GitHub趋势 约束AI优先复用现有代码
-- [2026-09-05 · AI Agent技能标准化工具 / Agent工具类搜索涨幅 / 跨源Agent工具爆发](https://dailydawn.dev/zh/2026-09-05)
-  > mattpocock/skills登GitHub趋势 重构AI Agent技能落地逻辑
 
 [全部归档 →](https://dailydawn.dev/archive)
 

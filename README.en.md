@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-08 · Qwen3.8 agent optimization / Local LLM quantization / Open-source agent tooling](https://dailydawn.dev/en/2026-09-08)
+  > affaan-m/ECC tops GitHub to optimize Qwen3.8-Flash-Next agents
 - [2026-09-07 · European private rocket orbit / Regional cloud search surge / Non-U.S. infrastructure demand](https://dailydawn.dev/en/2026-09-07)
   > Isar Aerospace’s private rocket reaches orbit from European soil
 - [2026-09-06 · AI Artifact Removal Tools / Content Creator AI Tool Demand / Cross-Source AI Fix Trend](https://dailydawn.dev/en/2026-09-06)
   > blader/humanizer tops GitHub to erase AI-generated writing artifacts
-- [2026-09-05 · 27B-scale model tooling / Quantized self-hosted AI / Indie AI API routing](https://dailydawn.dev/en/2026-09-05)
-  > GPT-6 Astra undercuts Qwen 3.8 on cost for indie builder AI workloads
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
