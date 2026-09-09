@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-09 · Self-hosted media tools / Media compression tools / Self-hosted infrastructure](https://dailydawn.dev/en/2026-09-09)
+  > Jellyfin 12.0 launches to serve self-hosted media user demands
 - [2026-09-08 · Qwen3.8 agent optimization / Local LLM quantization / Open-source agent tooling](https://dailydawn.dev/en/2026-09-08)
   > affaan-m/ECC tops GitHub to optimize Qwen3.8-Flash-Next agents
 - [2026-09-07 · European private rocket orbit / Regional cloud search surge / Non-U.S. infrastructure demand](https://dailydawn.dev/en/2026-09-07)
   > Isar Aerospace’s private rocket reaches orbit from European soil
-- [2026-09-06 · AI Artifact Removal Tools / Content Creator AI Tool Demand / Cross-Source AI Fix Trend](https://dailydawn.dev/en/2026-09-06)
-  > blader/humanizer tops GitHub to erase AI-generated writing artifacts
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
