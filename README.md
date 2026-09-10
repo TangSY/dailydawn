@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-10 · 双屏移动应用适配 / AI隐私滥用争议 / 轻量模型本地部署](https://dailydawn.dev/zh/2026-09-10)
+  > iPhone Duo发布 双屏适配工具下载量周涨30%
 - [2026-09-09 · AI视频渲染引擎 / AI视频片段提取 / AI视频工具需求](https://dailydawn.dev/zh/2026-09-09)
   > heygen-com/hyperframes登GitHub趋势 解锁AI视频新场景
 - [2026-09-08 · 欧洲民营航天入轨 / 本土服务搜索升温 / 欧洲供应链替代](https://dailydawn.dev/zh/2026-09-08)
   > Isar Aerospace入轨欧洲民营航天抢食细分市场
-- [2026-09-07 · qBittorrent隐私危机 / 隐私合规工具升温 / 大厂软件越权争议](https://dailydawn.dev/zh/2026-09-07)
-  > 用户痛斥qBittorrent越权 隐私信任彻底崩塌
 
 [全部归档 →](https://dailydawn.dev/archive)
 
