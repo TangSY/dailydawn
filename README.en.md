@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-11 · ADHD-focused productivity tools / Spatial task management tools / User-centric non-AI tooling](https://dailydawn.dev/en/2026-09-11)
+  > Today’s GitHub trending sees ADHD-focused tool top 3k stars
 - [2026-09-10 · Non-AI office tool demand / Dual-screen dev tooling / Local LLM optimization](https://dailydawn.dev/en/2026-09-10)
   > LibreOffice hits record downloads amid user backlash against AI office tools
 - [2026-09-09 · Self-hosted media tools / Media compression tools / Self-hosted infrastructure](https://dailydawn.dev/en/2026-09-09)
   > Jellyfin 12.0 launches to serve self-hosted media user demands
-- [2026-09-08 · Qwen3.8 agent optimization / Local LLM quantization / Open-source agent tooling](https://dailydawn.dev/en/2026-09-08)
-  > affaan-m/ECC tops GitHub to optimize Qwen3.8-Flash-Next agents
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

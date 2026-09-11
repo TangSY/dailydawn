@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-11 · ADHD编码辅助工具 / 极简AI图表模板 / AI编码注意力优化](https://dailydawn.dev/zh/2026-09-11)
+  > i-have-adhd登GitHub榜首 聚焦ADHD用户编码注意力痛点
 - [2026-09-10 · 双屏移动应用适配 / AI隐私滥用争议 / 轻量模型本地部署](https://dailydawn.dev/zh/2026-09-10)
   > iPhone Duo发布 双屏适配工具下载量周涨30%
 - [2026-09-09 · AI视频渲染引擎 / AI视频片段提取 / AI视频工具需求](https://dailydawn.dev/zh/2026-09-09)
   > heygen-com/hyperframes登GitHub趋势 解锁AI视频新场景
-- [2026-09-08 · 欧洲民营航天入轨 / 本土服务搜索升温 / 欧洲供应链替代](https://dailydawn.dev/zh/2026-09-08)
-  > Isar Aerospace入轨欧洲民营航天抢食细分市场
 
 [全部归档 →](https://dailydawn.dev/archive)
 
