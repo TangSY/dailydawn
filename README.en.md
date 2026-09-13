@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-13 · Spatial Intelligence Tools / Cloud GPU Cost Inflation / Cross-Source Demand Validation](https://dailydawn.dev/en/2026-09-13)
+  > bilawalsidhu/gods-eye-view tops GitHub for spatial intelligence devs
 - [2026-09-12 · Cognition SWE-2 coding lead / Qwen 3.8 local deployment / Cross-source coding model validation](https://dailydawn.dev/en/2026-09-12)
   > Cognition SWE-2 outpaces coding rivals on core benchmark accuracy
 - [2026-09-11 · ADHD-focused productivity tools / Spatial task management tools / User-centric non-AI tooling](https://dailydawn.dev/en/2026-09-11)
   > Today’s GitHub trending sees ADHD-focused tool top 3k stars
-- [2026-09-10 · Non-AI office tool demand / Dual-screen dev tooling / Local LLM optimization](https://dailydawn.dev/en/2026-09-10)
-  > LibreOffice hits record downloads amid user backlash against AI office tools
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-13 · 轻量化模型落地工具 / 开发者获客工具迭代 / 视频资产管理刚需](https://dailydawn.dev/zh/2026-09-13)
+  > bilawalsidhu/gods-eye-view登GitHub趋势 轻量化模型落地新场景
 - [2026-09-12 · SWE-2代码专用模型 / Qwen3.8轻量化趋势 / AI科研信任危机](https://dailydawn.dev/zh/2026-09-12)
   > Cognition SWE-2 蚕食代码大模型企业级用户份额
 - [2026-09-11 · ADHD编码辅助工具 / 极简AI图表模板 / AI编码注意力优化](https://dailydawn.dev/zh/2026-09-11)
   > i-have-adhd登GitHub榜首 聚焦ADHD用户编码注意力痛点
-- [2026-09-10 · 双屏移动应用适配 / AI隐私滥用争议 / 轻量模型本地部署](https://dailydawn.dev/zh/2026-09-10)
-  > iPhone Duo发布 双屏适配工具下载量周涨30%
 
 [全部归档 →](https://dailydawn.dev/archive)
 
