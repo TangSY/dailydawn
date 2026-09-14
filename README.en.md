@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-14 · Open-source voice tools / Spatial dev tools / Local AI adoption](https://dailydawn.dev/en/2026-09-14)
+  > Debpalash/VoiceStudio tops GitHub as open-source voice tools surge
 - [2026-09-13 · Spatial Intelligence Tools / Cloud GPU Cost Inflation / Cross-Source Demand Validation](https://dailydawn.dev/en/2026-09-13)
   > bilawalsidhu/gods-eye-view tops GitHub for spatial intelligence devs
 - [2026-09-12 · Cognition SWE-2 coding lead / Qwen 3.8 local deployment / Cross-source coding model validation](https://dailydawn.dev/en/2026-09-12)
   > Cognition SWE-2 outpaces coding rivals on core benchmark accuracy
-- [2026-09-11 · ADHD-focused productivity tools / Spatial task management tools / User-centric non-AI tooling](https://dailydawn.dev/en/2026-09-11)
-  > Today’s GitHub trending sees ADHD-focused tool top 3k stars
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
