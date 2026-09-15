@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-15 · Rule-based code review tools / Automated dependency scanning / Hybrid dev workflow tools](https://dailydawn.dev/en/2026-09-15)
+  > Alibaba open-sources battle-tested code review workflows for indie devs
 - [2026-09-14 · Open-source voice tools / Spatial dev tools / Local AI adoption](https://dailydawn.dev/en/2026-09-14)
   > Debpalash/VoiceStudio tops GitHub as open-source voice tools surge
 - [2026-09-13 · Spatial Intelligence Tools / Cloud GPU Cost Inflation / Cross-Source Demand Validation](https://dailydawn.dev/en/2026-09-13)
   > bilawalsidhu/gods-eye-view tops GitHub for spatial intelligence devs
-- [2026-09-12 · Cognition SWE-2 coding lead / Qwen 3.8 local deployment / Cross-source coding model validation](https://dailydawn.dev/en/2026-09-12)
-  > Cognition SWE-2 outpaces coding rivals on core benchmark accuracy
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
