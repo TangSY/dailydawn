@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-16 · 混合架构代码评审工具 / iOS 27隐私追踪争议 / AI落地场景双验证](https://dailydawn.dev/zh/2026-09-16)
+  > 阿里开源混合架构代码评审工具登GitHub趋势
 - [2026-09-15 · MoE推理引擎降门槛 / 广告过滤工具缺口 / 开源AI工具双爆发](https://dailydawn.dev/zh/2026-09-15)
   > colibri登GitHub趋势 让消费级硬件跑MoE模型
 - [2026-09-14 · AI语音工具爆发 / AI对齐需求升温 / 大模型本地化部署](https://dailydawn.dev/zh/2026-09-14)
   > AI对齐需求爆发 小模型本地化部署成新刚需
-- [2026-09-13 · 轻量化模型落地工具 / 开发者获客工具迭代 / 视频资产管理刚需](https://dailydawn.dev/zh/2026-09-13)
-  > bilawalsidhu/gods-eye-view登GitHub趋势 轻量化模型落地新场景
 
 [全部归档 →](https://dailydawn.dev/archive)
 
