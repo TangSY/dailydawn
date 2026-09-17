@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-17 · B2B Sales Tool Traction / Local MoE Runtime Growth / LLM Efficiency Validation](https://dailydawn.dev/en/2026-09-17)
+  > Open-source B2B sales tools gain traction as indie builders target SMBs
 - [2026-09-16 · Edge AI Inference Tools / AI Text-to-Image Models / Nature-Focused AI Hardware](https://dailydawn.dev/en/2026-09-16)
   > AI-powered bird-drawing e-ink frame gains 1405 Show HN votes
 - [2026-09-15 · Rule-based code review tools / Automated dependency scanning / Hybrid dev workflow tools](https://dailydawn.dev/en/2026-09-15)
   > Alibaba open-sources battle-tested code review workflows for indie devs
-- [2026-09-14 · Open-source voice tools / Spatial dev tools / Local AI adoption](https://dailydawn.dev/en/2026-09-14)
-  > Debpalash/VoiceStudio tops GitHub as open-source voice tools surge
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
