@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-19 · Passkey Backlash / Error-Proof Code Tools / Risk-Mitigating Dev Tools](https://dailydawn.dev/en/2026-09-19)
+  > Passkey frustration sparks 700+ HN debates on lock-in and friction
 - [2026-09-18 · Rust GPU Qwen optimization / CUDA Rust developer adoption / Qwen enterprise validation](https://dailydawn.dev/en/2026-09-18)
   > Rust GPU tools align with Qwen 3.8 ecosystem to cut inference costs
 - [2026-09-17 · B2B Sales Tool Traction / Local MoE Runtime Growth / LLM Efficiency Validation](https://dailydawn.dev/en/2026-09-17)
   > Open-source B2B sales tools gain traction as indie builders target SMBs
-- [2026-09-16 · Edge AI Inference Tools / AI Text-to-Image Models / Nature-Focused AI Hardware](https://dailydawn.dev/en/2026-09-16)
-  > AI-powered bird-drawing e-ink frame gains 1405 Show HN votes
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
