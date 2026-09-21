@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-21 · AI全链路开发代理 / 非自回归模型落地难 / AI开发工具场景闭环](https://dailydawn.dev/zh/2026-09-21)
+  > Mastra Factory登Product Hunt 全链路AI代理接管开发
 - [2026-09-20 · Cloudflare安全审计工具 / 安全合规工具需求 / 开发流程集成工具](https://dailydawn.dev/zh/2026-09-20)
   > Cloudflare安全审计工具登GitHub趋势 替代人工审计
 - [2026-09-19 · AI数据合规争议 / AI法案监管落地 / 代码审核工具爆发](https://dailydawn.dev/zh/2026-09-19)
   > 微软高管称AI scraping为人类史上最大规模劳工盗窃
-- [2026-09-18 · 轻量向量模型爆发 / 小显存工具需求 / 向量检索缺口](https://dailydawn.dev/zh/2026-09-18)
-  > 轻量向量模型需求爆发 碾压小参数通用模型热度
 
 [全部归档 →](https://dailydawn.dev/archive)
 
