@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-22 · Open-source market tracking / Qwen GGUF local runs / Agent orchestrator tooling](https://dailydawn.dev/en/2026-09-22)
+  > OpenStock tops GitHub trending as Qwen GGUF variants drive local model access
 - [2026-09-21 · AI Security Audit Tools / Open Model Preservation / AI Dev Agent Workflows](https://dailydawn.dev/en/2026-09-21)
   > Mastra Factory automates dev workflows as open model preservation gains traction
 - [2026-09-20 · Cloudflare Security Tooling / AI Scraping Debates / Dev Security Demand](https://dailydawn.dev/en/2026-09-20)
   > Cloudflare launches security-audit-skill to automate dev vulnerability checks
-- [2026-09-19 · Passkey Backlash / Error-Proof Code Tools / Risk-Mitigating Dev Tools](https://dailydawn.dev/en/2026-09-19)
-  > Passkey frustration sparks 700+ HN debates on lock-in and friction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
