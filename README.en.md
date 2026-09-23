@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-23 · Bayesian optimization tooling / Optimization cost reduction / Open model tuning workflows](https://dailydawn.dev/en/2026-09-23)
+  > Google's ax tops GitHub trending as optimization tooling gains fresh traction
 - [2026-09-22 · Open-source market tracking / Qwen GGUF local runs / Agent orchestrator tooling](https://dailydawn.dev/en/2026-09-22)
   > OpenStock tops GitHub trending as Qwen GGUF variants drive local model access
 - [2026-09-21 · AI Security Audit Tools / Open Model Preservation / AI Dev Agent Workflows](https://dailydawn.dev/en/2026-09-21)
   > Mastra Factory automates dev workflows as open model preservation gains traction
-- [2026-09-20 · Cloudflare Security Tooling / AI Scraping Debates / Dev Security Demand](https://dailydawn.dev/en/2026-09-20)
-  > Cloudflare launches security-audit-skill to automate dev vulnerability checks
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

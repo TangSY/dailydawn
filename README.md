@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-23 · Go语言agent运行时登榜 / Go代理运行时热度走高 / GGUF调度链路打通](https://dailydawn.dev/zh/2026-09-23)
+  > google/ax Go语言agent运行时今日登GitHub Trending榜首
 - [2026-09-22 · AI隐私信任裂痕 / Qwen量化适配爆发 / 多源生态热度验证](https://dailydawn.dev/zh/2026-09-22)
   > Qwen全系列衍生量化版本覆盖全档位消费级硬件
 - [2026-09-21 · AI全链路开发代理 / 非自回归模型落地难 / AI开发工具场景闭环](https://dailydawn.dev/zh/2026-09-21)
   > Mastra Factory登Product Hunt 全链路AI代理接管开发
-- [2026-09-20 · Cloudflare安全审计工具 / 安全合规工具需求 / 开发流程集成工具](https://dailydawn.dev/zh/2026-09-20)
-  > Cloudflare安全审计工具登GitHub趋势 替代人工审计
 
 [全部归档 →](https://dailydawn.dev/archive)
 
