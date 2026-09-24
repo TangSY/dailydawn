@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-24 · Go agent orchestration runtime / Lightweight inference demand / Cross-stack agent tool pairing](https://dailydawn.dev/en/2026-09-24)
+  > Go agent runtime pairs with fast open model inference for local office workflows
 - [2026-09-23 · Bayesian optimization tooling / Optimization cost reduction / Open model tuning workflows](https://dailydawn.dev/en/2026-09-23)
   > Google's ax tops GitHub trending as optimization tooling gains fresh traction
 - [2026-09-22 · Open-source market tracking / Qwen GGUF local runs / Agent orchestrator tooling](https://dailydawn.dev/en/2026-09-22)
   > OpenStock tops GitHub trending as Qwen GGUF variants drive local model access
-- [2026-09-21 · AI Security Audit Tools / Open Model Preservation / AI Dev Agent Workflows](https://dailydawn.dev/en/2026-09-21)
-  > Mastra Factory automates dev workflows as open model preservation gains traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
