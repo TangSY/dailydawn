@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-25 · 自托管Agent记忆框架 / 自托管Agent热度上涨 / 多栈自托管Agent闭环](https://dailydawn.dev/zh/2026-09-25)
+  > 三款自托管Agent工具今日同登GitHub Trending 覆盖全核心场景
 - [2026-09-24 · Go agent运行时登榜 / Go代理栈需求爆发 / Jev多源覆盖](https://dailydawn.dev/zh/2026-09-24)
   > google/ax Go语言agent运行时今日登GitHub Trending榜首
 - [2026-09-23 · Go语言agent运行时登榜 / Go代理运行时热度走高 / GGUF调度链路打通](https://dailydawn.dev/zh/2026-09-23)
   > google/ax Go语言agent运行时今日登GitHub Trending榜首
-- [2026-09-22 · AI隐私信任裂痕 / Qwen量化适配爆发 / 多源生态热度验证](https://dailydawn.dev/zh/2026-09-22)
-  > Qwen全系列衍生量化版本覆盖全档位消费级硬件
 
 [全部归档 →](https://dailydawn.dev/archive)
 
