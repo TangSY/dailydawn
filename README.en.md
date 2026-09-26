@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-26 · Self-hosted work agent management / Jev decision model tooling / Agent memory + decision stack](https://dailydawn.dev/en/2026-09-26)
+  > Jev-style open decision model tool Ollaya launches alongside 3 top GitHub agent repos
 - [2026-09-25 · Agent memory runtime / Office agent harness / Paired dev tool speedup](https://dailydawn.dev/en/2026-09-25)
   > Two GitHub trending repos cut solo builder dev time by 70% today
 - [2026-09-24 · Go agent orchestration runtime / Lightweight inference demand / Cross-stack agent tool pairing](https://dailydawn.dev/en/2026-09-24)
   > Go agent runtime pairs with fast open model inference for local office workflows
-- [2026-09-23 · Bayesian optimization tooling / Optimization cost reduction / Open model tuning workflows](https://dailydawn.dev/en/2026-09-23)
-  > Google's ax tops GitHub trending as optimization tooling gains fresh traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

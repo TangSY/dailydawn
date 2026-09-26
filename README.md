@@ -16,11 +16,11 @@
 
 ## 最近 3 期日报
 
+- [2026-09-26 · AI Agent工具栈登榜 / 国产大模型访问上涨 / Jev生态多源起量](https://dailydawn.dev/zh/2026-09-26)
+  > 三款AI Agent工具今日同登GitHub Trending 覆盖核心工作流场景
 - [2026-09-25 · 自托管Agent记忆框架 / 自托管Agent热度上涨 / 多栈自托管Agent闭环](https://dailydawn.dev/zh/2026-09-25)
   > 三款自托管Agent工具今日同登GitHub Trending 覆盖全核心场景
 - [2026-09-24 · Go agent运行时登榜 / Go代理栈需求爆发 / Jev多源覆盖](https://dailydawn.dev/zh/2026-09-24)
-  > google/ax Go语言agent运行时今日登GitHub Trending榜首
-- [2026-09-23 · Go语言agent运行时登榜 / Go代理运行时热度走高 / GGUF调度链路打通](https://dailydawn.dev/zh/2026-09-23)
   > google/ax Go语言agent运行时今日登GitHub Trending榜首
 
 [全部归档 →](https://dailydawn.dev/archive)
