@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-09-29 · Hindsight AI tooling / Open paperclip utilities / 3k+ GitHub repo traction](https://dailydawn.dev/en/2026-09-29)
+  > Three new GitHub trending AI repos cross 3k raw scores today
 - [2026-09-28 · Open voice agent tooling / Voice workflow traction / Voice builder demand](https://dailydawn.dev/en/2026-09-28)
   > VoiceStudio tops GitHub trending as open voice agent tooling gains fresh traction
 - [2026-09-27 · Open work agent management / Public sector tooling demand / GitHub trending 2k+ repos](https://dailydawn.dev/en/2026-09-27)
   > Two GitHub trending repos top 2k raw scores for open work agent tooling
-- [2026-09-26 · Self-hosted work agent management / Jev decision model tooling / Agent memory + decision stack](https://dailydawn.dev/en/2026-09-26)
-  > Jev-style open decision model tool Ollaya launches alongside 3 top GitHub agent repos
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
