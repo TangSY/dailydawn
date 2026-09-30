@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-09-30 · NVIDIA OpenShell登榜 / 自托管需求暴涨 / 多工具自托管闭环](https://dailydawn.dev/zh/2026-09-30)
+  > NVIDIA OpenShell今日登榜 私有推理场景份额快速扩张
 - [2026-09-29 · 无授权开源工具登榜 / 小语种有声书需求上涨 / 多源AI工具生态覆盖](https://dailydawn.dev/zh/2026-09-29)
   > 三款无大厂授权开源工具今日登榜 小团队可快速上线付费产品
 - [2026-09-28 · 全链路自托管Agent / 本地语音工具需求 / 双源热度验证](https://dailydawn.dev/zh/2026-09-28)
   > 全链路自托管Agent工具栈今日登GitHub Trending 补全语音环节
-- [2026-09-27 · 开源向量记忆组件 / 向量检索热度上涨 / 双工具场景互补](https://dailydawn.dev/zh/2026-09-27)
-  > 两款开源记忆工具今日同登GitHub Trending 补全检索链路
 
 [全部归档 →](https://dailydawn.dev/archive)
 
