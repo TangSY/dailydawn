@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-01 · 开源语音工具登榜 / 本地语音需求暴涨 / 双源语音工具升温](https://dailydawn.dev/zh/2026-10-01)
+  > VoiceStudio今日登GitHub Trending 全本地化语音工具破局
 - [2026-09-30 · NVIDIA OpenShell登榜 / 自托管需求暴涨 / 多工具自托管闭环](https://dailydawn.dev/zh/2026-09-30)
   > NVIDIA OpenShell今日登榜 私有推理场景份额快速扩张
 - [2026-09-29 · 无授权开源工具登榜 / 小语种有声书需求上涨 / 多源AI工具生态覆盖](https://dailydawn.dev/zh/2026-09-29)
   > 三款无大厂授权开源工具今日登榜 小团队可快速上线付费产品
-- [2026-09-28 · 全链路自托管Agent / 本地语音工具需求 / 双源热度验证](https://dailydawn.dev/zh/2026-09-28)
-  > 全链路自托管Agent工具栈今日登GitHub Trending 补全语音环节
 
 [全部归档 →](https://dailydawn.dev/archive)
 
