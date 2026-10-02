@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-02 · NVIDIA OpenShell traction / Qwen 128% visibility growth / Unbundled dev tool traction](https://dailydawn.dev/en/2026-10-02)
+  > Two new GitHub trending dev tools cross 1k raw scores for unbundled workflow utility
 - [2026-10-01 · Open voice agent tooling / Qwen ecosystem 35% growth / Agent runtime pairing](https://dailydawn.dev/en/2026-10-01)
   > OpenAI paired Dots with new shell tooling for persistent low-cost agent workflows
 - [2026-09-30 · NVIDIA OpenShell launch / Qwen3.8-27B performance lead / GitHub AI workflow tools](https://dailydawn.dev/en/2026-09-30)
   > NVIDIA OpenShell launches on GitHub trending as new open shell tooling gains traction
-- [2026-09-29 · Hindsight AI tooling / Open paperclip utilities / 3k+ GitHub repo traction](https://dailydawn.dev/en/2026-09-29)
-  > Three new GitHub trending AI repos cross 3k raw scores today
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
