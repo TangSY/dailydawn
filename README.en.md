@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-03 · ponytail minimal code agent repo / minimal code agent demand surge / lean 27B model agent alignment](https://dailydawn.dev/en/2026-10-03)
+  > ponytail minimal code repo tops GitHub trending for lean local agent workflows
 - [2026-10-02 · NVIDIA OpenShell traction / Qwen 128% visibility growth / Unbundled dev tool traction](https://dailydawn.dev/en/2026-10-02)
   > Two new GitHub trending dev tools cross 1k raw scores for unbundled workflow utility
 - [2026-10-01 · Open voice agent tooling / Qwen ecosystem 35% growth / Agent runtime pairing](https://dailydawn.dev/en/2026-10-01)
   > OpenAI paired Dots with new shell tooling for persistent low-cost agent workflows
-- [2026-09-30 · NVIDIA OpenShell launch / Qwen3.8-27B performance lead / GitHub AI workflow tools](https://dailydawn.dev/en/2026-09-30)
-  > NVIDIA OpenShell launches on GitHub trending as new open shell tooling gains traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
