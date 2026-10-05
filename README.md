@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-05 · 零API费Agent爬虫 / 文档驱动Agent升温 / 双源验证工具热度](https://dailydawn.dev/zh/2026-10-05)
+  > 文档优先型Agent工具今日登榜 零成本绕开付费API
 - [2026-10-04 · 双Agent工具同登榜 / GGUF模型曝光走高 / Agent工具跨源升温](https://dailydawn.dev/zh/2026-10-04)
   > 两款AI Agent开发工具今日同登GitHub Trending 补全离线检索链路
 - [2026-10-03 · 懒开发代码优化工具 / 2-bit量化模型起量 / 双源低内存部署验证](https://dailydawn.dev/zh/2026-10-03)
   > ponytail今日登GitHub Trending 懒开发逻辑快速起量
-- [2026-10-02 · Shell工具双登GitHub榜 / Qwen量化热度走高 / 私有运行需求爆发](https://dailydawn.dev/zh/2026-10-02)
-  > 两款Shell工具今日同登GitHub Trending 细分赛道热度分化
 
 [全部归档 →](https://dailydawn.dev/archive)
 
