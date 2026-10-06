@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-06 · 健身开源工具登榜 / 个人追踪需求上涨 / 双赛道工具升温](https://dailydawn.dev/zh/2026-10-06)
+  > 两款开源工具今日登GitHub Trending 健身开发赛道热度攀升
 - [2026-10-05 · 零API费Agent爬虫 / 文档驱动Agent升温 / 双源验证工具热度](https://dailydawn.dev/zh/2026-10-05)
   > 文档优先型Agent工具今日登榜 零成本绕开付费API
 - [2026-10-04 · 双Agent工具同登榜 / GGUF模型曝光走高 / Agent工具跨源升温](https://dailydawn.dev/zh/2026-10-04)
   > 两款AI Agent开发工具今日同登GitHub Trending 补全离线检索链路
-- [2026-10-03 · 懒开发代码优化工具 / 2-bit量化模型起量 / 双源低内存部署验证](https://dailydawn.dev/zh/2026-10-03)
-  > ponytail今日登GitHub Trending 懒开发逻辑快速起量
 
 [全部归档 →](https://dailydawn.dev/archive)
 

@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-06 · Open AI agent sandbox / Agent training demand surge / End-to-end agent dev stack](https://dailydawn.dev/en/2026-10-06)
+  > openGym tops GitHub Trending with 1433 raw scores for AI agent training workflows
 - [2026-10-05 · Cloud cost data leak / Sovereign LLM demand surge / AI infrastructure regulation](https://dailydawn.dev/en/2026-10-05)
   > Improper redaction exposes Google data center water and power usage data
 - [2026-10-04 · Agent-Reach connectivity tool / Agent connectivity demand surge / Local dev no-lock-in preference](https://dailydawn.dev/en/2026-10-04)
   > Agent-Reach GitHub repo hits 1696 raw scores for cross-platform agent connectivity
-- [2026-10-03 · ponytail minimal code agent repo / minimal code agent demand surge / lean 27B model agent alignment](https://dailydawn.dev/en/2026-10-03)
-  > ponytail minimal code repo tops GitHub trending for lean local agent workflows
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
