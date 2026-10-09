@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-09 · PS5自托管工具登榜 / 主机本地改造需求 / 家用设备工具升温](https://dailydawn.dev/zh/2026-10-09)
+  > AnyPS5今日登GitHub Trending 家用主机自托管工具赛道升温
 - [2026-10-08 · 开源数学推理需求 / 本地大模型部署 / 合规大模型场景](https://dailydawn.dev/zh/2026-10-08)
   > 开源数学推理需求集中爆发 开发者转向本地部署方案
 - [2026-10-07 · Agent逆向自动化 / 细分逆向工具需求 / 逆向赛道双源验证](https://dailydawn.dev/zh/2026-10-07)
   > rea今日登GitHub Trending 逆向自动化细分赛道直接破局
-- [2026-10-06 · 健身开源工具登榜 / 个人追踪需求上涨 / 双赛道工具升温](https://dailydawn.dev/zh/2026-10-06)
-  > 两款开源工具今日登GitHub Trending 健身开发赛道热度攀升
 
 [全部归档 →](https://dailydawn.dev/archive)
 
