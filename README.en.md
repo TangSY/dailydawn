@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-11 · AI reverse engineering tool / Qwen uncensored GGUF port / Cross-platform RE traction](https://dailydawn.dev/en/2026-10-11)
+  > morluto/rea hits 25793 GitHub stars today as reverse engineering tool traction surges
 - [2026-10-10 · AI coding agent tools / Builder intent surge / Cross-platform agent traction](https://dailydawn.dev/en/2026-10-10)
   > morluto/rea hits 14927 GitHub stars today as AI coding agent traction surges
 - [2026-10-09 · PS5 homebrew dev tool / Hardware tinkerer demand surge / Non-AI dev tool traction](https://dailydawn.dev/en/2026-10-09)
   > boykopovar/AnyPS5 hits GitHub trending for open PS5 hardware unlock workflows
-- [2026-10-08 · JetBrains AI overspend / Self-hosted AI adoption / Local inference demand](https://dailydawn.dev/en/2026-10-08)
-  > JetBrains 2025 22% revenue growth paired with $128M net loss from AI R&D overspend
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-11 · 低门槛逆向工具链 / 自托管逆向需求 / 双源逆向热度验证](https://dailydawn.dev/zh/2026-10-11)
+  > morluto/rea今日登GitHub Trending榜首 逆向工具链覆盖低门槛变现
 - [2026-10-10 · 逆向自动化工具登榜 / 逆向需求热度暴涨 / 跨源自主部署升温](https://dailydawn.dev/zh/2026-10-10)
   > rea今日登GitHub Trending 逆向自动化赛道热度冲高
 - [2026-10-09 · PS5自托管工具登榜 / 主机本地改造需求 / 家用设备工具升温](https://dailydawn.dev/zh/2026-10-09)
   > AnyPS5今日登GitHub Trending 家用主机自托管工具赛道升温
-- [2026-10-08 · 开源数学推理需求 / 本地大模型部署 / 合规大模型场景](https://dailydawn.dev/zh/2026-10-08)
-  > 开源数学推理需求集中爆发 开发者转向本地部署方案
 
 [全部归档 →](https://dailydawn.dev/archive)
 
