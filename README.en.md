@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-13 · rea enterprise workflow traction / self-hosted OCR demand surge / cross-source tool adoption](https://dailydawn.dev/en/2026-10-13)
+  > morluto/rea hits 45327 GitHub stars today as bundled enterprise workflow traction surges
 - [2026-10-12 · Subversive browser city game / Privacy open source tool traction / Indie no-download game demand](https://dailydawn.dev/en/2026-10-12)
   > Housing-themed city-building game hits 531 HackerNews points today_window
 - [2026-10-11 · AI reverse engineering tool / Qwen uncensored GGUF port / Cross-platform RE traction](https://dailydawn.dev/en/2026-10-11)
   > morluto/rea hits 25793 GitHub stars today as reverse engineering tool traction surges
-- [2026-10-10 · AI coding agent tools / Builder intent surge / Cross-platform agent traction](https://dailydawn.dev/en/2026-10-10)
-  > morluto/rea hits 14927 GitHub stars today as AI coding agent traction surges
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
