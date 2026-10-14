@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-14 · 开源本地语音工具 / 语音搜索需求暴涨 / 双源语音赛道验证](https://dailydawn.dev/zh/2026-10-14)
+  > 今日三款开源语音相关项目登GitHub Trending 自托管语音赛道升温
 - [2026-10-13 · Agent逆向工具登顶 / 本地推理逆向链路 / 消费级显卡跑逆向](https://dailydawn.dev/zh/2026-10-13)
   > rea 45327星登顶GitHub Trending 本地推理逆向链路成型
 - [2026-10-12 · AnyPS5登GitHub Trending / Yandex基础设施事件 / Qwen衍生量化覆盖消费级显卡](https://dailydawn.dev/zh/2026-10-12)
   > 两款非逆向非主机类开源项目今日登GitHub Trending
-- [2026-10-11 · 低门槛逆向工具链 / 自托管逆向需求 / 双源逆向热度验证](https://dailydawn.dev/zh/2026-10-11)
-  > morluto/rea今日登GitHub Trending榜首 逆向工具链覆盖低门槛变现
 
 [全部归档 →](https://dailydawn.dev/archive)
 
