@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-16 · Local LLM dev workflow / Local coding harness demand / Open source agent optimization](https://dailydawn.dev/en/2026-10-16)
+  > Local-first AI dev tooling pairs with Qwen 27B to cut cloud dependency for solo builders
 - [2026-10-15 · AI agent auditing tooling / Agent containment demand surge / Cross-source AI security traction](https://dailydawn.dev/en/2026-10-15)
   > AI agent security auditing tools gain massive traction in today_window GitHub trending
 - [2026-10-14 · Smart home protocol RE tool / Spatial 3D globe traction / Cross-tool smart home workflow](https://dailydawn.dev/en/2026-10-14)
   > Open source spatial 3D globe tool gains traction as smart home protocol testing surges
-- [2026-10-13 · rea enterprise workflow traction / self-hosted OCR demand surge / cross-source tool adoption](https://dailydawn.dev/en/2026-10-13)
-  > morluto/rea hits 45327 GitHub stars today as bundled enterprise workflow traction surges
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

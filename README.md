@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-16 · OpenCode适配ECC库 / Agent内存需求暴涨 / AI Agent开发工具](https://dailydawn.dev/zh/2026-10-16)
+  > OpenCode 2.0适配今日登榜ECC库 单人编码成本归零
 - [2026-10-15 · 上下文压缩工具登榜 / Agent工具安全需求 / 逆向全链路开源](https://dailydawn.dev/zh/2026-10-15)
   > context-mode登GitHub Trending 压缩工具输出体积降98%
 - [2026-10-14 · 开源本地语音工具 / 语音搜索需求暴涨 / 双源语音赛道验证](https://dailydawn.dev/zh/2026-10-14)
   > 今日三款开源语音相关项目登GitHub Trending 自托管语音赛道升温
-- [2026-10-13 · Agent逆向工具登顶 / 本地推理逆向链路 / 消费级显卡跑逆向](https://dailydawn.dev/zh/2026-10-13)
-  > rea 45327星登顶GitHub Trending 本地推理逆向链路成型
 
 [全部归档 →](https://dailydawn.dev/archive)
 
