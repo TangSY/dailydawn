@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-19 · Orca open AI infrastructure / AI orchestration demand surge / New open AI tool traction](https://dailydawn.dev/en/2026-10-19)
+  > Stablyai/orca hits 1146 raw score in today_window GitHub trending
 - [2026-10-18 · Local open voice tool / AI job search framework / Claude official plugins](https://dailydawn.dev/en/2026-10-18)
   > Three distinct local open AI tools top today_window GitHub trending with 2k+ combined raw scores
 - [2026-10-17 · ECDSA cryptography tooling / Self-hosted crypto demand / Cross-platform crypto dev momentum](https://dailydawn.dev/en/2026-10-17)
   > ECDSA curve origins disclosure sparks new cryptography tool building momentum
-- [2026-10-16 · Local LLM dev workflow / Local coding harness demand / Open source agent optimization](https://dailydawn.dev/en/2026-10-16)
-  > Local-first AI dev tooling pairs with Qwen 27B to cut cloud dependency for solo builders
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
