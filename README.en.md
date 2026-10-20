@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-20 · AI job search framework / Multimodal LLM score spike / AI agent workflow tools](https://dailydawn.dev/en/2026-10-20)
+  > MadsLorentzen/ai-job-search hits 3856 raw score in today_window GitHub trending
 - [2026-10-19 · Orca open AI infrastructure / AI orchestration demand surge / New open AI tool traction](https://dailydawn.dev/en/2026-10-19)
   > Stablyai/orca hits 1146 raw score in today_window GitHub trending
 - [2026-10-18 · Local open voice tool / AI job search framework / Claude official plugins](https://dailydawn.dev/en/2026-10-18)
   > Three distinct local open AI tools top today_window GitHub trending with 2k+ combined raw scores
-- [2026-10-17 · ECDSA cryptography tooling / Self-hosted crypto demand / Cross-platform crypto dev momentum](https://dailydawn.dev/en/2026-10-17)
-  > ECDSA curve origins disclosure sparks new cryptography tool building momentum
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

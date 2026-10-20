@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-20 · 求职自动化开源项目 / AI求职工具热度 / AI编码智能体工具](https://dailydawn.dev/zh/2026-10-20)
+  > 今日3856星求职自动化项目登GitHub Trending
 - [2026-10-19 · 本地求职自动化框架 / 低调用价大模型 / 绿电自托管工具](https://dailydawn.dev/zh/2026-10-19)
   > 五款本地优先开源项目今日登GitHub Trending 求职自动化赛道爆发
 - [2026-10-18 · Claude官方插件仓库 / 低token检索工具 / 自托管AI工具](https://dailydawn.dev/zh/2026-10-18)
   > 四款新开源项目今日登GitHub Trending Claude生态落地路径清晰
-- [2026-10-17 · ECDSA溯源能力披露 / 加密工具需求暴涨 / 加密溯源赛道升温](https://dailydawn.dev/zh/2026-10-17)
-  > Claude披露ECDSA曲线起源 加密工具开发新路径浮现
 
 [全部归档 →](https://dailydawn.dev/archive)
 
