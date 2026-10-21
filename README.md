@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-21 · 自动化安全审计 / 自托管SSL方案 / 公共CA信任危机](https://dailydawn.dev/zh/2026-10-21)
+  > cloudflare安全审计仓库登GitHub Trending 小团队审计成本骤降
 - [2026-10-20 · 求职自动化开源项目 / AI求职工具热度 / AI编码智能体工具](https://dailydawn.dev/zh/2026-10-20)
   > 今日3856星求职自动化项目登GitHub Trending
 - [2026-10-19 · 本地求职自动化框架 / 低调用价大模型 / 绿电自托管工具](https://dailydawn.dev/zh/2026-10-19)
   > 五款本地优先开源项目今日登GitHub Trending 求职自动化赛道爆发
-- [2026-10-18 · Claude官方插件仓库 / 低token检索工具 / 自托管AI工具](https://dailydawn.dev/zh/2026-10-18)
-  > 四款新开源项目今日登GitHub Trending Claude生态落地路径清晰
 
 [全部归档 →](https://dailydawn.dev/archive)
 
