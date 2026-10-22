@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-22 · Local code generation repo / Edge coding assistant tool / Trifecta coding agent stack](https://dailydawn.dev/en/2026-10-22)
+  > Three distinct AI coding agent repos top today's GitHub trending with 5632 combined raw scores
 - [2026-10-21 · DeepInfer inference optimization / DeepInfer 7-day growth surge / OpenBSD Wine port traction](https://dailydawn.dev/en/2026-10-21)
   > DeepInfer cuts DeepSeek inference costs 65% for indie self-hosted AI deployments
 - [2026-10-20 · AI job search framework / Multimodal LLM score spike / AI agent workflow tools](https://dailydawn.dev/en/2026-10-20)
   > MadsLorentzen/ai-job-search hits 3856 raw score in today_window GitHub trending
-- [2026-10-19 · Orca open AI infrastructure / AI orchestration demand surge / New open AI tool traction](https://dailydawn.dev/en/2026-10-19)
-  > Stablyai/orca hits 1146 raw score in today_window GitHub trending
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

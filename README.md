@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-22 · AI编码工具登榜 / 本地编码需求暴涨 / 单人开发赛道升温](https://dailydawn.dev/zh/2026-10-22)
+  > 三款AI编码工具今日登GitHub Trending 单人开发效率再提一档
 - [2026-10-21 · 自动化安全审计 / 自托管SSL方案 / 公共CA信任危机](https://dailydawn.dev/zh/2026-10-21)
   > cloudflare安全审计仓库登GitHub Trending 小团队审计成本骤降
 - [2026-10-20 · 求职自动化开源项目 / AI求职工具热度 / AI编码智能体工具](https://dailydawn.dev/zh/2026-10-20)
   > 今日3856星求职自动化项目登GitHub Trending
-- [2026-10-19 · 本地求职自动化框架 / 低调用价大模型 / 绿电自托管工具](https://dailydawn.dev/zh/2026-10-19)
-  > 五款本地优先开源项目今日登GitHub Trending 求职自动化赛道爆发
 
 [全部归档 →](https://dailydawn.dev/archive)
 
