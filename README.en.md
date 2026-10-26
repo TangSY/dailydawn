@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-26 · Open source voice tool traction / Voice processing demand surge / Creative dev tool unmet gap](https://dailydawn.dev/en/2026-10-26)
+  > debpalash/VoiceStudio hits 1592 raw score in today_window GitHub trending
 - [2026-10-25 · Mobile device freedom demand / Mobile security discussion surge / Privacy OS adoption momentum](https://dailydawn.dev/en/2026-10-25)
   > Mobile device freedom demand surges as banking apps approve GrapheneOS
 - [2026-10-24 · AI security audit automation / High-score open LLM deployment / AI formal verification validation](https://dailydawn.dev/en/2026-10-24)
   > Cloudflare's security-audit-skill tops GitHub trending with 2716 raw score today
-- [2026-10-22 · Local code generation repo / Edge coding assistant tool / Trifecta coding agent stack](https://dailydawn.dev/en/2026-10-22)
-  > Three distinct AI coding agent repos top today's GitHub trending with 5632 combined raw scores
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
