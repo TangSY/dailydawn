@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-27 · 开源营销SEO工具 / 开源交易智能体 / AI设计工具链](https://dailydawn.dev/zh/2026-10-27)
+  > 四款小众工具今日登GitHub Trending 细分赛道新窗口显现
 - [2026-10-26 · 音频开源项目登榜 / 音频编辑需求上涨 / 轻量化音频工具缺口](https://dailydawn.dev/zh/2026-10-26)
   > VoiceStudio音频项目今日登GitHub Trending 语音赛道新窗口打开
 - [2026-10-25 · 电力定价差披露 / 视频生成fork暴涨 / 大模型速度碾压](https://dailydawn.dev/zh/2026-10-25)
   > 电力价格对比帖登HN 公有供电成本优势浮出水面
-- [2026-10-24 · 越狱配套安全工具 / iOS内核审计需求 / 开源安全审计适配](https://dailydawn.dev/zh/2026-10-24)
-  > cloudflare安全审计仓库今日登榜 越狱配套工具开发窗口打开
 
 [全部归档 →](https://dailydawn.dev/archive)
 
