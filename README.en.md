@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-28 · Anti-AI-slop design tool / Open source tutoring tools / AI design quality repos](https://dailydawn.dev/en/2026-10-28)
+  > Four distinct non-overlapping dev tool repos top today's GitHub trending with 7342 combined stars
 - [2026-10-27 · Open source business card tool / Marketing tool demand surge / AI design trading tooling](https://dailydawn.dev/en/2026-10-27)
   > Four distinct open source dev tool repos top today's GitHub trending with 7442 combined raw scores
 - [2026-10-26 · Open source voice tool traction / Voice processing demand surge / Creative dev tool unmet gap](https://dailydawn.dev/en/2026-10-26)
   > debpalash/VoiceStudio hits 1592 raw score in today_window GitHub trending
-- [2026-10-25 · Mobile device freedom demand / Mobile security discussion surge / Privacy OS adoption momentum](https://dailydawn.dev/en/2026-10-25)
-  > Mobile device freedom demand surges as banking apps approve GrapheneOS
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
