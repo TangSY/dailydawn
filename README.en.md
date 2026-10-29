@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-29 · Shell agent dev framework / Shell agent demand surge / Shell automation repo cluster](https://dailydawn.dev/en/2026-10-29)
+  > Three distinct shell-focused dev tool repos top today's GitHub trending
 - [2026-10-28 · Anti-AI-slop design tool / Open source tutoring tools / AI design quality repos](https://dailydawn.dev/en/2026-10-28)
   > Four distinct non-overlapping dev tool repos top today's GitHub trending with 7342 combined stars
 - [2026-10-27 · Open source business card tool / Marketing tool demand surge / AI design trading tooling](https://dailydawn.dev/en/2026-10-27)
   > Four distinct open source dev tool repos top today's GitHub trending with 7442 combined raw scores
-- [2026-10-26 · Open source voice tool traction / Voice processing demand surge / Creative dev tool unmet gap](https://dailydawn.dev/en/2026-10-26)
-  > debpalash/VoiceStudio hits 1592 raw score in today_window GitHub trending
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

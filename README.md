@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-10-29 · TypeScript AI IDE复用 / Qwen27B本地优化 / 轻量大模型部署](https://dailydawn.dev/zh/2026-10-29)
+  > 三款TypeScript AI IDE工具今日登GitHub Trending 复用变现窗口打开
 - [2026-10-28 · 反AI滥生成工具变现 / AI设计质量需求暴涨 / 跨源校验类工具爆发](https://dailydawn.dev/zh/2026-10-28)
   > 四款AI校验与微调工具今日登GitHub Trending 独立开发者变现窗口打开
 - [2026-10-27 · 开源营销SEO工具 / 开源交易智能体 / AI设计工具链](https://dailydawn.dev/zh/2026-10-27)
   > 四款小众工具今日登GitHub Trending 细分赛道新窗口显现
-- [2026-10-26 · 音频开源项目登榜 / 音频编辑需求上涨 / 轻量化音频工具缺口](https://dailydawn.dev/zh/2026-10-26)
-  > VoiceStudio音频项目今日登GitHub Trending 语音赛道新窗口打开
 
 [全部归档 →](https://dailydawn.dev/archive)
 
