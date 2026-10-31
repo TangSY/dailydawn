@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-10-31 · Local dev security scanning / Open source AI tutoring / LLM jailbreak testing](https://dailydawn.dev/en/2026-10-31)
+  > Three distinct security-focused GitHub repos top today_window trending with 6637 combined raw scores
 - [2026-10-30 · Qwen in-LLM RISC-V CPU / Local Qwen image model / Cross-source Qwen ecosystem](https://dailydawn.dev/en/2026-10-30)
   > Qwen's in-LLM RISC-V CPU unlocks native local AI compute for hobbyists and devs
 - [2026-10-29 · Shell agent dev framework / Shell agent demand surge / Shell automation repo cluster](https://dailydawn.dev/en/2026-10-29)
   > Three distinct shell-focused dev tool repos top today's GitHub trending
-- [2026-10-28 · Anti-AI-slop design tool / Open source tutoring tools / AI design quality repos](https://dailydawn.dev/en/2026-10-28)
-  > Four distinct non-overlapping dev tool repos top today's GitHub trending with 7342 combined stars
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
