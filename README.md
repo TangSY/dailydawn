@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-03 · 开源Agent自动化工具 / 本地数学数据集 / 自托管自动化需求](https://dailydawn.dev/zh/2026-11-03)
+  > 三款今日登榜开源Agent工具 独立开发者自动化新窗口显现
 - [2026-11-02 · t3code开源开发模块 / TS脚手架需求上涨 / AI Agent开发工具](https://dailydawn.dev/zh/2026-11-02)
   > t3code与claude-mem今日同登榜 开源开发工具组合成型
 - [2026-11-01 · 编码Agent跨会话记忆 / 本地编码助手需求暴涨 / 本地可控AI工具偏好](https://dailydawn.dev/zh/2026-11-01)
   > claude-mem与impeccable今日登GitHub Trending 本地AI工具需求爆发
-- [2026-10-31 · 开源自适应教育工具 / 开放教育交互组件 / 教育工具全链路覆盖](https://dailydawn.dev/zh/2026-10-31)
-  > 三款教育类开源项目今日登GitHub Trending 独立开发者新窗口显现
 
 [全部归档 →](https://dailydawn.dev/archive)
 
