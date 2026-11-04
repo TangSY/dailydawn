@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-04 · 桌面AI能力复用 / 端侧权重读写 / 校园搜索替代](https://dailydawn.dev/zh/2026-11-04)
+  > vercel-labs/agent-desktop今日登GitHub Trending 桌面自动化复用窗口打开
 - [2026-11-03 · 开源Agent自动化工具 / 本地数学数据集 / 自托管自动化需求](https://dailydawn.dev/zh/2026-11-03)
   > 三款今日登榜开源Agent工具 独立开发者自动化新窗口显现
 - [2026-11-02 · t3code开源开发模块 / TS脚手架需求上涨 / AI Agent开发工具](https://dailydawn.dev/zh/2026-11-02)
   > t3code与claude-mem今日同登榜 开源开发工具组合成型
-- [2026-11-01 · 编码Agent跨会话记忆 / 本地编码助手需求暴涨 / 本地可控AI工具偏好](https://dailydawn.dev/zh/2026-11-01)
-  > claude-mem与impeccable今日登GitHub Trending 本地AI工具需求爆发
 
 [全部归档 →](https://dailydawn.dev/archive)
 

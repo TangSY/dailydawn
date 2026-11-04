@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-04 · Agent desktop deployment tool / Generative video model surge / Agent API workflow integration](https://dailydawn.dev/en/2026-11-04)
+  > Vercel's new agent-desktop repo hits 3791 raw GitHub stars today_window
 - [2026-11-03 · AI agent dev tool cluster / Agent memory demand surge / Agent runtime tool traction](https://dailydawn.dev/en/2026-11-03)
   > Three today_window AI agent dev tools hit 7307 combined raw GitHub stars
 - [2026-11-02 · T3 stack code generation tool / T3 dev tool search surge / AI dev tool trending cluster](https://dailydawn.dev/en/2026-11-02)
   > Two today_window GitHub AI dev tools hit 4620 combined raw stars
-- [2026-11-01 · Cross-agent memory tool surge / Local LLM speed gains / Local-first dev tool traction](https://dailydawn.dev/en/2026-11-01)
-  > Two new GitHub trending AI dev tools hit 3061 combined raw stars in today_window
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
