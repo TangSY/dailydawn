@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-05 · Scrapling爬虫工具 / V2EX爬虫讨论 / 爬虫全链路工具](https://dailydawn.dev/zh/2026-11-05)
+  > Scrapling今日登GitHub Trending 爬虫开发效率窗口打开
 - [2026-11-04 · 桌面AI能力复用 / 端侧权重读写 / 校园搜索替代](https://dailydawn.dev/zh/2026-11-04)
   > vercel-labs/agent-desktop今日登GitHub Trending 桌面自动化复用窗口打开
 - [2026-11-03 · 开源Agent自动化工具 / 本地数学数据集 / 自托管自动化需求](https://dailydawn.dev/zh/2026-11-03)
   > 三款今日登榜开源Agent工具 独立开发者自动化新窗口显现
-- [2026-11-02 · t3code开源开发模块 / TS脚手架需求上涨 / AI Agent开发工具](https://dailydawn.dev/zh/2026-11-02)
-  > t3code与claude-mem今日同登榜 开源开发工具组合成型
 
 [全部归档 →](https://dailydawn.dev/archive)
 
