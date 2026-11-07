@@ -9,9 +9,9 @@
 **DailyDawn** 的内容引擎——每天 UTC 00:00 通过 GitHub Actions 跑一次 Python 脚本，从 7 个数据源聚合信号，用 LLM 生成中英双语 Markdown 日报，commit 到本仓库，然后 curl 通知 Web 层（`dailydawn-web`）批量发邮件。
 
 **主上下文和待办清单在姐妹仓库：**
-- `/Users/tangshiying/hxkj/dailydawn-web/CLAUDE.md` ← 项目总览
-- `/Users/tangshiying/hxkj/dailydawn-web/TODO.md` ← 可勾选待办
-- `/Users/tangshiying/hxkj/dailydawn-web/DECISIONS.md` ← 技术选型的 WHY
+- `../dailydawn-web/CLAUDE.md` ← 项目总览
+- `../dailydawn-web/TODO.md` ← 可勾选待办
+- `../dailydawn-web/DECISIONS.md` ← 技术选型的 WHY
 
 **下次进来优先读那三份。** 本文件只覆盖内容引擎自己的细节。
 
@@ -108,7 +108,7 @@ class Signal:
 ## 🚀 本地运行
 
 ```bash
-cd /Users/tangshiying/hxkj/dailydawn
+cd /Volumes/Projects/hxkj/dailydawn
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
