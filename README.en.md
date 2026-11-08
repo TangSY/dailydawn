@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-08 · Coding agent security audit / OSINT lookup tool surge / Open system utility traction](https://dailydawn.dev/en/2026-11-08)
+  > Three today_window GitHub security and utility repos hit 5806 combined raw stars
 - [2026-11-07 · NVIDIA auto-ontology launch / Ontology mapping dev tool surge / Structured data tool demand](https://dailydawn.dev/en/2026-11-07)
   > NVIDIA auto-ontology repo hits 2015 raw stars in today_window GitHub trending
 - [2026-11-06 · Free public search launch / Open source search surge / Closed coding tool exodus](https://dailydawn.dev/en/2026-11-06)
   > Kagi launches free public search after 612-point HackerNews top-10 post
-- [2026-11-05 · AMD CPU market lead / Qwen local LLM traction / Enterprise legacy security risk](https://dailydawn.dev/en/2026-11-05)
-  > AMD historic Q4 CPU lead drives 10-15% desktop chip price cuts by year end
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
