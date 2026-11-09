@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-09 · Mac本地亲属识别 / 网页游戏移植 / 研究院团队解散](https://dailydawn.dev/zh/2026-11-09)
+  > Mac未公开亲属分类器曝光 本地隐私识别新赛道显现
 - [2026-11-08 · 轻量安全审计工具 / 开源安全需求上涨 / 代理技能库适配](https://dailydawn.dev/zh/2026-11-08)
   > 三款安全审计相关开源项目今日同登GitHub Trending
 - [2026-11-07 · NVIDIA语义图推理框架 / 小模型轻量化适配 / 独立开发者低门槛变现](https://dailydawn.dev/zh/2026-11-07)
   > NVIDIA/auto-ontology今日登GitHub Trending 小模型推理开销砍半
-- [2026-11-06 · 轻量SSH运维工具 / 自托管部署教程 / 开源大模型权重开放](https://dailydawn.dev/zh/2026-11-06)
-  > Kagi全民开放搜索登顶HN 自托管大模型需求持续走高
 
 [全部归档 →](https://dailydawn.dev/archive)
 
