@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-12 · Agent就绪UI组件 / AI编码代理生态 / 代理生产力工具](https://dailydawn.dev/zh/2026-11-12)
+  > meta/astryx登GitHub Trending 独立开发者AI前端成本骤降
 - [2026-11-11 · USPS地理数据开放 / 地理工具需求上涨 / 零成本地理围栏](https://dailydawn.dev/zh/2026-11-11)
   > USPS开放官方ZIP多边形数据 开发者地理数据成本骤降
 - [2026-11-09 · Mac本地亲属识别 / 网页游戏移植 / 研究院团队解散](https://dailydawn.dev/zh/2026-11-09)
   > Mac未公开亲属分类器曝光 本地隐私识别新赛道显现
-- [2026-11-08 · 轻量安全审计工具 / 开源安全需求上涨 / 代理技能库适配](https://dailydawn.dev/zh/2026-11-08)
-  > 三款安全审计相关开源项目今日同登GitHub Trending
 
 [全部归档 →](https://dailydawn.dev/archive)
 

@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-12 · AWS indie dev emulator / Open Nvidia training assets / AI coding agent ecosystem](https://dailydawn.dev/en/2026-11-12)
+  > Official AWS emulator surfaces alongside AlphaProof Code and offline smart home surge
 - [2026-11-11 · USPS ZIP polygons release / Public geodata demand surge / Open local data traction](https://dailydawn.dev/en/2026-11-11)
   > USPS releases official ZIP Code boundary polygons for public developer access
 - [2026-11-09 · Undocumented Mac system feature / Qwen3.8 GGUF surge / Browser retro game port](https://dailydawn.dev/en/2026-11-09)
   > Recent Apple undocumented Mac family classifier surfaces with 847 HackerNews points
-- [2026-11-08 · Coding agent security audit / OSINT lookup tool surge / Open system utility traction](https://dailydawn.dev/en/2026-11-08)
-  > Three today_window GitHub security and utility repos hit 5806 combined raw stars
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
