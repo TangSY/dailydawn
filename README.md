@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-13 · Anthropic IPO动态 / 大模型上市搜索热 / 闭源模型迁移潮](https://dailydawn.dev/zh/2026-11-13)
+  > Anthropic IPO 消息登HN 875票 大模型商业化窗口显现
 - [2026-11-12 · Agent就绪UI组件 / AI编码代理生态 / 代理生产力工具](https://dailydawn.dev/zh/2026-11-12)
   > meta/astryx登GitHub Trending 独立开发者AI前端成本骤降
 - [2026-11-11 · USPS地理数据开放 / 地理工具需求上涨 / 零成本地理围栏](https://dailydawn.dev/zh/2026-11-11)
   > USPS开放官方ZIP多边形数据 开发者地理数据成本骤降
-- [2026-11-09 · Mac本地亲属识别 / 网页游戏移植 / 研究院团队解散](https://dailydawn.dev/zh/2026-11-09)
-  > Mac未公开亲属分类器曝光 本地隐私识别新赛道显现
 
 [全部归档 →](https://dailydawn.dev/archive)
 
