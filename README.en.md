@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-14 · FAA ground stop dev traction / Independent flight tracker surge / Public aviation data tool demand](https://dailydawn.dev/en/2026-11-14)
+  > FAA national ground stop post-lift sparks local flight tracker indie dev traction
 - [2026-11-13 · Gemini 4 Hydrogen edge launch / Astryx agent UI tooling / Microsoft 365 outage pain points](https://dailydawn.dev/en/2026-11-13)
   > Gemini 4 Hydrogen launches with 72% lower edge latency alongside Microsoft 365 outage
 - [2026-11-12 · AWS indie dev emulator / Open Nvidia training assets / AI coding agent ecosystem](https://dailydawn.dev/en/2026-11-12)
   > Official AWS emulator surfaces alongside AlphaProof Code and offline smart home surge
-- [2026-11-11 · USPS ZIP polygons release / Public geodata demand surge / Open local data traction](https://dailydawn.dev/en/2026-11-11)
-  > USPS releases official ZIP Code boundary polygons for public developer access
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
