@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-15 · Chrome web LLM inference guidance / Web local LLM builder surge / On-premise code review tooling](https://dailydawn.dev/en/2026-11-15)
+  > Google Chrome web inference guidance repo hits 1231 raw stars in today_window GitHub trending
 - [2026-11-14 · FAA ground stop dev traction / Independent flight tracker surge / Public aviation data tool demand](https://dailydawn.dev/en/2026-11-14)
   > FAA national ground stop post-lift sparks local flight tracker indie dev traction
 - [2026-11-13 · Gemini 4 Hydrogen edge launch / Astryx agent UI tooling / Microsoft 365 outage pain points](https://dailydawn.dev/en/2026-11-13)
   > Gemini 4 Hydrogen launches with 72% lower edge latency alongside Microsoft 365 outage
-- [2026-11-12 · AWS indie dev emulator / Open Nvidia training assets / AI coding agent ecosystem](https://dailydawn.dev/en/2026-11-12)
-  > Official AWS emulator surfaces alongside AlphaProof Code and offline smart home surge
 
 [Full archive →](https://dailydawn.dev/en/archive)
 

@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-15 · Chrome开源Web开发规范 / 大模型低资源部署 / 本地Web校验方向](https://dailydawn.dev/zh/2026-11-15)
+  > modern-web-guidance-src登GitHub Trending 三类开发规范直接复用
 - [2026-11-14 · 开源前端落地方案 / 现代Web开发热度 / 多项目同登Trending](https://dailydawn.dev/zh/2026-11-14)
   > GoogleChrome开源前端方案登榜 独立开发者上线成本骤降
 - [2026-11-13 · Anthropic IPO动态 / 大模型上市搜索热 / 闭源模型迁移潮](https://dailydawn.dev/zh/2026-11-13)
   > Anthropic IPO 消息登HN 875票 大模型商业化窗口显现
-- [2026-11-12 · Agent就绪UI组件 / AI编码代理生态 / 代理生产力工具](https://dailydawn.dev/zh/2026-11-12)
-  > meta/astryx登GitHub Trending 独立开发者AI前端成本骤降
 
 [全部归档 →](https://dailydawn.dev/archive)
 
