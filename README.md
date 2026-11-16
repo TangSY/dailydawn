@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-16 · Chrome开源Web规范 / Qwen低显存部署 / 自托管大模型分流](https://dailydawn.dev/zh/2026-11-16)
+  > modern-web-guidance-src登榜 三类零门槛复用场景落地
 - [2026-11-15 · Chrome开源Web开发规范 / 大模型低资源部署 / 本地Web校验方向](https://dailydawn.dev/zh/2026-11-15)
   > modern-web-guidance-src登GitHub Trending 三类开发规范直接复用
 - [2026-11-14 · 开源前端落地方案 / 现代Web开发热度 / 多项目同登Trending](https://dailydawn.dev/zh/2026-11-14)
   > GoogleChrome开源前端方案登榜 独立开发者上线成本骤降
-- [2026-11-13 · Anthropic IPO动态 / 大模型上市搜索热 / 闭源模型迁移潮](https://dailydawn.dev/zh/2026-11-13)
-  > Anthropic IPO 消息登HN 875票 大模型商业化窗口显现
 
 [全部归档 →](https://dailydawn.dev/archive)
 
