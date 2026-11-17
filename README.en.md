@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-17 · Open source AI office SDK / AI office tool growth / Cross-platform open office traction](https://dailydawn.dev/en/2026-11-17)
+  > Univer open source office SDK hits #1 GitHub Trending for indie builder use cases
 - [2026-11-16 · Web guidance for coding agents / Qwen ecosystem fine-tune surge / Open AI code momentum](https://dailydawn.dev/en/2026-11-16)
   > Open source dev social network /dev/null leads Product Hunt votes as Qwen ecosystem gaps surface
 - [2026-11-15 · Chrome web LLM inference guidance / Web local LLM builder surge / On-premise code review tooling](https://dailydawn.dev/en/2026-11-15)
   > Google Chrome web inference guidance repo hits 1231 raw stars in today_window GitHub trending
-- [2026-11-14 · FAA ground stop dev traction / Independent flight tracker surge / Public aviation data tool demand](https://dailydawn.dev/en/2026-11-14)
-  > FAA national ground stop post-lift sparks local flight tracker indie dev traction
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
