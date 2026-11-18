@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-18 · Java4Shell RCE漏洞 / Qwen3.8周边工具 / 开源安全事件联动](https://dailydawn.dev/zh/2026-11-18)
+  > Java4Shell漏洞登HN 755票 OpenJDK Base64处理存RCE风险
 - [2026-11-17 · 开源AI办公SDK / 低显存本地大模型 / 开源编码工具分流](https://dailydawn.dev/zh/2026-11-17)
   > 开源AI办公工具登榜 本地部署AI工具新场景落地
 - [2026-11-16 · Chrome开源Web规范 / Qwen低显存部署 / 自托管大模型分流](https://dailydawn.dev/zh/2026-11-16)
   > modern-web-guidance-src登榜 三类零门槛复用场景落地
-- [2026-11-15 · Chrome开源Web开发规范 / 大模型低资源部署 / 本地Web校验方向](https://dailydawn.dev/zh/2026-11-15)
-  > modern-web-guidance-src登GitHub Trending 三类开发规范直接复用
 
 [全部归档 →](https://dailydawn.dev/archive)
 
