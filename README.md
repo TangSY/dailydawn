@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-19 · Nginx未认证RCE漏洞 / 漏洞扫描工具热 / 漏洞利用细节公开](https://dailydawn.dev/zh/2026-11-19)
+  > Nginx未认证RCE漏洞公开利用POC流出 全网扫描已启动
 - [2026-11-18 · Java4Shell RCE漏洞 / Qwen3.8周边工具 / 开源安全事件联动](https://dailydawn.dev/zh/2026-11-18)
   > Java4Shell漏洞登HN 755票 OpenJDK Base64处理存RCE风险
 - [2026-11-17 · 开源AI办公SDK / 低显存本地大模型 / 开源编码工具分流](https://dailydawn.dev/zh/2026-11-17)
   > 开源AI办公工具登榜 本地部署AI工具新场景落地
-- [2026-11-16 · Chrome开源Web规范 / Qwen低显存部署 / 自托管大模型分流](https://dailydawn.dev/zh/2026-11-16)
-  > modern-web-guidance-src登榜 三类零门槛复用场景落地
 
 [全部归档 →](https://dailydawn.dev/archive)
 
