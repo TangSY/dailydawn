@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-21 · Bug-hunting AI tooling / GRH discussion surge / Qwen security validation](https://dailydawn.dev/en/2026-11-21)
+  > Claude-BugHunter tops GitHub trending as devs prioritize unaddressed bug detection gaps
 - [2026-11-20 · Open agent framework traction / Agent skill framework surge / Trending open agent tools](https://dailydawn.dev/en/2026-11-20)
   > obra/superpowers tops GitHub trending as open agent frameworks siphon dev mindshare
 - [2026-11-19 · Independent DNS regulatory risk / DNS operator intent surge / Cross-site DNS withdrawal validation](https://dailydawn.dev/en/2026-11-19)
   > Quad9 France DNS withdrawal sparks global independent DNS operator scrutiny
-- [2026-11-18 · OpenAI Astra indie launch / Open productivity framework surge / Multi-service tech outages](https://dailydawn.dev/en/2026-11-18)
-  > OpenAI GPT-6.2 Astra and Sol cuts indie dev build time by 70%
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
