@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-23 · 轻量漏洞排查工具 / 5GB级本地AI部署 / 双源技术热度联动](https://dailydawn.dev/zh/2026-11-23)
+  > Claude-BugHunter今日登榜GitHub Trending获1716星
 - [2026-11-22 · 本地代码漏洞检测 / 模块化硬件适配 / GRH形式化验证](https://dailydawn.dev/zh/2026-11-22)
   > Claude-BugHunter登GitHub Trending 代码漏洞检测工具热度走高
 - [2026-11-21 · 开源代码漏洞检测工具 / 本地代码审计需求 / 爬虫审计工具闭环](https://dailydawn.dev/zh/2026-11-21)
   > Claude-BugHunter登GitHub Trending 开源代码漏洞检测工具热度攀升
-- [2026-11-20 · 开源AI代理技能框架 / AI编码代理内存工具 / 代理组件复用赛道](https://dailydawn.dev/zh/2026-11-20)
-  > obra/superpowers登GitHub榜首 零成本复用AI代理成熟组件
 
 [全部归档 →](https://dailydawn.dev/archive)
 

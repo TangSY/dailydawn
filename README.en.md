@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-23 · 5.4GB local multimodal AI / Local AI hobbyist surge / Inkling-2-Mini ecosystem](https://dailydawn.dev/en/2026-11-23)
+  > Inkling-2-Mini 5.4GB local AI launches to upend entry-level hobbyist deployments
 - [2026-11-22 · Claude-BugHunter trending / Lean prover search surge / GRH proof validation](https://dailydawn.dev/en/2026-11-22)
   > Claude-BugHunter tops GitHub trending for formal proof bug detection workflows
 - [2026-11-21 · Bug-hunting AI tooling / GRH discussion surge / Qwen security validation](https://dailydawn.dev/en/2026-11-21)
   > Claude-BugHunter tops GitHub trending as devs prioritize unaddressed bug detection gaps
-- [2026-11-20 · Open agent framework traction / Agent skill framework surge / Trending open agent tools](https://dailydawn.dev/en/2026-11-20)
-  > obra/superpowers tops GitHub trending as open agent frameworks siphon dev mindshare
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
