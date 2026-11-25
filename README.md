@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-25 · 英伟达人事变动 / 本地大模型部署 / 算力预期重置](https://dailydawn.dev/zh/2026-11-25)
+  > Nvidia 董事会恢复黄仁勋CEO职务 开发者算力预期重置
 - [2026-11-24 · Ladybird自研浏览器 / 循环Transformer编码模型 / 开源邮件替代方案](https://dailydawn.dev/zh/2026-11-24)
   > 开源自研替代基础软件集中爆发 独立开发者获新工具红利
 - [2026-11-23 · 轻量漏洞排查工具 / 5GB级本地AI部署 / 双源技术热度联动](https://dailydawn.dev/zh/2026-11-23)
   > Claude-BugHunter今日登榜GitHub Trending获1716星
-- [2026-11-22 · 本地代码漏洞检测 / 模块化硬件适配 / GRH形式化验证](https://dailydawn.dev/zh/2026-11-22)
-  > Claude-BugHunter登GitHub Trending 代码漏洞检测工具热度走高
 
 [全部归档 →](https://dailydawn.dev/archive)
 
