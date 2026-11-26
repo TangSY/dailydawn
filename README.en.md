@@ -16,12 +16,12 @@
 
 ## Latest 3 issues
 
+- [2026-11-26 · Post-quantum crypto tooling / Local inference speedups / Cross-platform crypto rumor spread](https://dailydawn.dev/en/2026-11-26)
+  > Cryptography breakthrough rumors spread cross-platform at 12-hour viral speed today
 - [2026-11-25 · LLM matrix math breakthrough / Compute optimization surge / Low-level AI validation](https://dailydawn.dev/en/2026-11-25)
   > OpenAI new matrix multiplication algorithm cuts LLM compute costs by 37%
 - [2026-11-24 · Ladybird alpha browser launch / Local AI coding deployment / Nvidia SimReady open assets](https://dailydawn.dev/en/2026-11-24)
   > Ladybird alpha launches as fully independent Chromium-free browser for early testers
-- [2026-11-23 · 5.4GB local multimodal AI / Local AI hobbyist surge / Inkling-2-Mini ecosystem](https://dailydawn.dev/en/2026-11-23)
-  > Inkling-2-Mini 5.4GB local AI launches to upend entry-level hobbyist deployments
 
 [Full archive →](https://dailydawn.dev/en/archive)
 
