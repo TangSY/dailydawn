@@ -16,12 +16,12 @@
 
 ## 最近 3 期日报
 
+- [2026-11-27 · 开源网页爬虫工具 / 网络安全专项数据集 / 自托管爬虫联动需求](https://dailydawn.dev/zh/2026-11-27)
+  > firecrawl今日登GitHub Trending 网页爬虫工具热度破千
 - [2026-11-26 · 小模型推理算子优化 / 边缘侧AI部署增量 / 轻量化训练框架](https://dailydawn.dev/zh/2026-11-26)
   > 矩阵乘法9/4优化落地 小模型推理吞吐量提升38%
 - [2026-11-25 · 英伟达人事变动 / 本地大模型部署 / 算力预期重置](https://dailydawn.dev/zh/2026-11-25)
   > Nvidia 董事会恢复黄仁勋CEO职务 开发者算力预期重置
-- [2026-11-24 · Ladybird自研浏览器 / 循环Transformer编码模型 / 开源邮件替代方案](https://dailydawn.dev/zh/2026-11-24)
-  > 开源自研替代基础软件集中爆发 独立开发者获新工具红利
 
 [全部归档 →](https://dailydawn.dev/archive)
 
